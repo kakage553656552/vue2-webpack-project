@@ -4,30 +4,30 @@
       <div class="logo-container">
         <div class="logo">V2</div>
       </div>
-      <h1>{{ $t('home.title') }}</h1>
-      <p>{{ $t('home.subtitle') }}</p>
+      <h1>欢迎使用管理系统</h1>
+      <p>一个功能强大的管理平台</p>
     </div>
     
     <div class="dashboard-cards">
       <el-card shadow="hover" class="dashboard-card">
         <div class="card-icon">📊</div>
-        <h3>{{ $t('home.dataOverview') }}</h3>
-        <p>{{ $t('home.dataOverviewDesc') }}</p>
+        <h3>数据概览</h3>
+        <p>查看系统的关键指标和数据统计</p>
       </el-card>
       <el-card shadow="hover" class="dashboard-card">
         <div class="card-icon">📝</div>
-        <h3>{{ $t('home.contentManagement') }}</h3>
-        <p>{{ $t('home.contentManagementDesc') }}</p>
+        <h3>内容管理</h3>
+        <p>管理系统中的所有内容和资源</p>
       </el-card>
       <el-card shadow="hover" class="dashboard-card">
         <div class="card-icon">👥</div>
-        <h3>{{ $t('home.userManagement') }}</h3>
-        <p>{{ $t('home.userManagementDesc') }}</p>
+        <h3>用户管理</h3>
+        <p>管理用户账户、权限和角色</p>
       </el-card>
       <el-card shadow="hover" class="dashboard-card">
         <div class="card-icon">⚙️</div>
-        <h3>{{ $t('home.systemSettings') }}</h3>
-        <p>{{ $t('home.systemSettingsDesc') }}</p>
+        <h3>系统设置</h3>
+        <p>配置系统参数和全局设置</p>
       </el-card>
     </div>
     

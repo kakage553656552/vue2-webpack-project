@@ -1,8 +1,8 @@
 <template>
   <div class="admin">
     <div class="admin-header">
-      <h1>{{ $t('admin.title') }}</h1>
-      <p>{{ $t('admin.subtitle') }}</p>
+      <h1>系统管理</h1>
+      <p>管理系统设置和配置</p>
     </div>
     
     <div class="admin-content">
@@ -28,36 +28,36 @@ export default {
     return {
       adminCards: [
         {
-          title: this.$t('admin.userManagement'),
-          badge: `8 ${this.$t('admin.users')}`,
+          title: '用户管理',
+          badge: '8 用户',
           tagType: 'primary',
-          description: this.$t('admin.userManagementDesc'),
-          primaryAction: this.$t('admin.viewUsers'),
-          secondaryAction: this.$t('admin.addUser')
+          description: '用户管理描述',
+          primaryAction: '查看用户',
+          secondaryAction: '添加用户'
         },
         {
-          title: this.$t('admin.contentManagement'),
-          badge: `12 ${this.$t('admin.items')}`,
+          title: '内容管理',
+          badge: '12 项目',
           tagType: 'success',
-          description: this.$t('admin.contentManagementDesc'),
-          primaryAction: this.$t('admin.viewContent'),
-          secondaryAction: this.$t('admin.addContent')
+          description: '内容管理描述',
+          primaryAction: '查看内容',
+          secondaryAction: '添加内容'
         },
         {
-          title: this.$t('admin.systemSettings'),
-          badge: `5 ${this.$t('admin.options')}`,
+          title: '系统设置',
+          badge: '5 选项',
           tagType: 'warning',
-          description: this.$t('admin.systemSettingsDesc'),
-          primaryAction: this.$t('admin.viewSettings'),
-          secondaryAction: this.$t('admin.configure')
+          description: '系统设置描述',
+          primaryAction: '查看设置',
+          secondaryAction: '配置'
         },
         {
-          title: this.$t('admin.dataStatistics'),
-          badge: `3 ${this.$t('admin.reports')}`,
+          title: '数据统计',
+          badge: '3 报告',
           tagType: 'info',
-          description: this.$t('admin.dataStatisticsDesc'),
-          primaryAction: this.$t('admin.viewReports'),
-          secondaryAction: this.$t('admin.exportData')
+          description: '数据统计描述',
+          primaryAction: '查看报告',
+          secondaryAction: '导出数据'
         }
       ]
     }

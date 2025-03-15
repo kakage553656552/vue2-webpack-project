@@ -9,27 +9,27 @@
         <nav class="menu">
           <router-link to="/" class="menu-item">
             <span class="menu-icon">🏠</span>
-            <span class="menu-text">{{ $t('menu.home') }}</span>
+            <span class="menu-text">首页</span>
           </router-link>
           <router-link to="/dashboard" class="menu-item">
             <span class="menu-icon">📊</span>
-            <span class="menu-text">{{ $t('menu.dashboard') }}</span>
+            <span class="menu-text">仪表盘</span>
           </router-link>
           <router-link to="/tenant" class="menu-item">
             <span class="menu-icon">🏢</span>
-            <span class="menu-text">{{ $t('menu.tenant') }}</span>
+            <span class="menu-text">租户管理</span>
           </router-link>
           <router-link to="/admin" class="menu-item">
             <span class="menu-icon">⚙️</span>
-            <span class="menu-text">{{ $t('menu.admin') }}</span>
+            <span class="menu-text">系统管理</span>
           </router-link>
           <router-link to="/weather" class="menu-item">
             <span class="menu-icon">🌤️</span>
-            <span class="menu-text">{{ $t('menu.weather') }}</span>
+            <span class="menu-text">天气</span>
           </router-link>
           <router-link to="/news" class="menu-item">
             <span class="menu-icon">📰</span>
-            <span class="menu-text">{{ $t('menu.news') }}</span>
+            <span class="menu-text">新闻</span>
           </router-link>
         </nav>
       </div>
@@ -37,9 +37,7 @@
       <!-- 主内容区域 -->
       <div class="main-content">
         <div class="header-container">
-          <div class="language-container">
-            <LanguageSwitcher />
-          </div>
+          <!-- 移除语言切换器 -->
         </div>
         <router-view/>
       </div>
@@ -48,13 +46,8 @@
 </template>
 
 <script>
-import LanguageSwitcher from './components/LanguageSwitcher.vue'
-
 export default {
-  name: 'App',
-  components: {
-    LanguageSwitcher
-  }
+  name: 'App'
 }
 </script>
 
@@ -160,11 +153,6 @@ html, body {
   z-index: 1000;
   background-color: rgba(245, 247, 250, 0.9);
   backdrop-filter: blur(5px);
-}
-
-.language-container {
-  position: relative;
-  z-index: 1000;
 }
 
 .main-content {

@@ -1,8 +1,8 @@
 <template>
   <div class="test-component">
-    <h3>{{ $t('testComponent.title') }}</h3>
-    <p>{{ $t('testComponent.description') }}</p>
-    <p>{{ $t('testComponent.currentTime') }}: {{ currentTime }}</p>
+    <h3>测试组件</h3>
+    <p>这是一个测试组件，用于演示功能</p>
+    <p>当前时间: {{ currentTime }}</p>
   </div>
 </template>
 

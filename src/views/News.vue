@@ -1,8 +1,8 @@
 <template>
   <div class="news">
     <div class="news-header">
-      <h1>{{ $t('news.title') }}</h1>
-      <p>{{ $t('news.subtitle') }}</p>
+      <h1>新闻资讯</h1>
+      <p>最新热点新闻</p>
     </div>
     
     <div v-if="loading" class="loading-container">
@@ -17,12 +17,12 @@
         show-icon>
       </el-alert>
       <div class="retry-container">
-        <el-button type="primary" @click="fetchNews">{{ $t('news.retry') }}</el-button>
+        <el-button type="primary" @click="fetchNews">重试</el-button>
       </div>
     </div>
     
     <div v-else-if="newsList.length === 0" class="empty-container">
-      <el-empty :description="$t('news.noNews')"></el-empty>
+      <el-empty description="暂无新闻"></el-empty>
     </div>
     
     <div v-else class="news-content">
@@ -41,7 +41,7 @@
             <p class="news-description" v-if="item.description">{{ item.description }}</p>
             <div class="news-actions">
               <el-button type="primary" size="small" @click="openNewsUrl(item.url)">
-                {{ $t('news.readMore') }}
+                阅读更多
               </el-button>
             </div>
           </div>
@@ -81,9 +81,9 @@ export default {
   methods: {
     formatDate(dateStr) {
       const date = new Date(dateStr);
-      return date.toLocaleDateString(this.$i18n.locale, {
+      return date.toLocaleDateString('zh-CN', {
         year: 'numeric',
-        month: 'short',
+        month: 'long',
         day: 'numeric',
         hour: '2-digit',
         minute: '2-digit'

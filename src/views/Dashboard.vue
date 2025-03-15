@@ -1,8 +1,8 @@
 <template>
   <div class="dashboard">
     <div class="dashboard-header">
-      <h1>{{ $t('common.dashboard') }}</h1>
-      <p>{{ $t('common.overview') }}</p>
+      <h1>仪表盘</h1>
+      <p>系统概览</p>
     </div>
     
     <div class="stats-overview">
@@ -13,7 +13,7 @@
           <div class="stat-value">{{ stat.value }}</div>
           <div :class="['stat-change', stat.change > 0 ? 'positive' : 'negative']">
             {{ stat.change > 0 ? '+' : '' }}{{ stat.change }}{{ stat.unit }} 
-            <span>{{ $t('stats.thisWeek') }}</span>
+            <span>本周</span>
           </div>
         </div>
       </el-card>
@@ -22,12 +22,12 @@
     <div class="chart-section">
       <el-card shadow="hover" class="chart-container">
         <div slot="header" class="chart-header">
-          <h2>{{ $t('charts.visitTrends') }}</h2>
+          <h2>访问趋势</h2>
           <div class="chart-actions">
             <el-radio-group v-model="visitPeriod" size="small">
-              <el-radio-button label="day">{{ $t('common.day') }}</el-radio-button>
-              <el-radio-button label="week">{{ $t('common.week') }}</el-radio-button>
-              <el-radio-button label="month">{{ $t('common.month') }}</el-radio-button>
+              <el-radio-button label="day">日</el-radio-button>
+              <el-radio-button label="week">周</el-radio-button>
+              <el-radio-button label="month">月</el-radio-button>
             </el-radio-group>
           </div>
         </div>
@@ -36,12 +36,12 @@
       
       <el-card shadow="hover" class="chart-container">
         <div slot="header" class="chart-header">
-          <h2>{{ $t('charts.userDistribution') }}</h2>
+          <h2>用户分布</h2>
           <div class="chart-actions">
             <el-radio-group v-model="userDistType" size="small">
-              <el-radio-button label="region">{{ $t('distribution.region') }}</el-radio-button>
-              <el-radio-button label="age">{{ $t('distribution.age') }}</el-radio-button>
-              <el-radio-button label="device">{{ $t('distribution.device') }}</el-radio-button>
+              <el-radio-button label="region">区域</el-radio-button>
+              <el-radio-button label="age">年龄</el-radio-button>
+              <el-radio-button label="device">设备</el-radio-button>
             </el-radio-group>
           </div>
         </div>
@@ -52,12 +52,12 @@
     <div class="chart-section">
       <el-card shadow="hover" class="chart-container">
         <div slot="header" class="chart-header">
-          <h2>{{ $t('charts.performanceMonitoring') }}</h2>
+          <h2>性能监控</h2>
           <div class="chart-actions">
             <el-radio-group v-model="performanceType" size="small">
-              <el-radio-button label="cpu">{{ $t('performance.cpu') }}</el-radio-button>
-              <el-radio-button label="memory">{{ $t('performance.memory') }}</el-radio-button>
-              <el-radio-button label="disk">{{ $t('performance.disk') }}</el-radio-button>
+              <el-radio-button label="cpu">CPU</el-radio-button>
+              <el-radio-button label="memory">内存</el-radio-button>
+              <el-radio-button label="disk">磁盘</el-radio-button>
             </el-radio-group>
           </div>
         </div>
@@ -66,9 +66,9 @@
       
       <el-card shadow="hover" class="chart-container">
         <div slot="header" class="chart-header">
-          <h2>{{ $t('charts.systemRating') }}</h2>
+          <h2>系统评分</h2>
           <div class="chart-actions">
-            <el-button size="small" type="primary" plain>{{ $t('radar.systemRating') }}</el-button>
+            <el-button size="small" type="primary" plain>系统评分</el-button>
           </div>
         </div>
         <v-chart class="chart" :option="radarChartOption" autoresize />
@@ -78,9 +78,9 @@
     <div class="chart-section">
       <el-card shadow="hover" class="chart-container">
         <div slot="header" class="chart-header">
-          <h2>{{ $t('charts.performanceAnalysis') }}</h2>
+          <h2>性能分析</h2>
           <div class="chart-actions">
-            <el-button size="small" type="primary" plain>{{ $t('charts.hours24') }}</el-button>
+            <el-button size="small" type="primary" plain>24小时</el-button>
           </div>
         </div>
         <v-chart class="chart" :option="scatterChartOption" autoresize />
@@ -88,9 +88,9 @@
       
       <el-card shadow="hover" class="chart-container">
         <div slot="header" class="chart-header">
-          <h2>{{ $t('charts.userConversion') }}</h2>
+          <h2>用户转化</h2>
           <div class="chart-actions">
-            <el-button size="small" type="primary" plain>{{ $t('common.all') }}</el-button>
+            <el-button size="small" type="primary" plain>全部</el-button>
           </div>
         </div>
         <v-chart class="chart" :option="funnelChartOption" autoresize />
@@ -100,9 +100,9 @@
     <div class="chart-section">
       <el-card shadow="hover" class="chart-container">
         <div slot="header" class="chart-header">
-          <h2>{{ $t('charts.systemHealth') }}</h2>
+          <h2>系统健康</h2>
           <div class="chart-actions">
-            <el-button size="small" type="primary" plain>{{ $t('common.realtime') }}</el-button>
+            <el-button size="small" type="primary" plain>实时</el-button>
           </div>
         </div>
         <v-chart class="chart" :option="gaugeChartOption" autoresize />
@@ -110,9 +110,9 @@
       
       <el-card shadow="hover" class="chart-container">
         <div slot="header" class="chart-header">
-          <h2>{{ $t('charts.systemArchitecture') }}</h2>
+          <h2>系统架构</h2>
           <div class="chart-actions">
-            <el-button size="small" type="primary" plain>{{ $t('tree.systemArchitecture') }}</el-button>
+            <el-button size="small" type="primary" plain>系统架构</el-button>
           </div>
         </div>
         <v-chart class="chart" :option="treeChartOption" autoresize />
@@ -122,9 +122,9 @@
     <div class="chart-section-full">
       <el-card shadow="hover" class="chart-container">
         <div slot="header" class="chart-header">
-          <h2>{{ $t('charts.accessHeatmap') }}</h2>
+          <h2>访问热力图</h2>
           <div class="chart-actions">
-            <el-button size="small" type="primary" plain>{{ $t('charts.past7days') }}</el-button>
+            <el-button size="small" type="primary" plain>过去7天</el-button>
           </div>
         </div>
         <v-chart class="chart" :option="heatmapChartOption" autoresize />
@@ -134,7 +134,7 @@
     <div class="activity-section">
       <el-card shadow="hover" class="recent-activity">
         <div slot="header">
-          <h2>{{ $t('activity.recentActivity') }}</h2>
+          <h2>最近活动</h2>
         </div>
         <el-timeline>
           <el-timeline-item
@@ -154,7 +154,7 @@
     <div class="chart-section-full">
       <el-card shadow="hover" class="chart-container">
         <div slot="header" class="chart-header">
-          <h2>{{ $t('charts.salesAnalysis') }}</h2>
+          <h2>销售分析</h2>
           <div class="chart-actions">
             <el-select v-model="salesAnalysisType" size="small" style="width: 120px;">
               <el-option v-for="item in salesAnalysisOptions" :key="item.value" :label="item.label" :value="item.value"></el-option>
@@ -225,32 +225,32 @@ export default {
       // 统计卡片数据
       statsData: [
         {
-          icon: '👥',
-          title: this.$t('stats.totalUsers'),
+          icon: '��',
+          title: '总用户数',
           value: '1,254',
           change: 12,
           unit: '%'
         },
         {
           icon: '📊',
-          title: this.$t('stats.visits'),
+          title: '访问量',
           value: '8,546',
           change: 23,
           unit: '%'
         },
         {
           icon: '📝',
-          title: this.$t('stats.contentCount'),
+          title: '内容数量',
           value: '342',
           change: 5,
           unit: '%'
         },
         {
           icon: '⚠️',
-          title: this.$t('stats.systemAlerts'),
+          title: '系统告警',
           value: '3',
-          change: 2,
-          unit: ''
+          change: -2,
+          unit: '%'
         }
       ],
       // 活动列表数据
@@ -259,25 +259,25 @@ export default {
           icon: 'el-icon-user',
           type: 'primary',
           color: '#409EFF',
-          title: this.$t('activity.newUserRegistration'),
-          desc: this.$t('activity.userRegistered', { name: 'zhang_wei' }),
-          time: this.$t('activity.minutesAgo', { time: 10 })
+          title: '新用户注册',
+          desc: 'zhang_wei 注册了新账户',
+          time: '10分钟前'
         },
         {
           icon: 'el-icon-document',
           type: 'success',
           color: '#67C23A',
-          title: this.$t('activity.contentUpdate'),
-          desc: this.$t('activity.adminUpdated'),
-          time: this.$t('activity.hoursAgo', { time: 1 })
+          title: '内容更新',
+          desc: '管理员更新了内容',
+          time: '1小时前'
         },
         {
           icon: 'el-icon-setting',
           type: 'warning',
           color: '#E6A23C',
-          title: this.$t('activity.systemMaintenance'),
-          desc: this.$t('activity.maintenanceCompleted'),
-          time: this.$t('activity.hoursAgo', { time: 3 })
+          title: '系统维护',
+          desc: '维护已完成',
+          time: '3小时前'
         }
       ],
       visitData: {
@@ -512,7 +512,7 @@ export default {
         },
         series: [
           {
-            name: this.$t('stats.visits'),
+            name: '访问量',
             type: 'bar',
             barWidth: '60%',
             data: currentData.series,
@@ -538,8 +538,8 @@ export default {
         },
         series: [
           {
-            name: this.userDistType === 'region' ? this.$t('distribution.region') : 
-                  this.userDistType === 'age' ? this.$t('distribution.age') : this.$t('distribution.device'),
+            name: this.userDistType === 'region' ? '区域' : 
+                  this.userDistType === 'age' ? '年龄' : '设备',
             type: 'pie',
             radius: ['50%', '70%'],
             avoidLabelOverlap: false,
@@ -575,11 +575,11 @@ export default {
           trigger: 'axis'
         },
         legend: {
-          data: currentData.series.map(item => this.$t(`performance.${item.name === 'CPU使用率' ? 'cpuUsage' : 
-                                                        item.name === '平均负载' ? 'averageLoad' : 
-                                                        item.name === '内存使用率' ? 'memoryUsage' : 
-                                                        item.name === '交换空间' ? 'swapSpace' : 
-                                                        item.name === '磁盘读取' ? 'diskRead' : 'diskWrite'}`)),
+          data: currentData.series.map(item => item.name === 'CPU使用率' ? 'CPU使用率' : 
+                                                        item.name === '平均负载' ? '平均负载' : 
+                                                        item.name === '内存使用率' ? '内存使用率' : 
+                                                        item.name === '交换空间' ? '交换空间' : 
+                                                        item.name === '磁盘读取' ? '磁盘读取' : '磁盘写入'),
           bottom: 0
         },
         grid: {
@@ -600,11 +600,11 @@ export default {
           }
         },
         series: currentData.series.map(item => ({
-          name: this.$t(`performance.${item.name === 'CPU使用率' ? 'cpuUsage' : 
-                                      item.name === '平均负载' ? 'averageLoad' : 
-                                      item.name === '内存使用率' ? 'memoryUsage' : 
-                                      item.name === '交换空间' ? 'swapSpace' : 
-                                      item.name === '磁盘读取' ? 'diskRead' : 'diskWrite'}`),
+          name: item.name === 'CPU使用率' ? 'CPU使用率' : 
+                                      item.name === '平均负载' ? '平均负载' : 
+                                      item.name === '内存使用率' ? '内存使用率' : 
+                                      item.name === '交换空间' ? '交换空间' : 
+                                      item.name === '磁盘读取' ? '磁盘读取' : '磁盘写入',
           type: 'line',
           data: item.data,
           smooth: true,
@@ -621,11 +621,11 @@ export default {
         },
         radar: {
           indicator: [
-            { name: this.$t('radar.performance'), max: 100 },
-            { name: this.$t('radar.stability'), max: 100 },
-            { name: this.$t('radar.security'), max: 100 },
-            { name: this.$t('radar.availability'), max: 100 },
-            { name: this.$t('radar.responseSpeed'), max: 100 }
+            { name: '性能', max: 100 },
+            { name: '稳定性', max: 100 },
+            { name: '安全性', max: 100 },
+            { name: '可用性', max: 100 },
+            { name: '响应速度', max: 100 }
           ],
           radius: '65%'
         },
@@ -779,7 +779,7 @@ export default {
     funnelChartOption() {
       return {
         title: {
-          text: this.$t('charts.userConversion'),
+          text: '用户转化',
           left: 'center'
         },
         tooltip: {
@@ -787,15 +787,15 @@ export default {
           formatter: '{a} <br/>{b} : {c}%'
         },
         legend: {
-          data: this.funnelData.map(item => this.$t(`funnel.${item.name === '访问' ? 'visit' : 
-                                                    item.name === '注册' ? 'register' : 
-                                                    item.name === '下载' ? 'download' : 
-                                                    item.name === '激活' ? 'activation' : 'payment'}`)),
+          data: this.funnelData.map(item => item.name === '访问' ? '访问' : 
+                                                    item.name === '注册' ? '注册' : 
+                                                    item.name === '下载' ? '下载' : 
+                                                    item.name === '激活' ? '激活' : '付费'),
           bottom: 0
         },
         series: [
           {
-            name: this.$t('funnel.conversion'),
+            name: '转化率',
             type: 'funnel',
             left: '10%',
             top: 40,
@@ -829,10 +829,10 @@ export default {
             },
             data: this.funnelData.map(item => ({
               value: item.value,
-              name: this.$t(`funnel.${item.name === '访问' ? 'visit' : 
-                                      item.name === '注册' ? 'register' : 
-                                      item.name === '下载' ? 'download' : 
-                                      item.name === '激活' ? 'activation' : 'payment'}`)
+              name: item.name === '访问' ? '访问' : 
+                                      item.name === '注册' ? '注册' : 
+                                      item.name === '下载' ? '下载' : 
+                                      item.name === '激活' ? '激活' : '付费'
             }))
           }
         ]

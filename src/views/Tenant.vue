@@ -2,23 +2,23 @@
   <div class="tenant">
     <div class="tenant-header">
       <div class="tenant-title">
-        <h2>{{ $t('tenant.title') }}</h2>
-        <p>{{ $t('tenant.subtitle') }}</p>
+        <h2>租户管理</h2>
+        <p>管理系统中的租户信息</p>
       </div>
       <div class="tenant-search">
         <el-input
           v-model="searchQuery"
-          :placeholder="$t('tenant.searchPlaceholder')"
+          placeholder="搜索租户"
           prefix-icon="el-icon-search"
           clearable
           @clear="fetchTenants"
           @keyup.enter.native="fetchTenants"
         ></el-input>
-        <el-button type="primary" @click="fetchTenants">{{ $t('tenant.search') }}</el-button>
+        <el-button type="primary" @click="fetchTenants">搜索</el-button>
       </div>
       <div class="tenant-actions">
-        <el-button type="primary" icon="el-icon-plus">{{ $t('tenant.addTenant') }}</el-button>
-        <el-button type="warning" icon="el-icon-refresh" @click="resetData">{{ $t('tenant.resetData') }}</el-button>
+        <el-button type="primary" icon="el-icon-plus">添加租户</el-button>
+        <el-button type="warning" icon="el-icon-refresh" @click="resetData">重置数据</el-button>
       </div>
     </div>
     
@@ -29,13 +29,13 @@
       
       <div v-else-if="error" class="error-container">
         <el-alert
-          :title="$t('tenant.loadError')"
+          :title="loadError"
           type="error"
           :description="error"
           show-icon>
         </el-alert>
         <el-button type="primary" @click="fetchTenants" class="retry-button">
-          {{ $t('tenant.retry') }}
+          {{ retry }}
         </el-button>
       </div>
       
@@ -50,7 +50,7 @@
             style="width: 100%"
             border
             :max-height="tableHeight">
-            <el-table-column :label="$t('tenant.tenantName')" min-width="200">
+            <el-table-column :label="tenantNameLabel" min-width="200">
               <template slot-scope="scope">
                 <div class="tenant-name">
                   <el-avatar :size="36" :style="{ backgroundColor: scope.row.color }">
@@ -58,33 +58,33 @@
                   </el-avatar>
                   <div>
                     <div class="name">{{ scope.row.name }}</div>
-                    <div class="tenant-id">{{ $t('tenant.id') }}: {{ scope.row.id }}</div>
+                    <div class="tenant-id">{{ idLabel }}: {{ scope.row.id }}</div>
                   </div>
                 </div>
               </template>
             </el-table-column>
-            <el-table-column prop="createdAt" :label="$t('tenant.createdTime')" width="120"></el-table-column>
-            <el-table-column :label="$t('tenant.status')" width="120">
+            <el-table-column prop="createdAt" :label="createdTimeLabel" width="120"></el-table-column>
+            <el-table-column :label="statusLabel" width="120">
               <template slot-scope="scope">
                 <el-tag
                   :type="scope.row.status === 'active' ? 'success' : scope.row.status === 'pending' ? 'warning' : 'danger'"
                   size="medium">
-                  {{ scope.row.status === 'active' ? $t('tenant.statusActive') : 
-                     scope.row.status === 'pending' ? $t('tenant.statusPending') : 
-                     $t('tenant.statusDisabled') }}
+                  {{ scope.row.status === 'active' ? statusActive : 
+                     scope.row.status === 'pending' ? statusPending : 
+                     statusDisabled }}
                 </el-tag>
               </template>
             </el-table-column>
-            <el-table-column prop="users" :label="$t('tenant.userCount')" width="100"></el-table-column>
-            <el-table-column prop="storage" :label="$t('tenant.storageSpace')" width="120"></el-table-column>
-            <el-table-column :label="$t('tenant.actions')" width="200">
+            <el-table-column prop="users" :label="userCountLabel" width="100"></el-table-column>
+            <el-table-column prop="storage" :label="storageSpaceLabel" width="120"></el-table-column>
+            <el-table-column :label="actionsLabel" width="200">
               <template slot-scope="scope">
                 <div class="action-buttons">
                   <el-button size="mini" type="primary" icon="el-icon-edit" plain @click="editTenant(scope.row)">
-                    {{ $t('tenant.edit') }}
+                    {{ edit }}
                   </el-button>
                   <el-button size="mini" type="danger" icon="el-icon-delete" plain @click="deleteTenant(scope.row)">
-                    {{ $t('tenant.delete') }}
+                    {{ deleteLabel }}
                   </el-button>
                 </div>
               </template>
@@ -109,17 +109,17 @@
     
     <!-- 删除确认对话框 -->
     <el-dialog
-      :title="$t('tenant.deleteConfirmTitle')"
+      :title="deleteConfirmTitle"
       :visible.sync="deleteDialogVisible"
       width="30%"
       :close-on-click-modal="false">
       <div class="delete-dialog-content">
-        <p>{{ $t('tenant.deleteConfirmMessage', { name: deletingTenant ? deletingTenant.name : '' }) }}</p>
-        <p class="delete-warning">{{ $t('tenant.deleteWarning') }}</p>
+        <p>{{ deleteConfirmMessage }}</p>
+        <p class="delete-warning">{{ deleteWarning }}</p>
       </div>
       <span slot="footer" class="dialog-footer">
-        <el-button @click="cancelDelete">{{ $t('tenant.cancel') }}</el-button>
-        <el-button type="danger" @click="confirmDelete" :loading="deleteLoading">{{ $t('tenant.confirm') }}</el-button>
+        <el-button @click="cancelDelete">{{ cancel }}</el-button>
+        <el-button type="danger" @click="confirmDelete" :loading="deleteLoading">{{ confirm }}</el-button>
       </span>
     </el-dialog>
   </div>
@@ -144,7 +144,28 @@ export default {
       tableHeight: null,
       deleteDialogVisible: false,
       deletingTenant: null,
-      deleteLoading: false
+      deleteLoading: false,
+      
+      // 添加国际化文本的静态替换
+      loadError: '加载错误',
+      retry: '重试',
+      tenantNameLabel: '租户名称',
+      idLabel: 'ID',
+      createdTimeLabel: '创建时间',
+      statusLabel: '状态',
+      statusActive: '活跃',
+      statusPending: '待审核',
+      statusDisabled: '已禁用',
+      userCountLabel: '用户数',
+      storageSpaceLabel: '存储空间',
+      actionsLabel: '操作',
+      edit: '编辑',
+      deleteLabel: '删除',
+      deleteConfirmTitle: '确认删除',
+      deleteConfirmMessage: '确定要删除该租户吗？',
+      deleteWarning: '此操作将永久删除该租户，是否继续？',
+      cancel: '取消',
+      confirm: '确认'
     }
   },
   mounted() {
@@ -241,20 +262,20 @@ export default {
           if (response.code === 200) {
             this.$message({
               type: 'success',
-              message: this.$t('tenant.deleteSuccess')
+              message: '租户删除成功'
             });
             
             // 重新加载数据
             this.fetchTenants();
           } else {
-            throw new Error(response.message || this.$t('tenant.deleteFailed'));
+            throw new Error(response.message || '删除租户失败');
           }
         })
         .catch(error => {
           console.error('删除租户失败:', error);
           this.$message({
             type: 'error',
-            message: error.message || this.$t('tenant.deleteFailed')
+            message: error.message || '删除租户失败，请稍后重试'
           });
         })
         .finally(() => {
@@ -279,7 +300,7 @@ export default {
           if (response.code === 200) {
             this.$message({
               type: 'success',
-              message: this.$t('tenant.resetSuccess')
+              message: '租户数据重置成功'
             });
             
             // 重新加载数据

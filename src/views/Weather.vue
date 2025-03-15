@@ -1,19 +1,19 @@
 <template>
   <div class="weather">
     <div class="weather-header">
-      <h1>{{ $t('weather.title') }}</h1>
-      <p>{{ $t('weather.subtitle') }}</p>
+      <h1>天气预报</h1>
+      <p>查看全球各地天气状况</p>
       
       <div class="search-container">
         <el-input
-          :placeholder="$t('weather.searchCity')"
+          placeholder="搜索城市"
           prefix-icon="el-icon-search"
           v-model="searchQuery"
           class="search-input"
           @keyup.enter.native="searchWeather">
         </el-input>
         <el-button type="primary" @click="searchWeather" style="margin-left: 10px;">
-          {{ $t('tenant.search') }}
+          搜索
         </el-button>
       </div>
     </div>
@@ -37,8 +37,8 @@
           <!-- 当前天气卡片 -->
           <el-card shadow="hover" class="current-weather-card">
             <div class="card-header">
-              <h3>{{ $t('weather.currentWeather') }}</h3>
-              <span class="refresh-time">{{ $t('weather.refreshTime') }}: {{ currentTime }}</span>
+              <h3>当前天气</h3>
+              <span class="refresh-time">刷新时间: {{ currentTime }}</span>
             </div>
             
             <div class="city-info">
@@ -50,7 +50,7 @@
             
             <div class="temperature-display">
               <div class="current-temp">{{ currentWeather.temperature }}°C</div>
-              <div class="feels-like">{{ $t('weather.humidity') }}: {{ currentWeather.humidity }}%</div>
+              <div class="feels-like">湿度: {{ currentWeather.humidity }}%</div>
             </div>
             
             <div class="weather-condition">
@@ -62,20 +62,20 @@
             <div class="weather-details">
               <div class="detail-item">
                 <i class="el-icon-wind-power"></i>
-                <span>{{ $t('weather.windDirection') }}: {{ currentWeather.direct }}</span>
+                <span>风向: {{ currentWeather.direct }}</span>
               </div>
               <div class="detail-item">
                 <i class="el-icon-wind-power"></i>
-                <span>{{ $t('weather.windSpeed') }}: {{ currentWeather.power }}</span>
+                <span>风速: {{ currentWeather.power }}</span>
               </div>
               <div class="detail-item" v-if="currentWeather.aqi">
                 <i class="el-icon-cloudy"></i>
-                <span>{{ $t('weather.airQuality') }}: {{ currentWeather.aqi }}</span>
+                <span>空气质量: {{ currentWeather.aqi }}</span>
               </div>
             </div>
             
             <div class="air-quality" v-if="currentWeather.aqi">
-              <div class="air-quality-label">{{ $t('weather.airQuality') }}:</div>
+              <div class="air-quality-label">空气质量: </div>
               <el-tag :type="getAirQualityType(currentWeather.aqi)">
                 {{ getAirQualityText(currentWeather.aqi) }}
               </el-tag>
@@ -85,7 +85,7 @@
           <!-- 未来天气预报卡片 -->
           <el-card shadow="hover" class="forecast-card">
             <div class="card-header">
-              <h3>{{ $t('weather.forecast') }}</h3>
+              <h3>未来天气预报</h3>
             </div>
             
             <div class="forecast-list">
@@ -139,31 +139,16 @@ export default {
         hour: '2-digit', 
         minute: '2-digit' 
       };
-      return date.toLocaleString(this.$i18n.locale, options);
+      return date.toLocaleString('zh-CN', options);
     },
     formatDate(dateStr) {
       const date = new Date(dateStr);
-      if (isNaN(date.getTime())) {
-        return dateStr; // 如果解析失败，返回原始字符串
-      }
-      
-      const today = new Date();
-      const tomorrow = new Date(today);
-      tomorrow.setDate(today.getDate() + 1);
-      const dayAfterTomorrow = new Date(today);
-      dayAfterTomorrow.setDate(today.getDate() + 2);
-      
-      // 检查是否是今天、明天或后天
-      if (date.toDateString() === today.toDateString()) {
-        return this.$t('weather.today');
-      } else if (date.toDateString() === tomorrow.toDateString()) {
-        return this.$t('weather.tomorrow');
-      } else if (date.toDateString() === dayAfterTomorrow.toDateString()) {
-        return this.$t('weather.dayAfterTomorrow');
-      } else {
-        // 否则返回日期
-        return date.toLocaleDateString(this.$i18n.locale, { month: 'short', day: 'numeric' });
-      }
+      const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+      return date.toLocaleString('zh-CN', options);
+    },
+    formatShortDate(dateStr) {
+      const date = new Date(dateStr);
+      return date.toLocaleDateString('zh-CN', { month: 'short', day: 'numeric' });
     },
     getWeatherIcon(condition) {
       const iconMap = {
@@ -240,17 +225,17 @@ export default {
     getAirQualityText(aqi) {
       const aqiNum = parseInt(aqi);
       if (aqiNum <= 50) {
-        return this.$t('weather.airQualityLevel.excellent'); // 优
+        return '优'; // 优
       } else if (aqiNum <= 100) {
-        return this.$t('weather.airQualityLevel.good'); // 良
+        return '良'; // 良
       } else if (aqiNum <= 150) {
-        return this.$t('weather.airQualityLevel.moderate'); // 轻度污染
+        return '轻度污染'; // 轻度污染
       } else if (aqiNum <= 200) {
-        return this.$t('weather.airQualityLevel.poor'); // 中度污染
+        return '中度污染'; // 中度污染
       } else if (aqiNum <= 300) {
-        return this.$t('weather.airQualityLevel.unhealthy'); // 重度污染
+        return '重度污染'; // 重度污染
       } else {
-        return this.$t('weather.airQualityLevel.hazardous'); // 严重污染
+        return '严重污染'; // 严重污染
       }
     },
     async fetchWeatherData(city) {
