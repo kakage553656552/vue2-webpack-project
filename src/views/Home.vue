@@ -4,7 +4,7 @@
       <div class="logo-container">
         <Logo />
       </div>
-      <h1 class="animated-title">欢迎使用管理系统</h1>
+      <h1 class="animated-title">欢迎使用V2管理系统</h1>
       <p class="animated-subtitle">
         <span class="text-gradient">一个功能强大的管理平台</span>
       </p>
