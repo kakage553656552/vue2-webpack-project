@@ -116,13 +116,19 @@ export function updateTenant(id, data) {
       const index = tenantsData.findIndex(item => item.id === id);
       
       if (index !== -1) {
+        // 更新租户数据
+        const updatedTenant = {
+          ...tenantsData[index],
+          ...data
+        };
+        
+        // 保存到数组中
+        tenantsData[index] = updatedTenant;
+        
         resolve({
           code: 200,
           message: '更新租户成功',
-          data: {
-            ...tenantsData[index],
-            ...data
-          }
+          data: updatedTenant
         });
       } else {
         reject({

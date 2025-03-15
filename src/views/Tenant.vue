@@ -157,11 +157,49 @@
         <el-button type="primary" @click="submitAddTenant" :loading="addLoading">确认</el-button>
       </span>
     </el-dialog>
+    
+    <!-- 编辑租户对话框 -->
+    <el-dialog
+      title="编辑租户"
+      :visible.sync="editDialogVisible"
+      width="50%"
+      :close-on-click-modal="false"
+      @closed="resetEditForm">
+      <el-form :model="editForm" :rules="tenantRules" ref="editForm" label-width="100px" label-position="right">
+        <el-form-item label="租户ID" prop="id">
+          <el-input v-model="editForm.id" disabled></el-input>
+        </el-form-item>
+        <el-form-item label="租户名称" prop="name">
+          <el-input v-model="editForm.name" placeholder="请输入租户名称"></el-input>
+        </el-form-item>
+        <el-form-item label="状态" prop="status">
+          <el-select v-model="editForm.status" placeholder="请选择租户状态" style="width: 100%">
+            <el-option label="活跃" value="active"></el-option>
+            <el-option label="待审核" value="pending"></el-option>
+            <el-option label="已禁用" value="disabled"></el-option>
+          </el-select>
+        </el-form-item>
+        <el-form-item label="用户数量" prop="users">
+          <el-input-number v-model="editForm.users" :min="0" :max="1000" style="width: 100%"></el-input-number>
+        </el-form-item>
+        <el-form-item label="存储空间" prop="storage">
+          <el-input v-model="editForm.storage" placeholder="请输入存储空间，例如：1.5 TB"></el-input>
+        </el-form-item>
+        <el-form-item label="颜色标识" prop="color">
+          <el-color-picker v-model="editForm.color" show-alpha></el-color-picker>
+          <span class="color-preview" :style="{ backgroundColor: editForm.color }"></span>
+        </el-form-item>
+      </el-form>
+      <span slot="footer" class="dialog-footer">
+        <el-button @click="editDialogVisible = false">取消</el-button>
+        <el-button type="primary" @click="submitEditForm" :loading="editLoading">确认</el-button>
+      </span>
+    </el-dialog>
   </div>
 </template>
 
 <script>
-import { getTenants, deleteTenant, resetTenantsData, createTenant } from '@/api/tenant';
+import { getTenants, deleteTenant, resetTenantsData, createTenant, updateTenant } from '@/api/tenant';
 
 export default {
   name: 'TenantPage',
@@ -191,6 +229,20 @@ export default {
         storage: '0 TB',
         color: '#409EFF'
       },
+      
+      // 编辑租户相关数据
+      editDialogVisible: false,
+      editLoading: false,
+      editForm: {
+        id: '',
+        name: '',
+        status: 'active',
+        users: 0,
+        storage: '0 TB',
+        color: '#409EFF',
+        createdAt: ''
+      },
+      
       tenantRules: {
         name: [
           { required: true, message: '请输入租户名称', trigger: 'blur' },
@@ -306,8 +358,10 @@ export default {
     
     // 编辑租户
     editTenant(tenant) {
-      console.log('编辑租户:', tenant);
-      // 这里添加编辑租户的逻辑
+      // 复制租户数据到编辑表单
+      this.editForm = { ...tenant };
+      // 显示编辑对话框
+      this.editDialogVisible = true;
     },
     
     // 删除租户
@@ -429,6 +483,61 @@ export default {
             })
             .finally(() => {
               this.addLoading = false;
+            });
+        } else {
+          return false;
+        }
+      });
+    },
+    
+    // 重置编辑表单
+    resetEditForm() {
+      if (this.$refs.editForm) {
+        this.$refs.editForm.resetFields();
+      }
+      this.editForm = {
+        id: '',
+        name: '',
+        status: 'active',
+        users: 0,
+        storage: '0 TB',
+        color: '#409EFF',
+        createdAt: ''
+      };
+    },
+    
+    // 提交编辑表单
+    submitEditForm() {
+      this.$refs.editForm.validate(valid => {
+        if (valid) {
+          this.editLoading = true;
+          
+          updateTenant(this.editForm.id, this.editForm)
+            .then(response => {
+              if (response.code === 200) {
+                this.$message({
+                  type: 'success',
+                  message: '租户更新成功'
+                });
+                
+                // 关闭对话框
+                this.editDialogVisible = false;
+                
+                // 重新加载数据
+                this.fetchTenants();
+              } else {
+                throw new Error(response.message || '更新租户失败');
+              }
+            })
+            .catch(error => {
+              console.error('更新租户失败:', error);
+              this.$message({
+                type: 'error',
+                message: error.message || '更新租户失败，请稍后重试'
+              });
+            })
+            .finally(() => {
+              this.editLoading = false;
             });
         } else {
           return false;
