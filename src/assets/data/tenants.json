@@ -1,0 +1,9002 @@
+[
+  {
+    "id": "TN-001",
+    "name": "长沙赵软件开发有限公司",
+    "createdAt": "2024-10-03",
+    "status": "disabled",
+    "users": 273,
+    "storage": "1.6 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-002",
+    "name": "青岛胡信息技术有限公司",
+    "createdAt": "2025-03-03",
+    "status": "pending",
+    "users": 167,
+    "storage": "2.5 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-003",
+    "name": "沈阳吴咨询有限公司",
+    "createdAt": "2022-10-10",
+    "status": "disabled",
+    "users": 246,
+    "storage": "3.4 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-004",
+    "name": "深圳刘信息技术有限公司",
+    "createdAt": "2024-03-04",
+    "status": "pending",
+    "users": 58,
+    "storage": "1.1 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-005",
+    "name": "北京马软件开发有限公司",
+    "createdAt": "2023-07-22",
+    "status": "pending",
+    "users": 148,
+    "storage": "3.7 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-006",
+    "name": "大连朱服务有限公司",
+    "createdAt": "2023-09-20",
+    "status": "pending",
+    "users": 86,
+    "storage": "229 GB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-007",
+    "name": "青岛王电子商务有限公司",
+    "createdAt": "2023-06-08",
+    "status": "pending",
+    "users": 195,
+    "storage": "588 GB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-008",
+    "name": "深圳朱服务有限公司",
+    "createdAt": "2022-04-12",
+    "status": "pending",
+    "users": 112,
+    "storage": "314 GB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-009",
+    "name": "厦门杨网络科技有限公司",
+    "createdAt": "2024-08-02",
+    "status": "pending",
+    "users": 62,
+    "storage": "2.1 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-010",
+    "name": "天津黄文化传媒有限公司",
+    "createdAt": "2022-02-20",
+    "status": "disabled",
+    "users": 38,
+    "storage": "3.5 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-011",
+    "name": "宁波周贸易有限公司",
+    "createdAt": "2022-01-07",
+    "status": "pending",
+    "users": 261,
+    "storage": "4.7 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-012",
+    "name": "沈阳王贸易有限公司",
+    "createdAt": "2024-11-12",
+    "status": "active",
+    "users": 260,
+    "storage": "4.6 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-013",
+    "name": "杭州胡软件开发有限公司",
+    "createdAt": "2024-03-12",
+    "status": "disabled",
+    "users": 293,
+    "storage": "1.8 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-014",
+    "name": "宁波杨科技有限公司",
+    "createdAt": "2022-01-22",
+    "status": "active",
+    "users": 19,
+    "storage": "1.2 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-015",
+    "name": "宁波周电子商务有限公司",
+    "createdAt": "2023-02-20",
+    "status": "active",
+    "users": 275,
+    "storage": "4.1 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-016",
+    "name": "长沙马网络科技有限公司",
+    "createdAt": "2023-07-16",
+    "status": "active",
+    "users": 163,
+    "storage": "4.9 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-017",
+    "name": "上海赵教育科技有限公司",
+    "createdAt": "2023-08-14",
+    "status": "pending",
+    "users": 299,
+    "storage": "5.0 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-018",
+    "name": "北京胡教育科技有限公司",
+    "createdAt": "2023-11-21",
+    "status": "pending",
+    "users": 116,
+    "storage": "3.9 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-019",
+    "name": "大连周电子商务有限公司",
+    "createdAt": "2024-02-09",
+    "status": "pending",
+    "users": 223,
+    "storage": "3.2 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-020",
+    "name": "南京赵网络科技有限公司",
+    "createdAt": "2025-03-15",
+    "status": "active",
+    "users": 288,
+    "storage": "1.2 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-021",
+    "name": "北京朱电子商务有限公司",
+    "createdAt": "2022-10-23",
+    "status": "pending",
+    "users": 190,
+    "storage": "1.7 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-022",
+    "name": "厦门高文化传媒有限公司",
+    "createdAt": "2024-03-15",
+    "status": "pending",
+    "users": 19,
+    "storage": "2.8 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-023",
+    "name": "天津郑信息技术有限公司",
+    "createdAt": "2024-12-01",
+    "status": "disabled",
+    "users": 186,
+    "storage": "3.4 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-024",
+    "name": "苏州孙电子商务有限公司",
+    "createdAt": "2024-02-29",
+    "status": "active",
+    "users": 68,
+    "storage": "3.9 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-025",
+    "name": "长沙胡教育科技有限公司",
+    "createdAt": "2022-04-27",
+    "status": "active",
+    "users": 281,
+    "storage": "117 GB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-026",
+    "name": "深圳吴软件开发有限公司",
+    "createdAt": "2022-06-25",
+    "status": "active",
+    "users": 210,
+    "storage": "3.5 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-027",
+    "name": "宁波杨教育科技有限公司",
+    "createdAt": "2024-07-17",
+    "status": "disabled",
+    "users": 189,
+    "storage": "4.4 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-028",
+    "name": "天津郑网络科技有限公司",
+    "createdAt": "2024-01-07",
+    "status": "pending",
+    "users": 135,
+    "storage": "4.6 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-029",
+    "name": "福州罗贸易有限公司",
+    "createdAt": "2022-08-04",
+    "status": "disabled",
+    "users": 253,
+    "storage": "1.2 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-030",
+    "name": "武汉罗咨询有限公司",
+    "createdAt": "2024-09-21",
+    "status": "disabled",
+    "users": 103,
+    "storage": "3.7 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-031",
+    "name": "重庆郭贸易有限公司",
+    "createdAt": "2023-07-21",
+    "status": "disabled",
+    "users": 140,
+    "storage": "2.1 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-032",
+    "name": "沈阳朱贸易有限公司",
+    "createdAt": "2022-11-11",
+    "status": "pending",
+    "users": 48,
+    "storage": "4.4 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-033",
+    "name": "重庆郭软件开发有限公司",
+    "createdAt": "2023-09-17",
+    "status": "disabled",
+    "users": 270,
+    "storage": "3.6 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-034",
+    "name": "福州何服务有限公司",
+    "createdAt": "2022-01-11",
+    "status": "pending",
+    "users": 142,
+    "storage": "2.4 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-035",
+    "name": "重庆张软件开发有限公司",
+    "createdAt": "2023-03-30",
+    "status": "disabled",
+    "users": 144,
+    "storage": "2.3 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-036",
+    "name": "广州孙科技有限公司",
+    "createdAt": "2024-04-03",
+    "status": "active",
+    "users": 39,
+    "storage": "2.1 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-037",
+    "name": "上海刘教育科技有限公司",
+    "createdAt": "2022-11-25",
+    "status": "disabled",
+    "users": 129,
+    "storage": "4.5 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-038",
+    "name": "青岛陈电子商务有限公司",
+    "createdAt": "2024-06-07",
+    "status": "disabled",
+    "users": 147,
+    "storage": "2.0 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-039",
+    "name": "宁波李电子商务有限公司",
+    "createdAt": "2024-03-14",
+    "status": "active",
+    "users": 266,
+    "storage": "698 GB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-040",
+    "name": "重庆陈软件开发有限公司",
+    "createdAt": "2022-11-01",
+    "status": "pending",
+    "users": 47,
+    "storage": "3.4 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-041",
+    "name": "成都郭科技有限公司",
+    "createdAt": "2024-06-30",
+    "status": "pending",
+    "users": 19,
+    "storage": "3.9 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-042",
+    "name": "深圳赵电子商务有限公司",
+    "createdAt": "2024-03-21",
+    "status": "active",
+    "users": 278,
+    "storage": "4.0 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-043",
+    "name": "成都吴咨询有限公司",
+    "createdAt": "2024-12-21",
+    "status": "pending",
+    "users": 167,
+    "storage": "1.6 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-044",
+    "name": "上海黄服务有限公司",
+    "createdAt": "2023-01-15",
+    "status": "disabled",
+    "users": 21,
+    "storage": "363 GB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-045",
+    "name": "上海郭网络科技有限公司",
+    "createdAt": "2023-10-20",
+    "status": "disabled",
+    "users": 80,
+    "storage": "553 GB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-046",
+    "name": "沈阳罗咨询有限公司",
+    "createdAt": "2024-09-28",
+    "status": "disabled",
+    "users": 132,
+    "storage": "1.1 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-047",
+    "name": "杭州林科技有限公司",
+    "createdAt": "2024-01-01",
+    "status": "active",
+    "users": 80,
+    "storage": "291 GB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-048",
+    "name": "厦门赵贸易有限公司",
+    "createdAt": "2023-02-09",
+    "status": "pending",
+    "users": 86,
+    "storage": "4.1 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-049",
+    "name": "武汉黄软件开发有限公司",
+    "createdAt": "2023-08-07",
+    "status": "disabled",
+    "users": 81,
+    "storage": "2.4 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-050",
+    "name": "厦门林服务有限公司",
+    "createdAt": "2024-06-07",
+    "status": "pending",
+    "users": 52,
+    "storage": "542 GB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-051",
+    "name": "福州郑软件开发有限公司",
+    "createdAt": "2023-04-30",
+    "status": "disabled",
+    "users": 81,
+    "storage": "176 GB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-052",
+    "name": "青岛郑信息技术有限公司",
+    "createdAt": "2022-11-02",
+    "status": "active",
+    "users": 246,
+    "storage": "2.6 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-053",
+    "name": "厦门吴服务有限公司",
+    "createdAt": "2025-02-07",
+    "status": "active",
+    "users": 264,
+    "storage": "4.1 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-054",
+    "name": "沈阳陈贸易有限公司",
+    "createdAt": "2024-04-26",
+    "status": "disabled",
+    "users": 159,
+    "storage": "955 GB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-055",
+    "name": "上海王网络科技有限公司",
+    "createdAt": "2025-01-25",
+    "status": "active",
+    "users": 221,
+    "storage": "643 GB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-056",
+    "name": "大连黄电子商务有限公司",
+    "createdAt": "2023-05-30",
+    "status": "active",
+    "users": 120,
+    "storage": "1.4 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-057",
+    "name": "南京林文化传媒有限公司",
+    "createdAt": "2022-09-06",
+    "status": "active",
+    "users": 25,
+    "storage": "2.5 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-058",
+    "name": "北京吴网络科技有限公司",
+    "createdAt": "2023-10-06",
+    "status": "active",
+    "users": 161,
+    "storage": "1.9 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-059",
+    "name": "福州杨电子商务有限公司",
+    "createdAt": "2024-10-24",
+    "status": "active",
+    "users": 156,
+    "storage": "2.5 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-060",
+    "name": "南京马贸易有限公司",
+    "createdAt": "2024-11-12",
+    "status": "pending",
+    "users": 210,
+    "storage": "953 GB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-061",
+    "name": "广州吴软件开发有限公司",
+    "createdAt": "2025-01-19",
+    "status": "pending",
+    "users": 254,
+    "storage": "277 GB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-062",
+    "name": "宁波黄网络科技有限公司",
+    "createdAt": "2024-02-23",
+    "status": "active",
+    "users": 190,
+    "storage": "4.5 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-063",
+    "name": "深圳张信息技术有限公司",
+    "createdAt": "2022-10-12",
+    "status": "active",
+    "users": 136,
+    "storage": "117 GB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-064",
+    "name": "郑州郑信息技术有限公司",
+    "createdAt": "2024-10-17",
+    "status": "pending",
+    "users": 174,
+    "storage": "3.5 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-065",
+    "name": "南京刘科技有限公司",
+    "createdAt": "2022-09-16",
+    "status": "pending",
+    "users": 96,
+    "storage": "777 GB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-066",
+    "name": "宁波赵软件开发有限公司",
+    "createdAt": "2022-08-12",
+    "status": "active",
+    "users": 209,
+    "storage": "4.6 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-067",
+    "name": "杭州郭科技有限公司",
+    "createdAt": "2024-06-04",
+    "status": "disabled",
+    "users": 300,
+    "storage": "3.3 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-068",
+    "name": "厦门高信息技术有限公司",
+    "createdAt": "2022-10-26",
+    "status": "pending",
+    "users": 108,
+    "storage": "702 GB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-069",
+    "name": "上海高贸易有限公司",
+    "createdAt": "2025-01-19",
+    "status": "pending",
+    "users": 225,
+    "storage": "1.3 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-070",
+    "name": "重庆朱贸易有限公司",
+    "createdAt": "2025-02-23",
+    "status": "disabled",
+    "users": 61,
+    "storage": "4.5 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-071",
+    "name": "宁波高服务有限公司",
+    "createdAt": "2023-02-11",
+    "status": "disabled",
+    "users": 52,
+    "storage": "2.2 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-072",
+    "name": "郑州王网络科技有限公司",
+    "createdAt": "2025-02-19",
+    "status": "active",
+    "users": 40,
+    "storage": "4.9 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-073",
+    "name": "苏州黄软件开发有限公司",
+    "createdAt": "2024-07-21",
+    "status": "pending",
+    "users": 297,
+    "storage": "2.0 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-074",
+    "name": "厦门林网络科技有限公司",
+    "createdAt": "2022-07-19",
+    "status": "active",
+    "users": 182,
+    "storage": "4.6 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-075",
+    "name": "杭州马软件开发有限公司",
+    "createdAt": "2022-02-25",
+    "status": "pending",
+    "users": 106,
+    "storage": "3.5 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-076",
+    "name": "郑州黄咨询有限公司",
+    "createdAt": "2023-10-24",
+    "status": "disabled",
+    "users": 190,
+    "storage": "3.5 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-077",
+    "name": "重庆郭电子商务有限公司",
+    "createdAt": "2022-12-13",
+    "status": "pending",
+    "users": 237,
+    "storage": "1.0 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-078",
+    "name": "上海罗教育科技有限公司",
+    "createdAt": "2022-07-31",
+    "status": "active",
+    "users": 93,
+    "storage": "2.6 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-079",
+    "name": "福州陈网络科技有限公司",
+    "createdAt": "2023-06-17",
+    "status": "pending",
+    "users": 300,
+    "storage": "182 GB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-080",
+    "name": "福州黄软件开发有限公司",
+    "createdAt": "2022-04-01",
+    "status": "active",
+    "users": 226,
+    "storage": "410 GB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-081",
+    "name": "杭州刘科技有限公司",
+    "createdAt": "2023-07-03",
+    "status": "disabled",
+    "users": 180,
+    "storage": "2.2 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-082",
+    "name": "郑州周文化传媒有限公司",
+    "createdAt": "2024-06-03",
+    "status": "active",
+    "users": 273,
+    "storage": "3.4 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-083",
+    "name": "郑州朱文化传媒有限公司",
+    "createdAt": "2024-12-27",
+    "status": "active",
+    "users": 121,
+    "storage": "491 GB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-084",
+    "name": "福州高信息技术有限公司",
+    "createdAt": "2022-01-05",
+    "status": "active",
+    "users": 73,
+    "storage": "1.4 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-085",
+    "name": "南京张文化传媒有限公司",
+    "createdAt": "2023-10-26",
+    "status": "disabled",
+    "users": 116,
+    "storage": "4.5 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-086",
+    "name": "厦门李咨询有限公司",
+    "createdAt": "2024-01-30",
+    "status": "disabled",
+    "users": 289,
+    "storage": "2.9 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-087",
+    "name": "青岛高网络科技有限公司",
+    "createdAt": "2023-09-30",
+    "status": "active",
+    "users": 16,
+    "storage": "2.7 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-088",
+    "name": "厦门孙网络科技有限公司",
+    "createdAt": "2024-06-01",
+    "status": "disabled",
+    "users": 63,
+    "storage": "1.4 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-089",
+    "name": "武汉胡贸易有限公司",
+    "createdAt": "2023-11-14",
+    "status": "disabled",
+    "users": 128,
+    "storage": "3.8 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-090",
+    "name": "杭州杨网络科技有限公司",
+    "createdAt": "2023-02-12",
+    "status": "disabled",
+    "users": 22,
+    "storage": "3.0 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-091",
+    "name": "西安胡软件开发有限公司",
+    "createdAt": "2022-07-30",
+    "status": "active",
+    "users": 64,
+    "storage": "668 GB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-092",
+    "name": "大连黄咨询有限公司",
+    "createdAt": "2022-09-29",
+    "status": "pending",
+    "users": 206,
+    "storage": "1.8 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-093",
+    "name": "北京马科技有限公司",
+    "createdAt": "2023-01-14",
+    "status": "pending",
+    "users": 199,
+    "storage": "3.4 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-094",
+    "name": "深圳周服务有限公司",
+    "createdAt": "2022-03-04",
+    "status": "disabled",
+    "users": 144,
+    "storage": "209 GB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-095",
+    "name": "重庆杨软件开发有限公司",
+    "createdAt": "2022-10-16",
+    "status": "active",
+    "users": 50,
+    "storage": "3.9 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-096",
+    "name": "大连张信息技术有限公司",
+    "createdAt": "2024-10-10",
+    "status": "pending",
+    "users": 67,
+    "storage": "1.1 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-097",
+    "name": "厦门马教育科技有限公司",
+    "createdAt": "2024-05-12",
+    "status": "disabled",
+    "users": 299,
+    "storage": "1.1 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-098",
+    "name": "北京郑教育科技有限公司",
+    "createdAt": "2022-01-12",
+    "status": "pending",
+    "users": 237,
+    "storage": "2.7 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-099",
+    "name": "上海王教育科技有限公司",
+    "createdAt": "2022-12-21",
+    "status": "active",
+    "users": 156,
+    "storage": "1.5 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-100",
+    "name": "西安马教育科技有限公司",
+    "createdAt": "2023-12-11",
+    "status": "active",
+    "users": 276,
+    "storage": "1.9 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-101",
+    "name": "武汉郭贸易有限公司",
+    "createdAt": "2023-12-20",
+    "status": "active",
+    "users": 278,
+    "storage": "3.9 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-102",
+    "name": "武汉赵科技有限公司",
+    "createdAt": "2024-01-10",
+    "status": "active",
+    "users": 187,
+    "storage": "1.9 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-103",
+    "name": "广州林服务有限公司",
+    "createdAt": "2024-08-29",
+    "status": "pending",
+    "users": 187,
+    "storage": "421 GB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-104",
+    "name": "南京高信息技术有限公司",
+    "createdAt": "2023-10-07",
+    "status": "pending",
+    "users": 281,
+    "storage": "3.9 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-105",
+    "name": "西安胡电子商务有限公司",
+    "createdAt": "2022-09-08",
+    "status": "active",
+    "users": 201,
+    "storage": "358 GB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-106",
+    "name": "广州郭电子商务有限公司",
+    "createdAt": "2022-11-29",
+    "status": "disabled",
+    "users": 49,
+    "storage": "677 GB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-107",
+    "name": "北京张文化传媒有限公司",
+    "createdAt": "2022-02-04",
+    "status": "pending",
+    "users": 243,
+    "storage": "4.9 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-108",
+    "name": "上海杨科技有限公司",
+    "createdAt": "2024-11-16",
+    "status": "active",
+    "users": 65,
+    "storage": "1.4 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-109",
+    "name": "广州周软件开发有限公司",
+    "createdAt": "2022-08-17",
+    "status": "pending",
+    "users": 158,
+    "storage": "322 GB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-110",
+    "name": "福州朱软件开发有限公司",
+    "createdAt": "2023-12-27",
+    "status": "active",
+    "users": 24,
+    "storage": "1.4 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-111",
+    "name": "厦门马科技有限公司",
+    "createdAt": "2023-05-10",
+    "status": "disabled",
+    "users": 257,
+    "storage": "2.5 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-112",
+    "name": "厦门马咨询有限公司",
+    "createdAt": "2022-06-03",
+    "status": "disabled",
+    "users": 140,
+    "storage": "1.7 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-113",
+    "name": "北京林信息技术有限公司",
+    "createdAt": "2023-03-28",
+    "status": "disabled",
+    "users": 161,
+    "storage": "3.0 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-114",
+    "name": "北京马服务有限公司",
+    "createdAt": "2025-02-07",
+    "status": "pending",
+    "users": 93,
+    "storage": "3.6 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-115",
+    "name": "武汉郑教育科技有限公司",
+    "createdAt": "2023-02-14",
+    "status": "disabled",
+    "users": 174,
+    "storage": "3.9 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-116",
+    "name": "福州郭网络科技有限公司",
+    "createdAt": "2024-02-29",
+    "status": "disabled",
+    "users": 38,
+    "storage": "3.1 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-117",
+    "name": "北京朱教育科技有限公司",
+    "createdAt": "2024-09-18",
+    "status": "disabled",
+    "users": 79,
+    "storage": "4.8 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-118",
+    "name": "苏州王贸易有限公司",
+    "createdAt": "2023-06-15",
+    "status": "active",
+    "users": 219,
+    "storage": "2.7 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-119",
+    "name": "福州郭软件开发有限公司",
+    "createdAt": "2022-06-27",
+    "status": "disabled",
+    "users": 23,
+    "storage": "2.3 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-120",
+    "name": "杭州王教育科技有限公司",
+    "createdAt": "2024-10-09",
+    "status": "disabled",
+    "users": 272,
+    "storage": "2.6 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-121",
+    "name": "天津周贸易有限公司",
+    "createdAt": "2022-04-14",
+    "status": "disabled",
+    "users": 257,
+    "storage": "2.6 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-122",
+    "name": "上海郑教育科技有限公司",
+    "createdAt": "2022-10-11",
+    "status": "disabled",
+    "users": 146,
+    "storage": "4.0 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-123",
+    "name": "南京郑科技有限公司",
+    "createdAt": "2023-07-16",
+    "status": "pending",
+    "users": 159,
+    "storage": "3.9 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-124",
+    "name": "苏州马网络科技有限公司",
+    "createdAt": "2022-04-04",
+    "status": "active",
+    "users": 114,
+    "storage": "2.0 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-125",
+    "name": "福州林网络科技有限公司",
+    "createdAt": "2022-02-13",
+    "status": "active",
+    "users": 297,
+    "storage": "4.7 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-126",
+    "name": "深圳王咨询有限公司",
+    "createdAt": "2022-04-20",
+    "status": "pending",
+    "users": 86,
+    "storage": "877 GB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-127",
+    "name": "西安杨文化传媒有限公司",
+    "createdAt": "2022-11-24",
+    "status": "active",
+    "users": 144,
+    "storage": "2.8 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-128",
+    "name": "广州郑科技有限公司",
+    "createdAt": "2022-10-01",
+    "status": "active",
+    "users": 25,
+    "storage": "300 GB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-129",
+    "name": "大连马信息技术有限公司",
+    "createdAt": "2023-07-19",
+    "status": "disabled",
+    "users": 253,
+    "storage": "3.8 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-130",
+    "name": "广州张咨询有限公司",
+    "createdAt": "2022-07-03",
+    "status": "disabled",
+    "users": 43,
+    "storage": "4.0 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-131",
+    "name": "长沙陈科技有限公司",
+    "createdAt": "2023-11-24",
+    "status": "pending",
+    "users": 175,
+    "storage": "646 GB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-132",
+    "name": "西安孙软件开发有限公司",
+    "createdAt": "2023-09-26",
+    "status": "disabled",
+    "users": 249,
+    "storage": "3.9 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-133",
+    "name": "广州黄服务有限公司",
+    "createdAt": "2023-05-26",
+    "status": "active",
+    "users": 296,
+    "storage": "1.6 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-134",
+    "name": "成都周电子商务有限公司",
+    "createdAt": "2024-08-18",
+    "status": "active",
+    "users": 17,
+    "storage": "1.8 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-135",
+    "name": "福州张贸易有限公司",
+    "createdAt": "2022-02-16",
+    "status": "pending",
+    "users": 83,
+    "storage": "4.4 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-136",
+    "name": "深圳黄软件开发有限公司",
+    "createdAt": "2023-11-11",
+    "status": "active",
+    "users": 141,
+    "storage": "555 GB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-137",
+    "name": "北京杨信息技术有限公司",
+    "createdAt": "2023-04-10",
+    "status": "disabled",
+    "users": 193,
+    "storage": "2.6 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-138",
+    "name": "郑州马文化传媒有限公司",
+    "createdAt": "2024-12-26",
+    "status": "active",
+    "users": 128,
+    "storage": "1.2 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-139",
+    "name": "杭州胡教育科技有限公司",
+    "createdAt": "2023-01-16",
+    "status": "active",
+    "users": 263,
+    "storage": "3.4 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-140",
+    "name": "青岛周科技有限公司",
+    "createdAt": "2022-05-01",
+    "status": "active",
+    "users": 210,
+    "storage": "3.1 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-141",
+    "name": "天津周网络科技有限公司",
+    "createdAt": "2025-03-08",
+    "status": "disabled",
+    "users": 240,
+    "storage": "856 GB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-142",
+    "name": "上海陈科技有限公司",
+    "createdAt": "2022-11-06",
+    "status": "pending",
+    "users": 141,
+    "storage": "4.3 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-143",
+    "name": "杭州胡文化传媒有限公司",
+    "createdAt": "2023-10-06",
+    "status": "pending",
+    "users": 137,
+    "storage": "91 GB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-144",
+    "name": "长沙何软件开发有限公司",
+    "createdAt": "2023-07-12",
+    "status": "disabled",
+    "users": 226,
+    "storage": "4.7 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-145",
+    "name": "西安李软件开发有限公司",
+    "createdAt": "2022-12-27",
+    "status": "pending",
+    "users": 290,
+    "storage": "3.2 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-146",
+    "name": "深圳孙信息技术有限公司",
+    "createdAt": "2024-01-20",
+    "status": "active",
+    "users": 230,
+    "storage": "2.8 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-147",
+    "name": "青岛杨文化传媒有限公司",
+    "createdAt": "2023-10-12",
+    "status": "disabled",
+    "users": 241,
+    "storage": "4.4 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-148",
+    "name": "沈阳郑电子商务有限公司",
+    "createdAt": "2022-02-25",
+    "status": "pending",
+    "users": 203,
+    "storage": "3.0 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-149",
+    "name": "南京周信息技术有限公司",
+    "createdAt": "2022-08-31",
+    "status": "pending",
+    "users": 242,
+    "storage": "5.0 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-150",
+    "name": "天津郭教育科技有限公司",
+    "createdAt": "2023-09-19",
+    "status": "pending",
+    "users": 237,
+    "storage": "3.2 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-151",
+    "name": "厦门陈信息技术有限公司",
+    "createdAt": "2023-04-13",
+    "status": "active",
+    "users": 183,
+    "storage": "348 GB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-152",
+    "name": "北京胡科技有限公司",
+    "createdAt": "2023-07-21",
+    "status": "disabled",
+    "users": 37,
+    "storage": "1.9 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-153",
+    "name": "广州罗文化传媒有限公司",
+    "createdAt": "2023-11-14",
+    "status": "disabled",
+    "users": 45,
+    "storage": "3.3 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-154",
+    "name": "厦门陈软件开发有限公司",
+    "createdAt": "2025-02-01",
+    "status": "pending",
+    "users": 263,
+    "storage": "2.7 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-155",
+    "name": "天津王软件开发有限公司",
+    "createdAt": "2025-01-30",
+    "status": "active",
+    "users": 86,
+    "storage": "2.0 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-156",
+    "name": "沈阳黄咨询有限公司",
+    "createdAt": "2023-01-21",
+    "status": "active",
+    "users": 243,
+    "storage": "1.9 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-157",
+    "name": "重庆吴贸易有限公司",
+    "createdAt": "2022-09-02",
+    "status": "active",
+    "users": 298,
+    "storage": "4.9 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-158",
+    "name": "苏州李网络科技有限公司",
+    "createdAt": "2023-03-29",
+    "status": "disabled",
+    "users": 290,
+    "storage": "2.3 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-159",
+    "name": "成都刘软件开发有限公司",
+    "createdAt": "2024-05-25",
+    "status": "pending",
+    "users": 54,
+    "storage": "575 GB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-160",
+    "name": "深圳陈电子商务有限公司",
+    "createdAt": "2024-02-09",
+    "status": "pending",
+    "users": 204,
+    "storage": "1.2 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-161",
+    "name": "上海朱软件开发有限公司",
+    "createdAt": "2025-01-26",
+    "status": "active",
+    "users": 274,
+    "storage": "2.2 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-162",
+    "name": "郑州马教育科技有限公司",
+    "createdAt": "2024-07-06",
+    "status": "disabled",
+    "users": 54,
+    "storage": "130 GB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-163",
+    "name": "青岛吴软件开发有限公司",
+    "createdAt": "2022-10-13",
+    "status": "disabled",
+    "users": 181,
+    "storage": "4.9 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-164",
+    "name": "广州朱咨询有限公司",
+    "createdAt": "2023-03-28",
+    "status": "pending",
+    "users": 174,
+    "storage": "4.7 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-165",
+    "name": "宁波何教育科技有限公司",
+    "createdAt": "2024-03-18",
+    "status": "disabled",
+    "users": 264,
+    "storage": "4.7 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-166",
+    "name": "杭州马软件开发有限公司",
+    "createdAt": "2022-03-04",
+    "status": "active",
+    "users": 138,
+    "storage": "2.0 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-167",
+    "name": "重庆郭软件开发有限公司",
+    "createdAt": "2022-08-06",
+    "status": "pending",
+    "users": 186,
+    "storage": "395 GB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-168",
+    "name": "厦门孙文化传媒有限公司",
+    "createdAt": "2023-12-11",
+    "status": "active",
+    "users": 205,
+    "storage": "2.8 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-169",
+    "name": "沈阳李信息技术有限公司",
+    "createdAt": "2022-03-07",
+    "status": "pending",
+    "users": 111,
+    "storage": "2.0 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-170",
+    "name": "北京朱信息技术有限公司",
+    "createdAt": "2024-11-17",
+    "status": "disabled",
+    "users": 66,
+    "storage": "905 GB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-171",
+    "name": "成都周文化传媒有限公司",
+    "createdAt": "2023-08-20",
+    "status": "pending",
+    "users": 159,
+    "storage": "3.2 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-172",
+    "name": "天津王网络科技有限公司",
+    "createdAt": "2025-03-03",
+    "status": "active",
+    "users": 94,
+    "storage": "455 GB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-173",
+    "name": "上海张教育科技有限公司",
+    "createdAt": "2025-02-02",
+    "status": "active",
+    "users": 52,
+    "storage": "402 GB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-174",
+    "name": "苏州胡网络科技有限公司",
+    "createdAt": "2023-07-24",
+    "status": "disabled",
+    "users": 170,
+    "storage": "4.4 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-175",
+    "name": "武汉郭文化传媒有限公司",
+    "createdAt": "2023-01-21",
+    "status": "pending",
+    "users": 13,
+    "storage": "306 GB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-176",
+    "name": "深圳何软件开发有限公司",
+    "createdAt": "2023-03-07",
+    "status": "disabled",
+    "users": 259,
+    "storage": "2.0 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-177",
+    "name": "北京高教育科技有限公司",
+    "createdAt": "2023-05-13",
+    "status": "disabled",
+    "users": 251,
+    "storage": "743 GB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-178",
+    "name": "北京黄电子商务有限公司",
+    "createdAt": "2022-02-14",
+    "status": "disabled",
+    "users": 151,
+    "storage": "1.3 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-179",
+    "name": "郑州赵文化传媒有限公司",
+    "createdAt": "2023-01-04",
+    "status": "pending",
+    "users": 54,
+    "storage": "2.3 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-180",
+    "name": "成都刘信息技术有限公司",
+    "createdAt": "2024-06-24",
+    "status": "disabled",
+    "users": 296,
+    "storage": "3.1 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-181",
+    "name": "武汉胡科技有限公司",
+    "createdAt": "2022-10-13",
+    "status": "pending",
+    "users": 116,
+    "storage": "4.5 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-182",
+    "name": "重庆郭文化传媒有限公司",
+    "createdAt": "2023-03-23",
+    "status": "disabled",
+    "users": 53,
+    "storage": "3.3 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-183",
+    "name": "武汉赵服务有限公司",
+    "createdAt": "2023-06-20",
+    "status": "disabled",
+    "users": 42,
+    "storage": "4.5 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-184",
+    "name": "郑州何网络科技有限公司",
+    "createdAt": "2024-01-21",
+    "status": "active",
+    "users": 284,
+    "storage": "5.0 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-185",
+    "name": "沈阳何教育科技有限公司",
+    "createdAt": "2025-03-08",
+    "status": "disabled",
+    "users": 212,
+    "storage": "1.4 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-186",
+    "name": "大连高服务有限公司",
+    "createdAt": "2023-08-02",
+    "status": "disabled",
+    "users": 170,
+    "storage": "1.5 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-187",
+    "name": "杭州李咨询有限公司",
+    "createdAt": "2023-01-21",
+    "status": "pending",
+    "users": 185,
+    "storage": "3.7 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-188",
+    "name": "沈阳周信息技术有限公司",
+    "createdAt": "2024-10-05",
+    "status": "active",
+    "users": 44,
+    "storage": "1.8 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-189",
+    "name": "大连杨软件开发有限公司",
+    "createdAt": "2022-05-26",
+    "status": "pending",
+    "users": 155,
+    "storage": "4.8 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-190",
+    "name": "天津马服务有限公司",
+    "createdAt": "2023-09-02",
+    "status": "pending",
+    "users": 48,
+    "storage": "70 GB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-191",
+    "name": "北京高服务有限公司",
+    "createdAt": "2022-10-13",
+    "status": "pending",
+    "users": 102,
+    "storage": "3.4 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-192",
+    "name": "天津罗科技有限公司",
+    "createdAt": "2024-07-05",
+    "status": "disabled",
+    "users": 239,
+    "storage": "792 GB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-193",
+    "name": "青岛李科技有限公司",
+    "createdAt": "2022-07-21",
+    "status": "active",
+    "users": 274,
+    "storage": "469 GB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-194",
+    "name": "郑州胡服务有限公司",
+    "createdAt": "2022-08-05",
+    "status": "active",
+    "users": 231,
+    "storage": "3.3 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-195",
+    "name": "天津杨网络科技有限公司",
+    "createdAt": "2023-04-10",
+    "status": "disabled",
+    "users": 245,
+    "storage": "376 GB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-196",
+    "name": "青岛杨文化传媒有限公司",
+    "createdAt": "2023-01-01",
+    "status": "pending",
+    "users": 291,
+    "storage": "4.1 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-197",
+    "name": "福州周教育科技有限公司",
+    "createdAt": "2022-07-19",
+    "status": "disabled",
+    "users": 262,
+    "storage": "4.2 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-198",
+    "name": "杭州孙文化传媒有限公司",
+    "createdAt": "2023-06-30",
+    "status": "disabled",
+    "users": 276,
+    "storage": "2.2 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-199",
+    "name": "福州李电子商务有限公司",
+    "createdAt": "2023-01-19",
+    "status": "pending",
+    "users": 229,
+    "storage": "1.9 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-200",
+    "name": "南京胡文化传媒有限公司",
+    "createdAt": "2023-05-23",
+    "status": "active",
+    "users": 270,
+    "storage": "311 GB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-201",
+    "name": "南京何文化传媒有限公司",
+    "createdAt": "2023-06-05",
+    "status": "pending",
+    "users": 220,
+    "storage": "3.3 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-202",
+    "name": "广州朱服务有限公司",
+    "createdAt": "2024-10-12",
+    "status": "active",
+    "users": 46,
+    "storage": "1.7 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-203",
+    "name": "大连杨咨询有限公司",
+    "createdAt": "2023-06-27",
+    "status": "pending",
+    "users": 241,
+    "storage": "342 GB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-204",
+    "name": "福州孙信息技术有限公司",
+    "createdAt": "2024-04-17",
+    "status": "disabled",
+    "users": 233,
+    "storage": "2.8 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-205",
+    "name": "厦门张电子商务有限公司",
+    "createdAt": "2022-10-19",
+    "status": "active",
+    "users": 99,
+    "storage": "4.4 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-206",
+    "name": "厦门王科技有限公司",
+    "createdAt": "2024-10-12",
+    "status": "disabled",
+    "users": 19,
+    "storage": "3.9 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-207",
+    "name": "上海罗科技有限公司",
+    "createdAt": "2023-03-18",
+    "status": "disabled",
+    "users": 232,
+    "storage": "4.4 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-208",
+    "name": "成都张服务有限公司",
+    "createdAt": "2023-07-28",
+    "status": "disabled",
+    "users": 226,
+    "storage": "2.9 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-209",
+    "name": "南京胡科技有限公司",
+    "createdAt": "2022-09-18",
+    "status": "disabled",
+    "users": 225,
+    "storage": "3.2 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-210",
+    "name": "福州黄信息技术有限公司",
+    "createdAt": "2024-05-08",
+    "status": "active",
+    "users": 90,
+    "storage": "4.9 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-211",
+    "name": "深圳刘咨询有限公司",
+    "createdAt": "2022-01-23",
+    "status": "pending",
+    "users": 211,
+    "storage": "3.8 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-212",
+    "name": "成都赵电子商务有限公司",
+    "createdAt": "2024-03-06",
+    "status": "active",
+    "users": 94,
+    "storage": "3.2 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-213",
+    "name": "大连张软件开发有限公司",
+    "createdAt": "2022-11-17",
+    "status": "disabled",
+    "users": 297,
+    "storage": "4.6 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-214",
+    "name": "西安李电子商务有限公司",
+    "createdAt": "2024-10-06",
+    "status": "active",
+    "users": 70,
+    "storage": "261 GB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-215",
+    "name": "深圳郑文化传媒有限公司",
+    "createdAt": "2022-08-08",
+    "status": "pending",
+    "users": 270,
+    "storage": "259 GB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-216",
+    "name": "苏州郑科技有限公司",
+    "createdAt": "2022-06-24",
+    "status": "pending",
+    "users": 120,
+    "storage": "1.9 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-217",
+    "name": "大连高文化传媒有限公司",
+    "createdAt": "2023-03-13",
+    "status": "active",
+    "users": 277,
+    "storage": "253 GB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-218",
+    "name": "杭州刘电子商务有限公司",
+    "createdAt": "2022-07-25",
+    "status": "disabled",
+    "users": 232,
+    "storage": "722 GB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-219",
+    "name": "沈阳赵咨询有限公司",
+    "createdAt": "2024-11-21",
+    "status": "active",
+    "users": 243,
+    "storage": "2.7 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-220",
+    "name": "西安杨软件开发有限公司",
+    "createdAt": "2024-04-02",
+    "status": "active",
+    "users": 12,
+    "storage": "1.7 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-221",
+    "name": "郑州周科技有限公司",
+    "createdAt": "2023-03-22",
+    "status": "active",
+    "users": 97,
+    "storage": "3.0 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-222",
+    "name": "重庆王教育科技有限公司",
+    "createdAt": "2023-03-19",
+    "status": "pending",
+    "users": 243,
+    "storage": "2.4 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-223",
+    "name": "上海罗服务有限公司",
+    "createdAt": "2023-12-07",
+    "status": "pending",
+    "users": 44,
+    "storage": "516 GB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-224",
+    "name": "郑州胡教育科技有限公司",
+    "createdAt": "2023-03-06",
+    "status": "active",
+    "users": 97,
+    "storage": "3.0 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-225",
+    "name": "武汉孙咨询有限公司",
+    "createdAt": "2022-08-03",
+    "status": "disabled",
+    "users": 156,
+    "storage": "3.4 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-226",
+    "name": "厦门孙教育科技有限公司",
+    "createdAt": "2022-08-25",
+    "status": "pending",
+    "users": 253,
+    "storage": "1.3 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-227",
+    "name": "宁波郑咨询有限公司",
+    "createdAt": "2024-12-25",
+    "status": "pending",
+    "users": 59,
+    "storage": "420 GB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-228",
+    "name": "宁波黄咨询有限公司",
+    "createdAt": "2024-07-30",
+    "status": "disabled",
+    "users": 209,
+    "storage": "4.3 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-229",
+    "name": "沈阳周软件开发有限公司",
+    "createdAt": "2022-08-29",
+    "status": "active",
+    "users": 259,
+    "storage": "438 GB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-230",
+    "name": "深圳刘信息技术有限公司",
+    "createdAt": "2022-02-28",
+    "status": "pending",
+    "users": 79,
+    "storage": "1.4 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-231",
+    "name": "沈阳陈电子商务有限公司",
+    "createdAt": "2025-03-07",
+    "status": "pending",
+    "users": 84,
+    "storage": "2.9 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-232",
+    "name": "大连林电子商务有限公司",
+    "createdAt": "2023-11-06",
+    "status": "pending",
+    "users": 117,
+    "storage": "2.2 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-233",
+    "name": "福州刘咨询有限公司",
+    "createdAt": "2022-04-23",
+    "status": "active",
+    "users": 277,
+    "storage": "1.5 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-234",
+    "name": "深圳张贸易有限公司",
+    "createdAt": "2022-08-20",
+    "status": "active",
+    "users": 69,
+    "storage": "808 GB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-235",
+    "name": "青岛朱贸易有限公司",
+    "createdAt": "2023-01-17",
+    "status": "pending",
+    "users": 130,
+    "storage": "421 GB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-236",
+    "name": "长沙胡电子商务有限公司",
+    "createdAt": "2024-11-12",
+    "status": "disabled",
+    "users": 178,
+    "storage": "1.9 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-237",
+    "name": "大连郭软件开发有限公司",
+    "createdAt": "2022-11-14",
+    "status": "pending",
+    "users": 187,
+    "storage": "1.2 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-238",
+    "name": "苏州王文化传媒有限公司",
+    "createdAt": "2022-10-24",
+    "status": "active",
+    "users": 85,
+    "storage": "2.9 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-239",
+    "name": "杭州周贸易有限公司",
+    "createdAt": "2024-06-02",
+    "status": "disabled",
+    "users": 283,
+    "storage": "3.3 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-240",
+    "name": "南京孙教育科技有限公司",
+    "createdAt": "2024-12-22",
+    "status": "disabled",
+    "users": 271,
+    "storage": "1.8 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-241",
+    "name": "成都罗贸易有限公司",
+    "createdAt": "2022-04-21",
+    "status": "active",
+    "users": 17,
+    "storage": "2.7 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-242",
+    "name": "苏州林服务有限公司",
+    "createdAt": "2024-01-12",
+    "status": "pending",
+    "users": 243,
+    "storage": "2.0 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-243",
+    "name": "厦门李网络科技有限公司",
+    "createdAt": "2023-11-03",
+    "status": "disabled",
+    "users": 210,
+    "storage": "4.7 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-244",
+    "name": "武汉杨软件开发有限公司",
+    "createdAt": "2023-05-23",
+    "status": "disabled",
+    "users": 208,
+    "storage": "55 GB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-245",
+    "name": "北京罗服务有限公司",
+    "createdAt": "2023-11-23",
+    "status": "pending",
+    "users": 51,
+    "storage": "2.9 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-246",
+    "name": "宁波高文化传媒有限公司",
+    "createdAt": "2024-11-06",
+    "status": "pending",
+    "users": 46,
+    "storage": "2.4 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-247",
+    "name": "北京林软件开发有限公司",
+    "createdAt": "2024-03-29",
+    "status": "active",
+    "users": 21,
+    "storage": "1.8 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-248",
+    "name": "北京赵软件开发有限公司",
+    "createdAt": "2024-04-20",
+    "status": "disabled",
+    "users": 182,
+    "storage": "1.2 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-249",
+    "name": "北京郑文化传媒有限公司",
+    "createdAt": "2024-05-01",
+    "status": "pending",
+    "users": 197,
+    "storage": "3.1 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-250",
+    "name": "大连陈科技有限公司",
+    "createdAt": "2023-08-16",
+    "status": "disabled",
+    "users": 241,
+    "storage": "2.1 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-251",
+    "name": "青岛陈咨询有限公司",
+    "createdAt": "2022-05-19",
+    "status": "disabled",
+    "users": 121,
+    "storage": "400 GB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-252",
+    "name": "南京朱网络科技有限公司",
+    "createdAt": "2024-06-25",
+    "status": "active",
+    "users": 239,
+    "storage": "4.1 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-253",
+    "name": "南京黄服务有限公司",
+    "createdAt": "2022-04-22",
+    "status": "disabled",
+    "users": 108,
+    "storage": "3.4 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-254",
+    "name": "沈阳王电子商务有限公司",
+    "createdAt": "2023-02-07",
+    "status": "active",
+    "users": 85,
+    "storage": "2.4 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-255",
+    "name": "郑州孙电子商务有限公司",
+    "createdAt": "2023-02-23",
+    "status": "disabled",
+    "users": 248,
+    "storage": "3.9 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-256",
+    "name": "西安杨电子商务有限公司",
+    "createdAt": "2023-11-22",
+    "status": "pending",
+    "users": 276,
+    "storage": "3.3 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-257",
+    "name": "重庆王信息技术有限公司",
+    "createdAt": "2024-03-13",
+    "status": "active",
+    "users": 252,
+    "storage": "2.2 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-258",
+    "name": "广州马软件开发有限公司",
+    "createdAt": "2024-05-22",
+    "status": "active",
+    "users": 23,
+    "storage": "794 GB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-259",
+    "name": "福州郭教育科技有限公司",
+    "createdAt": "2024-07-20",
+    "status": "active",
+    "users": 125,
+    "storage": "1.8 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-260",
+    "name": "北京张服务有限公司",
+    "createdAt": "2024-09-24",
+    "status": "disabled",
+    "users": 182,
+    "storage": "3.9 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-261",
+    "name": "福州朱网络科技有限公司",
+    "createdAt": "2024-04-20",
+    "status": "pending",
+    "users": 202,
+    "storage": "4.4 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-262",
+    "name": "青岛杨文化传媒有限公司",
+    "createdAt": "2022-05-09",
+    "status": "active",
+    "users": 218,
+    "storage": "1.5 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-263",
+    "name": "长沙陈电子商务有限公司",
+    "createdAt": "2024-11-24",
+    "status": "disabled",
+    "users": 99,
+    "storage": "2.8 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-264",
+    "name": "北京张网络科技有限公司",
+    "createdAt": "2025-03-13",
+    "status": "pending",
+    "users": 108,
+    "storage": "1.4 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-265",
+    "name": "青岛郭网络科技有限公司",
+    "createdAt": "2022-07-12",
+    "status": "active",
+    "users": 93,
+    "storage": "4.1 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-266",
+    "name": "深圳胡信息技术有限公司",
+    "createdAt": "2024-09-28",
+    "status": "active",
+    "users": 228,
+    "storage": "4.5 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-267",
+    "name": "南京吴网络科技有限公司",
+    "createdAt": "2023-01-08",
+    "status": "pending",
+    "users": 293,
+    "storage": "3.8 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-268",
+    "name": "杭州李信息技术有限公司",
+    "createdAt": "2023-06-08",
+    "status": "pending",
+    "users": 49,
+    "storage": "2.5 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-269",
+    "name": "深圳林文化传媒有限公司",
+    "createdAt": "2022-11-12",
+    "status": "active",
+    "users": 91,
+    "storage": "1.9 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-270",
+    "name": "福州王软件开发有限公司",
+    "createdAt": "2023-06-05",
+    "status": "pending",
+    "users": 118,
+    "storage": "3.8 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-271",
+    "name": "福州吴信息技术有限公司",
+    "createdAt": "2024-07-09",
+    "status": "pending",
+    "users": 218,
+    "storage": "2.9 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-272",
+    "name": "厦门刘文化传媒有限公司",
+    "createdAt": "2022-05-19",
+    "status": "pending",
+    "users": 291,
+    "storage": "1.8 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-273",
+    "name": "武汉林咨询有限公司",
+    "createdAt": "2022-05-09",
+    "status": "disabled",
+    "users": 82,
+    "storage": "84 GB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-274",
+    "name": "苏州赵信息技术有限公司",
+    "createdAt": "2024-08-26",
+    "status": "pending",
+    "users": 192,
+    "storage": "1.4 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-275",
+    "name": "厦门李贸易有限公司",
+    "createdAt": "2022-05-14",
+    "status": "pending",
+    "users": 130,
+    "storage": "2.4 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-276",
+    "name": "北京胡科技有限公司",
+    "createdAt": "2023-11-06",
+    "status": "pending",
+    "users": 223,
+    "storage": "627 GB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-277",
+    "name": "南京吴文化传媒有限公司",
+    "createdAt": "2024-08-25",
+    "status": "disabled",
+    "users": 122,
+    "storage": "4.9 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-278",
+    "name": "沈阳张网络科技有限公司",
+    "createdAt": "2024-12-07",
+    "status": "pending",
+    "users": 215,
+    "storage": "4.9 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-279",
+    "name": "长沙郑网络科技有限公司",
+    "createdAt": "2024-04-28",
+    "status": "disabled",
+    "users": 101,
+    "storage": "4.7 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-280",
+    "name": "苏州李软件开发有限公司",
+    "createdAt": "2023-06-25",
+    "status": "disabled",
+    "users": 59,
+    "storage": "3.7 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-281",
+    "name": "天津何信息技术有限公司",
+    "createdAt": "2025-01-27",
+    "status": "disabled",
+    "users": 106,
+    "storage": "2.4 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-282",
+    "name": "沈阳杨咨询有限公司",
+    "createdAt": "2023-01-28",
+    "status": "disabled",
+    "users": 281,
+    "storage": "846 GB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-283",
+    "name": "成都罗网络科技有限公司",
+    "createdAt": "2024-02-21",
+    "status": "active",
+    "users": 60,
+    "storage": "3.4 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-284",
+    "name": "重庆周电子商务有限公司",
+    "createdAt": "2023-05-09",
+    "status": "active",
+    "users": 56,
+    "storage": "2.0 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-285",
+    "name": "天津陈信息技术有限公司",
+    "createdAt": "2024-05-30",
+    "status": "active",
+    "users": 125,
+    "storage": "506 GB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-286",
+    "name": "天津胡咨询有限公司",
+    "createdAt": "2025-02-13",
+    "status": "active",
+    "users": 43,
+    "storage": "2.8 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-287",
+    "name": "杭州张电子商务有限公司",
+    "createdAt": "2024-05-30",
+    "status": "active",
+    "users": 165,
+    "storage": "698 GB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-288",
+    "name": "西安何软件开发有限公司",
+    "createdAt": "2024-09-06",
+    "status": "active",
+    "users": 244,
+    "storage": "551 GB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-289",
+    "name": "西安林教育科技有限公司",
+    "createdAt": "2024-09-04",
+    "status": "disabled",
+    "users": 299,
+    "storage": "528 GB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-290",
+    "name": "武汉孙网络科技有限公司",
+    "createdAt": "2024-08-01",
+    "status": "active",
+    "users": 229,
+    "storage": "4.6 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-291",
+    "name": "大连何科技有限公司",
+    "createdAt": "2024-03-17",
+    "status": "active",
+    "users": 16,
+    "storage": "751 GB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-292",
+    "name": "杭州黄软件开发有限公司",
+    "createdAt": "2022-04-19",
+    "status": "pending",
+    "users": 164,
+    "storage": "4.7 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-293",
+    "name": "天津郭软件开发有限公司",
+    "createdAt": "2023-06-16",
+    "status": "disabled",
+    "users": 174,
+    "storage": "3.7 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-294",
+    "name": "天津罗信息技术有限公司",
+    "createdAt": "2022-07-26",
+    "status": "active",
+    "users": 58,
+    "storage": "3.2 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-295",
+    "name": "青岛周软件开发有限公司",
+    "createdAt": "2022-11-17",
+    "status": "disabled",
+    "users": 125,
+    "storage": "379 GB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-296",
+    "name": "杭州胡电子商务有限公司",
+    "createdAt": "2025-03-02",
+    "status": "pending",
+    "users": 280,
+    "storage": "2.8 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-297",
+    "name": "杭州郭电子商务有限公司",
+    "createdAt": "2024-07-13",
+    "status": "pending",
+    "users": 87,
+    "storage": "1.4 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-298",
+    "name": "南京朱电子商务有限公司",
+    "createdAt": "2023-03-07",
+    "status": "active",
+    "users": 165,
+    "storage": "4.4 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-299",
+    "name": "沈阳孙信息技术有限公司",
+    "createdAt": "2024-06-17",
+    "status": "pending",
+    "users": 32,
+    "storage": "2.7 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-300",
+    "name": "天津郭贸易有限公司",
+    "createdAt": "2022-02-05",
+    "status": "active",
+    "users": 133,
+    "storage": "1.5 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-301",
+    "name": "广州刘信息技术有限公司",
+    "createdAt": "2022-08-04",
+    "status": "disabled",
+    "users": 290,
+    "storage": "3.6 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-302",
+    "name": "南京何科技有限公司",
+    "createdAt": "2024-09-25",
+    "status": "pending",
+    "users": 79,
+    "storage": "790 GB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-303",
+    "name": "北京赵科技有限公司",
+    "createdAt": "2023-06-04",
+    "status": "active",
+    "users": 13,
+    "storage": "698 GB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-304",
+    "name": "北京吴科技有限公司",
+    "createdAt": "2022-09-14",
+    "status": "disabled",
+    "users": 58,
+    "storage": "2.1 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-305",
+    "name": "武汉郑教育科技有限公司",
+    "createdAt": "2024-02-11",
+    "status": "pending",
+    "users": 101,
+    "storage": "4.7 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-306",
+    "name": "厦门刘软件开发有限公司",
+    "createdAt": "2022-11-12",
+    "status": "active",
+    "users": 298,
+    "storage": "2.3 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-307",
+    "name": "沈阳赵软件开发有限公司",
+    "createdAt": "2023-11-29",
+    "status": "active",
+    "users": 258,
+    "storage": "2.5 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-308",
+    "name": "青岛罗贸易有限公司",
+    "createdAt": "2022-04-03",
+    "status": "pending",
+    "users": 121,
+    "storage": "900 GB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-309",
+    "name": "天津罗贸易有限公司",
+    "createdAt": "2023-09-04",
+    "status": "pending",
+    "users": 206,
+    "storage": "2.1 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-310",
+    "name": "武汉马电子商务有限公司",
+    "createdAt": "2023-05-29",
+    "status": "disabled",
+    "users": 77,
+    "storage": "238 GB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-311",
+    "name": "苏州黄信息技术有限公司",
+    "createdAt": "2025-02-04",
+    "status": "disabled",
+    "users": 233,
+    "storage": "1.7 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-312",
+    "name": "福州赵服务有限公司",
+    "createdAt": "2023-05-17",
+    "status": "disabled",
+    "users": 168,
+    "storage": "1.6 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-313",
+    "name": "福州郭教育科技有限公司",
+    "createdAt": "2024-06-18",
+    "status": "disabled",
+    "users": 50,
+    "storage": "4.8 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-314",
+    "name": "福州郭服务有限公司",
+    "createdAt": "2022-06-23",
+    "status": "disabled",
+    "users": 240,
+    "storage": "4.7 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-315",
+    "name": "天津赵教育科技有限公司",
+    "createdAt": "2023-11-16",
+    "status": "active",
+    "users": 173,
+    "storage": "3.1 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-316",
+    "name": "苏州马信息技术有限公司",
+    "createdAt": "2022-05-13",
+    "status": "disabled",
+    "users": 58,
+    "storage": "966 GB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-317",
+    "name": "长沙马教育科技有限公司",
+    "createdAt": "2023-09-27",
+    "status": "disabled",
+    "users": 287,
+    "storage": "2.5 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-318",
+    "name": "重庆陈网络科技有限公司",
+    "createdAt": "2023-05-02",
+    "status": "disabled",
+    "users": 200,
+    "storage": "3.3 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-319",
+    "name": "青岛郑网络科技有限公司",
+    "createdAt": "2024-02-29",
+    "status": "pending",
+    "users": 146,
+    "storage": "1.3 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-320",
+    "name": "成都王科技有限公司",
+    "createdAt": "2025-03-11",
+    "status": "active",
+    "users": 101,
+    "storage": "3.3 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-321",
+    "name": "北京何电子商务有限公司",
+    "createdAt": "2022-03-22",
+    "status": "active",
+    "users": 124,
+    "storage": "432 GB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-322",
+    "name": "苏州林贸易有限公司",
+    "createdAt": "2022-10-16",
+    "status": "pending",
+    "users": 252,
+    "storage": "4.3 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-323",
+    "name": "大连吴贸易有限公司",
+    "createdAt": "2022-02-03",
+    "status": "pending",
+    "users": 109,
+    "storage": "4.4 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-324",
+    "name": "成都刘科技有限公司",
+    "createdAt": "2022-05-24",
+    "status": "active",
+    "users": 123,
+    "storage": "1.6 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-325",
+    "name": "成都林网络科技有限公司",
+    "createdAt": "2022-01-28",
+    "status": "active",
+    "users": 29,
+    "storage": "1.2 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-326",
+    "name": "宁波高服务有限公司",
+    "createdAt": "2024-08-22",
+    "status": "pending",
+    "users": 176,
+    "storage": "4.7 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-327",
+    "name": "苏州黄咨询有限公司",
+    "createdAt": "2023-06-18",
+    "status": "active",
+    "users": 103,
+    "storage": "4.1 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-328",
+    "name": "大连郑软件开发有限公司",
+    "createdAt": "2023-03-17",
+    "status": "disabled",
+    "users": 210,
+    "storage": "4.3 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-329",
+    "name": "青岛吴电子商务有限公司",
+    "createdAt": "2024-12-06",
+    "status": "pending",
+    "users": 22,
+    "storage": "570 GB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-330",
+    "name": "成都孙文化传媒有限公司",
+    "createdAt": "2023-11-29",
+    "status": "disabled",
+    "users": 190,
+    "storage": "3.3 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-331",
+    "name": "大连罗教育科技有限公司",
+    "createdAt": "2024-08-10",
+    "status": "pending",
+    "users": 110,
+    "storage": "3.0 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-332",
+    "name": "上海赵文化传媒有限公司",
+    "createdAt": "2023-11-19",
+    "status": "active",
+    "users": 70,
+    "storage": "1.0 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-333",
+    "name": "西安吴软件开发有限公司",
+    "createdAt": "2023-10-13",
+    "status": "disabled",
+    "users": 175,
+    "storage": "4.8 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-334",
+    "name": "杭州马信息技术有限公司",
+    "createdAt": "2025-03-15",
+    "status": "pending",
+    "users": 137,
+    "storage": "4.3 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-335",
+    "name": "广州罗文化传媒有限公司",
+    "createdAt": "2023-10-07",
+    "status": "disabled",
+    "users": 115,
+    "storage": "4.3 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-336",
+    "name": "长沙陈贸易有限公司",
+    "createdAt": "2022-09-14",
+    "status": "active",
+    "users": 17,
+    "storage": "1.9 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-337",
+    "name": "青岛马贸易有限公司",
+    "createdAt": "2024-03-19",
+    "status": "disabled",
+    "users": 250,
+    "storage": "1.4 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-338",
+    "name": "郑州郑软件开发有限公司",
+    "createdAt": "2024-01-11",
+    "status": "pending",
+    "users": 42,
+    "storage": "4.7 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-339",
+    "name": "武汉何信息技术有限公司",
+    "createdAt": "2023-12-21",
+    "status": "pending",
+    "users": 129,
+    "storage": "3.1 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-340",
+    "name": "西安胡信息技术有限公司",
+    "createdAt": "2022-01-17",
+    "status": "pending",
+    "users": 198,
+    "storage": "856 GB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-341",
+    "name": "深圳朱网络科技有限公司",
+    "createdAt": "2022-04-11",
+    "status": "disabled",
+    "users": 56,
+    "storage": "1.9 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-342",
+    "name": "广州杨文化传媒有限公司",
+    "createdAt": "2022-08-30",
+    "status": "disabled",
+    "users": 205,
+    "storage": "4.8 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-343",
+    "name": "南京马软件开发有限公司",
+    "createdAt": "2023-01-19",
+    "status": "pending",
+    "users": 255,
+    "storage": "2.3 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-344",
+    "name": "广州刘网络科技有限公司",
+    "createdAt": "2023-04-26",
+    "status": "disabled",
+    "users": 271,
+    "storage": "4.9 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-345",
+    "name": "大连林文化传媒有限公司",
+    "createdAt": "2024-09-10",
+    "status": "disabled",
+    "users": 218,
+    "storage": "506 GB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-346",
+    "name": "沈阳郭贸易有限公司",
+    "createdAt": "2024-01-22",
+    "status": "disabled",
+    "users": 145,
+    "storage": "1.8 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-347",
+    "name": "长沙孙咨询有限公司",
+    "createdAt": "2024-07-06",
+    "status": "pending",
+    "users": 124,
+    "storage": "2.3 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-348",
+    "name": "天津张咨询有限公司",
+    "createdAt": "2024-06-10",
+    "status": "pending",
+    "users": 154,
+    "storage": "511 GB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-349",
+    "name": "郑州朱文化传媒有限公司",
+    "createdAt": "2023-02-10",
+    "status": "pending",
+    "users": 73,
+    "storage": "3.1 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-350",
+    "name": "西安胡科技有限公司",
+    "createdAt": "2022-01-20",
+    "status": "active",
+    "users": 247,
+    "storage": "3.1 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-351",
+    "name": "深圳吴咨询有限公司",
+    "createdAt": "2023-02-26",
+    "status": "active",
+    "users": 203,
+    "storage": "2.2 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-352",
+    "name": "广州林服务有限公司",
+    "createdAt": "2023-07-02",
+    "status": "pending",
+    "users": 142,
+    "storage": "1.7 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-353",
+    "name": "深圳李咨询有限公司",
+    "createdAt": "2023-05-25",
+    "status": "disabled",
+    "users": 210,
+    "storage": "2.9 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-354",
+    "name": "厦门陈服务有限公司",
+    "createdAt": "2022-06-12",
+    "status": "disabled",
+    "users": 100,
+    "storage": "3.1 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-355",
+    "name": "青岛罗网络科技有限公司",
+    "createdAt": "2022-10-13",
+    "status": "active",
+    "users": 173,
+    "storage": "5.0 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-356",
+    "name": "西安李服务有限公司",
+    "createdAt": "2023-09-06",
+    "status": "disabled",
+    "users": 278,
+    "storage": "3.9 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-357",
+    "name": "天津张网络科技有限公司",
+    "createdAt": "2023-05-27",
+    "status": "active",
+    "users": 285,
+    "storage": "3.5 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-358",
+    "name": "长沙王软件开发有限公司",
+    "createdAt": "2024-03-01",
+    "status": "active",
+    "users": 286,
+    "storage": "1.2 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-359",
+    "name": "西安郑信息技术有限公司",
+    "createdAt": "2023-02-04",
+    "status": "disabled",
+    "users": 105,
+    "storage": "4.4 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-360",
+    "name": "大连刘教育科技有限公司",
+    "createdAt": "2022-01-22",
+    "status": "pending",
+    "users": 271,
+    "storage": "1.8 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-361",
+    "name": "上海何信息技术有限公司",
+    "createdAt": "2024-05-03",
+    "status": "disabled",
+    "users": 162,
+    "storage": "3.5 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-362",
+    "name": "杭州罗网络科技有限公司",
+    "createdAt": "2023-05-10",
+    "status": "pending",
+    "users": 299,
+    "storage": "1.1 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-363",
+    "name": "郑州李网络科技有限公司",
+    "createdAt": "2022-07-27",
+    "status": "pending",
+    "users": 133,
+    "storage": "2.3 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-364",
+    "name": "苏州陈服务有限公司",
+    "createdAt": "2023-09-04",
+    "status": "pending",
+    "users": 159,
+    "storage": "592 GB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-365",
+    "name": "厦门孙贸易有限公司",
+    "createdAt": "2023-03-20",
+    "status": "disabled",
+    "users": 10,
+    "storage": "1.1 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-366",
+    "name": "郑州周电子商务有限公司",
+    "createdAt": "2024-04-09",
+    "status": "active",
+    "users": 261,
+    "storage": "3.7 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-367",
+    "name": "杭州林软件开发有限公司",
+    "createdAt": "2022-06-29",
+    "status": "disabled",
+    "users": 63,
+    "storage": "3.4 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-368",
+    "name": "天津周教育科技有限公司",
+    "createdAt": "2023-08-13",
+    "status": "active",
+    "users": 65,
+    "storage": "2.2 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-369",
+    "name": "西安高文化传媒有限公司",
+    "createdAt": "2022-03-28",
+    "status": "pending",
+    "users": 103,
+    "storage": "1.8 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-370",
+    "name": "武汉高软件开发有限公司",
+    "createdAt": "2023-03-25",
+    "status": "active",
+    "users": 41,
+    "storage": "1.1 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-371",
+    "name": "北京陈服务有限公司",
+    "createdAt": "2024-03-11",
+    "status": "active",
+    "users": 232,
+    "storage": "1.1 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-372",
+    "name": "重庆张贸易有限公司",
+    "createdAt": "2022-08-15",
+    "status": "disabled",
+    "users": 93,
+    "storage": "250 GB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-373",
+    "name": "成都郑科技有限公司",
+    "createdAt": "2023-04-30",
+    "status": "active",
+    "users": 186,
+    "storage": "500 GB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-374",
+    "name": "天津何软件开发有限公司",
+    "createdAt": "2025-02-26",
+    "status": "disabled",
+    "users": 124,
+    "storage": "1.1 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-375",
+    "name": "福州朱软件开发有限公司",
+    "createdAt": "2023-02-20",
+    "status": "pending",
+    "users": 194,
+    "storage": "3.5 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-376",
+    "name": "武汉李科技有限公司",
+    "createdAt": "2023-03-30",
+    "status": "active",
+    "users": 102,
+    "storage": "4.7 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-377",
+    "name": "上海郭网络科技有限公司",
+    "createdAt": "2022-08-27",
+    "status": "pending",
+    "users": 61,
+    "storage": "3.7 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-378",
+    "name": "厦门李电子商务有限公司",
+    "createdAt": "2023-12-29",
+    "status": "disabled",
+    "users": 93,
+    "storage": "4.5 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-379",
+    "name": "郑州张文化传媒有限公司",
+    "createdAt": "2024-02-15",
+    "status": "disabled",
+    "users": 232,
+    "storage": "264 GB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-380",
+    "name": "长沙王咨询有限公司",
+    "createdAt": "2025-02-10",
+    "status": "pending",
+    "users": 250,
+    "storage": "2.3 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-381",
+    "name": "南京罗信息技术有限公司",
+    "createdAt": "2022-06-03",
+    "status": "pending",
+    "users": 87,
+    "storage": "2.7 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-382",
+    "name": "杭州王电子商务有限公司",
+    "createdAt": "2024-11-06",
+    "status": "active",
+    "users": 173,
+    "storage": "2.7 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-383",
+    "name": "西安胡文化传媒有限公司",
+    "createdAt": "2022-03-17",
+    "status": "active",
+    "users": 18,
+    "storage": "1.0 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-384",
+    "name": "大连郑电子商务有限公司",
+    "createdAt": "2024-11-12",
+    "status": "pending",
+    "users": 169,
+    "storage": "3.9 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-385",
+    "name": "天津杨网络科技有限公司",
+    "createdAt": "2024-01-27",
+    "status": "active",
+    "users": 155,
+    "storage": "803 GB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-386",
+    "name": "福州马服务有限公司",
+    "createdAt": "2024-08-29",
+    "status": "disabled",
+    "users": 49,
+    "storage": "451 GB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-387",
+    "name": "广州郭服务有限公司",
+    "createdAt": "2023-05-22",
+    "status": "pending",
+    "users": 125,
+    "storage": "4.4 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-388",
+    "name": "上海张服务有限公司",
+    "createdAt": "2023-01-22",
+    "status": "disabled",
+    "users": 194,
+    "storage": "1.3 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-389",
+    "name": "苏州何咨询有限公司",
+    "createdAt": "2022-12-02",
+    "status": "pending",
+    "users": 72,
+    "storage": "4.7 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-390",
+    "name": "杭州张文化传媒有限公司",
+    "createdAt": "2023-03-24",
+    "status": "pending",
+    "users": 113,
+    "storage": "1.4 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-391",
+    "name": "南京胡咨询有限公司",
+    "createdAt": "2022-03-25",
+    "status": "disabled",
+    "users": 18,
+    "storage": "2.1 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-392",
+    "name": "天津马信息技术有限公司",
+    "createdAt": "2023-07-12",
+    "status": "pending",
+    "users": 94,
+    "storage": "3.1 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-393",
+    "name": "重庆孙文化传媒有限公司",
+    "createdAt": "2023-11-26",
+    "status": "active",
+    "users": 90,
+    "storage": "4.0 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-394",
+    "name": "杭州林咨询有限公司",
+    "createdAt": "2024-04-02",
+    "status": "pending",
+    "users": 180,
+    "storage": "4.0 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-395",
+    "name": "沈阳杨软件开发有限公司",
+    "createdAt": "2023-04-01",
+    "status": "disabled",
+    "users": 157,
+    "storage": "1.5 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-396",
+    "name": "长沙周文化传媒有限公司",
+    "createdAt": "2023-01-25",
+    "status": "active",
+    "users": 144,
+    "storage": "4.5 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-397",
+    "name": "苏州周教育科技有限公司",
+    "createdAt": "2023-06-17",
+    "status": "disabled",
+    "users": 203,
+    "storage": "2.6 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-398",
+    "name": "成都郑教育科技有限公司",
+    "createdAt": "2024-03-27",
+    "status": "disabled",
+    "users": 43,
+    "storage": "1.3 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-399",
+    "name": "成都郑贸易有限公司",
+    "createdAt": "2023-02-07",
+    "status": "pending",
+    "users": 109,
+    "storage": "3.5 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-400",
+    "name": "上海孙服务有限公司",
+    "createdAt": "2024-04-08",
+    "status": "active",
+    "users": 300,
+    "storage": "524 GB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-401",
+    "name": "长沙高软件开发有限公司",
+    "createdAt": "2022-12-22",
+    "status": "active",
+    "users": 70,
+    "storage": "4.1 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-402",
+    "name": "广州高网络科技有限公司",
+    "createdAt": "2023-04-29",
+    "status": "disabled",
+    "users": 247,
+    "storage": "3.1 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-403",
+    "name": "西安陈科技有限公司",
+    "createdAt": "2022-10-12",
+    "status": "disabled",
+    "users": 101,
+    "storage": "3.9 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-404",
+    "name": "西安赵软件开发有限公司",
+    "createdAt": "2023-03-08",
+    "status": "active",
+    "users": 117,
+    "storage": "2.3 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-405",
+    "name": "武汉何网络科技有限公司",
+    "createdAt": "2022-01-20",
+    "status": "active",
+    "users": 51,
+    "storage": "4.2 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-406",
+    "name": "沈阳吴科技有限公司",
+    "createdAt": "2023-09-10",
+    "status": "disabled",
+    "users": 288,
+    "storage": "4.0 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-407",
+    "name": "郑州马软件开发有限公司",
+    "createdAt": "2024-09-20",
+    "status": "pending",
+    "users": 130,
+    "storage": "4.9 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-408",
+    "name": "上海林科技有限公司",
+    "createdAt": "2022-12-13",
+    "status": "disabled",
+    "users": 238,
+    "storage": "3.2 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-409",
+    "name": "深圳胡咨询有限公司",
+    "createdAt": "2024-12-05",
+    "status": "disabled",
+    "users": 293,
+    "storage": "1.4 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-410",
+    "name": "沈阳张网络科技有限公司",
+    "createdAt": "2023-06-09",
+    "status": "disabled",
+    "users": 284,
+    "storage": "2.9 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-411",
+    "name": "上海孙软件开发有限公司",
+    "createdAt": "2025-01-28",
+    "status": "pending",
+    "users": 147,
+    "storage": "4.5 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-412",
+    "name": "沈阳黄贸易有限公司",
+    "createdAt": "2022-12-07",
+    "status": "disabled",
+    "users": 82,
+    "storage": "1.6 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-413",
+    "name": "宁波何软件开发有限公司",
+    "createdAt": "2022-02-13",
+    "status": "active",
+    "users": 23,
+    "storage": "3.1 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-414",
+    "name": "天津朱服务有限公司",
+    "createdAt": "2024-11-27",
+    "status": "pending",
+    "users": 62,
+    "storage": "3.3 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-415",
+    "name": "重庆周服务有限公司",
+    "createdAt": "2023-12-20",
+    "status": "active",
+    "users": 92,
+    "storage": "753 GB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-416",
+    "name": "沈阳郭咨询有限公司",
+    "createdAt": "2024-06-18",
+    "status": "active",
+    "users": 253,
+    "storage": "384 GB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-417",
+    "name": "厦门杨文化传媒有限公司",
+    "createdAt": "2024-11-13",
+    "status": "disabled",
+    "users": 239,
+    "storage": "957 GB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-418",
+    "name": "南京杨服务有限公司",
+    "createdAt": "2022-08-10",
+    "status": "active",
+    "users": 107,
+    "storage": "1.6 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-419",
+    "name": "沈阳刘科技有限公司",
+    "createdAt": "2024-04-30",
+    "status": "pending",
+    "users": 274,
+    "storage": "1.4 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-420",
+    "name": "北京郭教育科技有限公司",
+    "createdAt": "2023-09-02",
+    "status": "active",
+    "users": 197,
+    "storage": "1.6 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-421",
+    "name": "长沙郑信息技术有限公司",
+    "createdAt": "2022-02-24",
+    "status": "pending",
+    "users": 282,
+    "storage": "1.1 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-422",
+    "name": "深圳吴教育科技有限公司",
+    "createdAt": "2024-09-28",
+    "status": "disabled",
+    "users": 151,
+    "storage": "3.0 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-423",
+    "name": "南京郑信息技术有限公司",
+    "createdAt": "2024-09-02",
+    "status": "active",
+    "users": 57,
+    "storage": "3.1 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-424",
+    "name": "杭州陈网络科技有限公司",
+    "createdAt": "2023-05-24",
+    "status": "active",
+    "users": 24,
+    "storage": "693 GB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-425",
+    "name": "大连黄网络科技有限公司",
+    "createdAt": "2024-09-15",
+    "status": "pending",
+    "users": 114,
+    "storage": "1.8 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-426",
+    "name": "南京胡信息技术有限公司",
+    "createdAt": "2024-11-22",
+    "status": "disabled",
+    "users": 213,
+    "storage": "2.2 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-427",
+    "name": "福州张科技有限公司",
+    "createdAt": "2025-03-05",
+    "status": "disabled",
+    "users": 89,
+    "storage": "3.1 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-428",
+    "name": "重庆刘软件开发有限公司",
+    "createdAt": "2024-11-23",
+    "status": "disabled",
+    "users": 24,
+    "storage": "4.1 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-429",
+    "name": "杭州黄咨询有限公司",
+    "createdAt": "2025-01-14",
+    "status": "pending",
+    "users": 25,
+    "storage": "2.1 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-430",
+    "name": "青岛黄信息技术有限公司",
+    "createdAt": "2025-02-06",
+    "status": "disabled",
+    "users": 294,
+    "storage": "4.6 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-431",
+    "name": "宁波高教育科技有限公司",
+    "createdAt": "2022-03-08",
+    "status": "disabled",
+    "users": 104,
+    "storage": "2.4 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-432",
+    "name": "西安孙教育科技有限公司",
+    "createdAt": "2024-07-31",
+    "status": "disabled",
+    "users": 139,
+    "storage": "858 GB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-433",
+    "name": "重庆刘电子商务有限公司",
+    "createdAt": "2022-04-28",
+    "status": "disabled",
+    "users": 178,
+    "storage": "2.8 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-434",
+    "name": "上海张信息技术有限公司",
+    "createdAt": "2023-05-26",
+    "status": "disabled",
+    "users": 25,
+    "storage": "3.9 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-435",
+    "name": "沈阳林咨询有限公司",
+    "createdAt": "2024-03-06",
+    "status": "disabled",
+    "users": 220,
+    "storage": "3.1 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-436",
+    "name": "福州孙电子商务有限公司",
+    "createdAt": "2023-09-17",
+    "status": "active",
+    "users": 136,
+    "storage": "4.3 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-437",
+    "name": "杭州杨贸易有限公司",
+    "createdAt": "2022-12-11",
+    "status": "disabled",
+    "users": 296,
+    "storage": "2.2 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-438",
+    "name": "天津吴文化传媒有限公司",
+    "createdAt": "2022-12-19",
+    "status": "pending",
+    "users": 42,
+    "storage": "501 GB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-439",
+    "name": "西安郑电子商务有限公司",
+    "createdAt": "2022-05-03",
+    "status": "disabled",
+    "users": 32,
+    "storage": "3.5 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-440",
+    "name": "宁波马咨询有限公司",
+    "createdAt": "2023-07-04",
+    "status": "active",
+    "users": 174,
+    "storage": "3.5 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-441",
+    "name": "大连何教育科技有限公司",
+    "createdAt": "2024-05-15",
+    "status": "disabled",
+    "users": 51,
+    "storage": "3.2 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-442",
+    "name": "杭州陈信息技术有限公司",
+    "createdAt": "2024-10-03",
+    "status": "pending",
+    "users": 254,
+    "storage": "2.6 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-443",
+    "name": "郑州黄信息技术有限公司",
+    "createdAt": "2023-05-20",
+    "status": "disabled",
+    "users": 246,
+    "storage": "4.4 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-444",
+    "name": "厦门胡教育科技有限公司",
+    "createdAt": "2024-12-23",
+    "status": "pending",
+    "users": 235,
+    "storage": "2.5 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-445",
+    "name": "上海何咨询有限公司",
+    "createdAt": "2022-07-20",
+    "status": "disabled",
+    "users": 262,
+    "storage": "4.4 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-446",
+    "name": "青岛高电子商务有限公司",
+    "createdAt": "2023-05-21",
+    "status": "active",
+    "users": 273,
+    "storage": "154 GB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-447",
+    "name": "南京杨科技有限公司",
+    "createdAt": "2022-10-20",
+    "status": "disabled",
+    "users": 49,
+    "storage": "4.4 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-448",
+    "name": "南京朱咨询有限公司",
+    "createdAt": "2025-01-27",
+    "status": "active",
+    "users": 212,
+    "storage": "1.7 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-449",
+    "name": "北京罗科技有限公司",
+    "createdAt": "2023-08-23",
+    "status": "active",
+    "users": 43,
+    "storage": "2.1 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-450",
+    "name": "武汉何服务有限公司",
+    "createdAt": "2023-06-12",
+    "status": "pending",
+    "users": 26,
+    "storage": "4.1 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-451",
+    "name": "郑州郑咨询有限公司",
+    "createdAt": "2022-10-05",
+    "status": "pending",
+    "users": 244,
+    "storage": "2.5 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-452",
+    "name": "上海王咨询有限公司",
+    "createdAt": "2023-04-14",
+    "status": "pending",
+    "users": 14,
+    "storage": "137 GB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-453",
+    "name": "上海刘软件开发有限公司",
+    "createdAt": "2022-09-20",
+    "status": "active",
+    "users": 78,
+    "storage": "4.4 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-454",
+    "name": "沈阳周软件开发有限公司",
+    "createdAt": "2022-04-17",
+    "status": "disabled",
+    "users": 183,
+    "storage": "1.1 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-455",
+    "name": "成都刘软件开发有限公司",
+    "createdAt": "2022-11-17",
+    "status": "active",
+    "users": 56,
+    "storage": "4.5 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-456",
+    "name": "厦门孙软件开发有限公司",
+    "createdAt": "2024-12-06",
+    "status": "pending",
+    "users": 25,
+    "storage": "3.3 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-457",
+    "name": "福州刘服务有限公司",
+    "createdAt": "2024-03-05",
+    "status": "active",
+    "users": 163,
+    "storage": "2.6 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-458",
+    "name": "大连罗服务有限公司",
+    "createdAt": "2022-11-19",
+    "status": "pending",
+    "users": 262,
+    "storage": "978 GB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-459",
+    "name": "成都马网络科技有限公司",
+    "createdAt": "2023-05-13",
+    "status": "disabled",
+    "users": 229,
+    "storage": "3.8 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-460",
+    "name": "长沙朱科技有限公司",
+    "createdAt": "2023-01-23",
+    "status": "disabled",
+    "users": 140,
+    "storage": "3.9 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-461",
+    "name": "郑州孙教育科技有限公司",
+    "createdAt": "2022-12-27",
+    "status": "pending",
+    "users": 213,
+    "storage": "1.8 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-462",
+    "name": "福州孙网络科技有限公司",
+    "createdAt": "2024-11-24",
+    "status": "disabled",
+    "users": 50,
+    "storage": "1.6 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-463",
+    "name": "郑州郭网络科技有限公司",
+    "createdAt": "2023-09-07",
+    "status": "pending",
+    "users": 89,
+    "storage": "4.0 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-464",
+    "name": "长沙郭教育科技有限公司",
+    "createdAt": "2022-12-26",
+    "status": "active",
+    "users": 42,
+    "storage": "3.6 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-465",
+    "name": "上海朱服务有限公司",
+    "createdAt": "2022-12-20",
+    "status": "pending",
+    "users": 148,
+    "storage": "1.6 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-466",
+    "name": "长沙吴贸易有限公司",
+    "createdAt": "2022-08-26",
+    "status": "disabled",
+    "users": 200,
+    "storage": "2.1 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-467",
+    "name": "西安高服务有限公司",
+    "createdAt": "2023-03-07",
+    "status": "active",
+    "users": 17,
+    "storage": "3.9 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-468",
+    "name": "青岛赵信息技术有限公司",
+    "createdAt": "2022-11-05",
+    "status": "pending",
+    "users": 199,
+    "storage": "2.0 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-469",
+    "name": "深圳赵科技有限公司",
+    "createdAt": "2024-12-27",
+    "status": "active",
+    "users": 246,
+    "storage": "4.0 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-470",
+    "name": "长沙孙咨询有限公司",
+    "createdAt": "2023-11-02",
+    "status": "pending",
+    "users": 264,
+    "storage": "1.9 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-471",
+    "name": "长沙高教育科技有限公司",
+    "createdAt": "2023-12-02",
+    "status": "pending",
+    "users": 220,
+    "storage": "1.2 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-472",
+    "name": "深圳王信息技术有限公司",
+    "createdAt": "2024-04-30",
+    "status": "active",
+    "users": 170,
+    "storage": "4.0 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-473",
+    "name": "西安罗贸易有限公司",
+    "createdAt": "2024-05-27",
+    "status": "active",
+    "users": 247,
+    "storage": "2.3 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-474",
+    "name": "宁波孙科技有限公司",
+    "createdAt": "2022-02-09",
+    "status": "active",
+    "users": 164,
+    "storage": "233 GB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-475",
+    "name": "深圳罗软件开发有限公司",
+    "createdAt": "2023-01-15",
+    "status": "pending",
+    "users": 161,
+    "storage": "4.4 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-476",
+    "name": "天津郑服务有限公司",
+    "createdAt": "2023-12-24",
+    "status": "disabled",
+    "users": 81,
+    "storage": "4.6 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-477",
+    "name": "上海王咨询有限公司",
+    "createdAt": "2022-03-21",
+    "status": "disabled",
+    "users": 11,
+    "storage": "2.4 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-478",
+    "name": "宁波周教育科技有限公司",
+    "createdAt": "2023-05-16",
+    "status": "active",
+    "users": 49,
+    "storage": "4.6 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-479",
+    "name": "北京张电子商务有限公司",
+    "createdAt": "2023-09-06",
+    "status": "disabled",
+    "users": 214,
+    "storage": "731 GB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-480",
+    "name": "西安周网络科技有限公司",
+    "createdAt": "2022-11-25",
+    "status": "active",
+    "users": 212,
+    "storage": "1.7 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-481",
+    "name": "西安罗科技有限公司",
+    "createdAt": "2024-05-21",
+    "status": "disabled",
+    "users": 182,
+    "storage": "3.7 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-482",
+    "name": "西安张信息技术有限公司",
+    "createdAt": "2024-09-14",
+    "status": "disabled",
+    "users": 148,
+    "storage": "1.0 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-483",
+    "name": "长沙周文化传媒有限公司",
+    "createdAt": "2022-06-20",
+    "status": "pending",
+    "users": 77,
+    "storage": "1.7 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-484",
+    "name": "福州朱电子商务有限公司",
+    "createdAt": "2023-02-24",
+    "status": "pending",
+    "users": 41,
+    "storage": "1.6 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-485",
+    "name": "苏州高电子商务有限公司",
+    "createdAt": "2024-05-21",
+    "status": "active",
+    "users": 61,
+    "storage": "2.2 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-486",
+    "name": "天津郭服务有限公司",
+    "createdAt": "2024-04-24",
+    "status": "disabled",
+    "users": 271,
+    "storage": "915 GB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-487",
+    "name": "广州孙咨询有限公司",
+    "createdAt": "2024-06-28",
+    "status": "disabled",
+    "users": 195,
+    "storage": "5.0 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-488",
+    "name": "苏州高信息技术有限公司",
+    "createdAt": "2022-05-15",
+    "status": "active",
+    "users": 119,
+    "storage": "219 GB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-489",
+    "name": "沈阳高软件开发有限公司",
+    "createdAt": "2022-12-29",
+    "status": "pending",
+    "users": 95,
+    "storage": "4.1 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-490",
+    "name": "深圳郑科技有限公司",
+    "createdAt": "2024-09-19",
+    "status": "active",
+    "users": 88,
+    "storage": "2.9 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-491",
+    "name": "西安周信息技术有限公司",
+    "createdAt": "2024-09-03",
+    "status": "active",
+    "users": 190,
+    "storage": "3.7 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-492",
+    "name": "青岛周贸易有限公司",
+    "createdAt": "2022-06-06",
+    "status": "pending",
+    "users": 110,
+    "storage": "4.2 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-493",
+    "name": "上海朱教育科技有限公司",
+    "createdAt": "2024-02-05",
+    "status": "disabled",
+    "users": 175,
+    "storage": "4.5 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-494",
+    "name": "郑州林咨询有限公司",
+    "createdAt": "2022-02-25",
+    "status": "disabled",
+    "users": 265,
+    "storage": "2.8 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-495",
+    "name": "重庆朱咨询有限公司",
+    "createdAt": "2022-12-17",
+    "status": "disabled",
+    "users": 163,
+    "storage": "216 GB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-496",
+    "name": "北京马科技有限公司",
+    "createdAt": "2022-09-05",
+    "status": "disabled",
+    "users": 230,
+    "storage": "1.5 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-497",
+    "name": "沈阳罗电子商务有限公司",
+    "createdAt": "2022-05-01",
+    "status": "pending",
+    "users": 205,
+    "storage": "4.2 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-498",
+    "name": "天津朱电子商务有限公司",
+    "createdAt": "2022-01-17",
+    "status": "pending",
+    "users": 202,
+    "storage": "4.6 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-499",
+    "name": "长沙何软件开发有限公司",
+    "createdAt": "2023-03-26",
+    "status": "active",
+    "users": 142,
+    "storage": "1.6 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-500",
+    "name": "上海林科技有限公司",
+    "createdAt": "2023-12-13",
+    "status": "active",
+    "users": 188,
+    "storage": "282 GB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-501",
+    "name": "青岛周贸易有限公司",
+    "createdAt": "2024-06-21",
+    "status": "active",
+    "users": 14,
+    "storage": "998 GB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-502",
+    "name": "苏州何网络科技有限公司",
+    "createdAt": "2024-09-08",
+    "status": "pending",
+    "users": 131,
+    "storage": "1.3 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-503",
+    "name": "南京张文化传媒有限公司",
+    "createdAt": "2023-02-22",
+    "status": "disabled",
+    "users": 62,
+    "storage": "3.1 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-504",
+    "name": "上海王电子商务有限公司",
+    "createdAt": "2024-10-02",
+    "status": "pending",
+    "users": 90,
+    "storage": "1.0 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-505",
+    "name": "宁波刘软件开发有限公司",
+    "createdAt": "2023-02-19",
+    "status": "disabled",
+    "users": 86,
+    "storage": "4.1 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-506",
+    "name": "上海林教育科技有限公司",
+    "createdAt": "2022-12-07",
+    "status": "pending",
+    "users": 276,
+    "storage": "559 GB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-507",
+    "name": "成都孙网络科技有限公司",
+    "createdAt": "2024-12-02",
+    "status": "disabled",
+    "users": 31,
+    "storage": "773 GB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-508",
+    "name": "大连杨科技有限公司",
+    "createdAt": "2023-08-14",
+    "status": "disabled",
+    "users": 214,
+    "storage": "3.1 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-509",
+    "name": "郑州孙贸易有限公司",
+    "createdAt": "2023-08-22",
+    "status": "active",
+    "users": 132,
+    "storage": "3.9 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-510",
+    "name": "西安林网络科技有限公司",
+    "createdAt": "2023-02-21",
+    "status": "active",
+    "users": 168,
+    "storage": "1.7 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-511",
+    "name": "南京王电子商务有限公司",
+    "createdAt": "2023-10-21",
+    "status": "disabled",
+    "users": 64,
+    "storage": "1.2 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-512",
+    "name": "大连马电子商务有限公司",
+    "createdAt": "2022-11-30",
+    "status": "pending",
+    "users": 85,
+    "storage": "2.8 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-513",
+    "name": "沈阳李教育科技有限公司",
+    "createdAt": "2023-08-27",
+    "status": "pending",
+    "users": 99,
+    "storage": "302 GB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-514",
+    "name": "深圳朱教育科技有限公司",
+    "createdAt": "2023-08-05",
+    "status": "pending",
+    "users": 211,
+    "storage": "2.1 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-515",
+    "name": "成都赵电子商务有限公司",
+    "createdAt": "2025-01-19",
+    "status": "active",
+    "users": 107,
+    "storage": "2.0 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-516",
+    "name": "重庆郑网络科技有限公司",
+    "createdAt": "2023-01-20",
+    "status": "disabled",
+    "users": 115,
+    "storage": "4.8 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-517",
+    "name": "郑州高信息技术有限公司",
+    "createdAt": "2023-04-08",
+    "status": "active",
+    "users": 122,
+    "storage": "149 GB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-518",
+    "name": "上海高科技有限公司",
+    "createdAt": "2024-10-15",
+    "status": "pending",
+    "users": 202,
+    "storage": "616 GB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-519",
+    "name": "沈阳陈贸易有限公司",
+    "createdAt": "2022-07-22",
+    "status": "active",
+    "users": 235,
+    "storage": "4.4 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-520",
+    "name": "北京孙文化传媒有限公司",
+    "createdAt": "2024-06-06",
+    "status": "active",
+    "users": 105,
+    "storage": "1.7 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-521",
+    "name": "上海胡教育科技有限公司",
+    "createdAt": "2022-06-06",
+    "status": "pending",
+    "users": 256,
+    "storage": "1.7 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-522",
+    "name": "深圳郑教育科技有限公司",
+    "createdAt": "2022-04-02",
+    "status": "active",
+    "users": 101,
+    "storage": "3.6 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-523",
+    "name": "天津杨科技有限公司",
+    "createdAt": "2022-02-03",
+    "status": "disabled",
+    "users": 205,
+    "storage": "4.8 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-524",
+    "name": "郑州何网络科技有限公司",
+    "createdAt": "2023-12-14",
+    "status": "disabled",
+    "users": 201,
+    "storage": "486 GB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-525",
+    "name": "武汉周教育科技有限公司",
+    "createdAt": "2023-10-03",
+    "status": "disabled",
+    "users": 133,
+    "storage": "635 GB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-526",
+    "name": "郑州陈服务有限公司",
+    "createdAt": "2025-03-06",
+    "status": "active",
+    "users": 30,
+    "storage": "4.7 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-527",
+    "name": "成都黄电子商务有限公司",
+    "createdAt": "2024-11-28",
+    "status": "pending",
+    "users": 281,
+    "storage": "2.4 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-528",
+    "name": "长沙胡科技有限公司",
+    "createdAt": "2023-08-19",
+    "status": "disabled",
+    "users": 272,
+    "storage": "2.2 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-529",
+    "name": "南京周文化传媒有限公司",
+    "createdAt": "2022-12-26",
+    "status": "active",
+    "users": 279,
+    "storage": "738 GB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-530",
+    "name": "成都何教育科技有限公司",
+    "createdAt": "2024-09-18",
+    "status": "active",
+    "users": 155,
+    "storage": "4.4 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-531",
+    "name": "深圳孙软件开发有限公司",
+    "createdAt": "2022-10-21",
+    "status": "active",
+    "users": 285,
+    "storage": "4.8 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-532",
+    "name": "成都朱电子商务有限公司",
+    "createdAt": "2022-01-04",
+    "status": "disabled",
+    "users": 35,
+    "storage": "100 GB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-533",
+    "name": "上海王服务有限公司",
+    "createdAt": "2022-10-24",
+    "status": "active",
+    "users": 43,
+    "storage": "2.0 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-534",
+    "name": "成都郑贸易有限公司",
+    "createdAt": "2023-04-10",
+    "status": "active",
+    "users": 148,
+    "storage": "242 GB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-535",
+    "name": "大连林教育科技有限公司",
+    "createdAt": "2024-07-29",
+    "status": "active",
+    "users": 183,
+    "storage": "884 GB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-536",
+    "name": "成都郭贸易有限公司",
+    "createdAt": "2023-08-18",
+    "status": "active",
+    "users": 91,
+    "storage": "498 GB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-537",
+    "name": "重庆高软件开发有限公司",
+    "createdAt": "2024-11-14",
+    "status": "disabled",
+    "users": 134,
+    "storage": "1.9 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-538",
+    "name": "广州马服务有限公司",
+    "createdAt": "2024-02-25",
+    "status": "disabled",
+    "users": 119,
+    "storage": "1.8 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-539",
+    "name": "厦门郑文化传媒有限公司",
+    "createdAt": "2023-08-24",
+    "status": "disabled",
+    "users": 39,
+    "storage": "4.0 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-540",
+    "name": "苏州郭软件开发有限公司",
+    "createdAt": "2024-12-24",
+    "status": "active",
+    "users": 225,
+    "storage": "2.6 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-541",
+    "name": "重庆周网络科技有限公司",
+    "createdAt": "2022-04-20",
+    "status": "active",
+    "users": 245,
+    "storage": "1.8 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-542",
+    "name": "福州孙信息技术有限公司",
+    "createdAt": "2022-11-29",
+    "status": "pending",
+    "users": 19,
+    "storage": "4.4 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-543",
+    "name": "武汉赵服务有限公司",
+    "createdAt": "2024-02-16",
+    "status": "disabled",
+    "users": 42,
+    "storage": "3.2 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-544",
+    "name": "青岛高咨询有限公司",
+    "createdAt": "2023-03-07",
+    "status": "pending",
+    "users": 235,
+    "storage": "4.5 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-545",
+    "name": "深圳郑电子商务有限公司",
+    "createdAt": "2024-12-14",
+    "status": "active",
+    "users": 245,
+    "storage": "624 GB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-546",
+    "name": "宁波林软件开发有限公司",
+    "createdAt": "2023-01-11",
+    "status": "pending",
+    "users": 159,
+    "storage": "512 GB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-547",
+    "name": "重庆马电子商务有限公司",
+    "createdAt": "2024-11-15",
+    "status": "pending",
+    "users": 218,
+    "storage": "4.4 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-548",
+    "name": "天津罗服务有限公司",
+    "createdAt": "2022-07-02",
+    "status": "disabled",
+    "users": 148,
+    "storage": "3.4 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-549",
+    "name": "杭州林网络科技有限公司",
+    "createdAt": "2022-07-27",
+    "status": "pending",
+    "users": 109,
+    "storage": "2.0 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-550",
+    "name": "厦门胡教育科技有限公司",
+    "createdAt": "2022-07-25",
+    "status": "active",
+    "users": 15,
+    "storage": "2.4 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-551",
+    "name": "深圳王教育科技有限公司",
+    "createdAt": "2022-04-21",
+    "status": "active",
+    "users": 134,
+    "storage": "4.7 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-552",
+    "name": "北京杨科技有限公司",
+    "createdAt": "2025-01-06",
+    "status": "pending",
+    "users": 178,
+    "storage": "508 GB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-553",
+    "name": "广州郭网络科技有限公司",
+    "createdAt": "2022-01-11",
+    "status": "pending",
+    "users": 295,
+    "storage": "1.1 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-554",
+    "name": "武汉朱文化传媒有限公司",
+    "createdAt": "2023-03-01",
+    "status": "disabled",
+    "users": 24,
+    "storage": "518 GB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-555",
+    "name": "武汉胡软件开发有限公司",
+    "createdAt": "2023-05-30",
+    "status": "pending",
+    "users": 23,
+    "storage": "5.0 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-556",
+    "name": "郑州刘软件开发有限公司",
+    "createdAt": "2024-08-12",
+    "status": "active",
+    "users": 65,
+    "storage": "2.6 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-557",
+    "name": "杭州吴服务有限公司",
+    "createdAt": "2023-09-03",
+    "status": "disabled",
+    "users": 68,
+    "storage": "2.3 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-558",
+    "name": "郑州李教育科技有限公司",
+    "createdAt": "2022-02-14",
+    "status": "disabled",
+    "users": 183,
+    "storage": "4.2 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-559",
+    "name": "福州胡咨询有限公司",
+    "createdAt": "2023-11-25",
+    "status": "pending",
+    "users": 178,
+    "storage": "4.7 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-560",
+    "name": "北京郭教育科技有限公司",
+    "createdAt": "2024-04-25",
+    "status": "active",
+    "users": 238,
+    "storage": "2.3 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-561",
+    "name": "青岛何咨询有限公司",
+    "createdAt": "2022-06-19",
+    "status": "active",
+    "users": 12,
+    "storage": "2.9 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-562",
+    "name": "长沙周电子商务有限公司",
+    "createdAt": "2024-04-01",
+    "status": "pending",
+    "users": 234,
+    "storage": "1.9 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-563",
+    "name": "厦门赵贸易有限公司",
+    "createdAt": "2022-06-05",
+    "status": "disabled",
+    "users": 117,
+    "storage": "4.5 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-564",
+    "name": "重庆陈电子商务有限公司",
+    "createdAt": "2023-06-20",
+    "status": "active",
+    "users": 149,
+    "storage": "4.8 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-565",
+    "name": "深圳胡电子商务有限公司",
+    "createdAt": "2024-11-18",
+    "status": "active",
+    "users": 167,
+    "storage": "4.7 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-566",
+    "name": "厦门罗网络科技有限公司",
+    "createdAt": "2024-01-21",
+    "status": "active",
+    "users": 243,
+    "storage": "541 GB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-567",
+    "name": "广州黄电子商务有限公司",
+    "createdAt": "2024-12-15",
+    "status": "disabled",
+    "users": 264,
+    "storage": "3.2 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-568",
+    "name": "厦门黄信息技术有限公司",
+    "createdAt": "2023-12-22",
+    "status": "disabled",
+    "users": 86,
+    "storage": "2.8 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-569",
+    "name": "沈阳马网络科技有限公司",
+    "createdAt": "2024-03-15",
+    "status": "disabled",
+    "users": 178,
+    "storage": "1.7 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-570",
+    "name": "杭州陈科技有限公司",
+    "createdAt": "2022-06-16",
+    "status": "disabled",
+    "users": 89,
+    "storage": "616 GB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-571",
+    "name": "成都郑教育科技有限公司",
+    "createdAt": "2023-04-08",
+    "status": "disabled",
+    "users": 162,
+    "storage": "119 GB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-572",
+    "name": "郑州郭网络科技有限公司",
+    "createdAt": "2023-08-11",
+    "status": "active",
+    "users": 16,
+    "storage": "4.9 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-573",
+    "name": "重庆胡科技有限公司",
+    "createdAt": "2024-09-07",
+    "status": "disabled",
+    "users": 59,
+    "storage": "4.3 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-574",
+    "name": "深圳李服务有限公司",
+    "createdAt": "2024-12-01",
+    "status": "disabled",
+    "users": 285,
+    "storage": "1.2 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-575",
+    "name": "成都刘服务有限公司",
+    "createdAt": "2022-07-09",
+    "status": "active",
+    "users": 222,
+    "storage": "1.5 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-576",
+    "name": "沈阳郭软件开发有限公司",
+    "createdAt": "2022-09-13",
+    "status": "active",
+    "users": 105,
+    "storage": "3.8 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-577",
+    "name": "武汉陈咨询有限公司",
+    "createdAt": "2023-04-06",
+    "status": "active",
+    "users": 216,
+    "storage": "1.2 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-578",
+    "name": "重庆李咨询有限公司",
+    "createdAt": "2022-04-12",
+    "status": "disabled",
+    "users": 257,
+    "storage": "2.5 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-579",
+    "name": "宁波李咨询有限公司",
+    "createdAt": "2022-04-12",
+    "status": "disabled",
+    "users": 283,
+    "storage": "4.4 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-580",
+    "name": "深圳杨咨询有限公司",
+    "createdAt": "2022-12-18",
+    "status": "active",
+    "users": 37,
+    "storage": "2.8 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-581",
+    "name": "厦门胡电子商务有限公司",
+    "createdAt": "2024-10-24",
+    "status": "disabled",
+    "users": 245,
+    "storage": "3.5 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-582",
+    "name": "成都何信息技术有限公司",
+    "createdAt": "2023-09-10",
+    "status": "disabled",
+    "users": 78,
+    "storage": "4.5 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-583",
+    "name": "杭州郭科技有限公司",
+    "createdAt": "2023-05-13",
+    "status": "active",
+    "users": 112,
+    "storage": "1.2 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-584",
+    "name": "杭州朱软件开发有限公司",
+    "createdAt": "2024-12-15",
+    "status": "active",
+    "users": 142,
+    "storage": "1.0 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-585",
+    "name": "南京马咨询有限公司",
+    "createdAt": "2022-01-28",
+    "status": "disabled",
+    "users": 68,
+    "storage": "5.0 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-586",
+    "name": "青岛孙科技有限公司",
+    "createdAt": "2022-04-29",
+    "status": "disabled",
+    "users": 219,
+    "storage": "3.7 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-587",
+    "name": "大连黄网络科技有限公司",
+    "createdAt": "2023-10-07",
+    "status": "pending",
+    "users": 240,
+    "storage": "4.6 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-588",
+    "name": "宁波刘电子商务有限公司",
+    "createdAt": "2022-09-23",
+    "status": "active",
+    "users": 198,
+    "storage": "1.2 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-589",
+    "name": "天津赵服务有限公司",
+    "createdAt": "2023-02-26",
+    "status": "disabled",
+    "users": 86,
+    "storage": "4.9 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-590",
+    "name": "上海吴文化传媒有限公司",
+    "createdAt": "2023-12-23",
+    "status": "active",
+    "users": 290,
+    "storage": "4.8 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-591",
+    "name": "深圳刘文化传媒有限公司",
+    "createdAt": "2024-01-20",
+    "status": "disabled",
+    "users": 150,
+    "storage": "3.5 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-592",
+    "name": "长沙周网络科技有限公司",
+    "createdAt": "2023-03-20",
+    "status": "active",
+    "users": 220,
+    "storage": "2.8 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-593",
+    "name": "杭州高信息技术有限公司",
+    "createdAt": "2023-07-10",
+    "status": "disabled",
+    "users": 16,
+    "storage": "2.1 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-594",
+    "name": "武汉赵文化传媒有限公司",
+    "createdAt": "2023-03-30",
+    "status": "disabled",
+    "users": 98,
+    "storage": "1.8 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-595",
+    "name": "深圳马科技有限公司",
+    "createdAt": "2023-10-23",
+    "status": "disabled",
+    "users": 193,
+    "storage": "738 GB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-596",
+    "name": "福州高科技有限公司",
+    "createdAt": "2024-11-08",
+    "status": "active",
+    "users": 84,
+    "storage": "3.3 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-597",
+    "name": "青岛陈服务有限公司",
+    "createdAt": "2025-02-19",
+    "status": "disabled",
+    "users": 297,
+    "storage": "2.5 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-598",
+    "name": "成都刘软件开发有限公司",
+    "createdAt": "2022-09-19",
+    "status": "active",
+    "users": 300,
+    "storage": "3.7 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-599",
+    "name": "西安何网络科技有限公司",
+    "createdAt": "2024-12-30",
+    "status": "active",
+    "users": 200,
+    "storage": "1.8 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-600",
+    "name": "杭州杨软件开发有限公司",
+    "createdAt": "2022-03-28",
+    "status": "disabled",
+    "users": 54,
+    "storage": "4.0 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-601",
+    "name": "西安高科技有限公司",
+    "createdAt": "2023-05-17",
+    "status": "pending",
+    "users": 58,
+    "storage": "700 GB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-602",
+    "name": "西安吴电子商务有限公司",
+    "createdAt": "2024-01-03",
+    "status": "disabled",
+    "users": 32,
+    "storage": "2.4 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-603",
+    "name": "南京罗服务有限公司",
+    "createdAt": "2023-05-09",
+    "status": "pending",
+    "users": 15,
+    "storage": "1.2 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-604",
+    "name": "苏州吴文化传媒有限公司",
+    "createdAt": "2022-07-19",
+    "status": "active",
+    "users": 163,
+    "storage": "61 GB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-605",
+    "name": "上海郭科技有限公司",
+    "createdAt": "2022-04-28",
+    "status": "disabled",
+    "users": 230,
+    "storage": "1.2 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-606",
+    "name": "沈阳吴软件开发有限公司",
+    "createdAt": "2023-08-19",
+    "status": "disabled",
+    "users": 20,
+    "storage": "3.2 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-607",
+    "name": "青岛吴贸易有限公司",
+    "createdAt": "2022-10-31",
+    "status": "active",
+    "users": 256,
+    "storage": "1.9 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-608",
+    "name": "南京刘贸易有限公司",
+    "createdAt": "2022-07-07",
+    "status": "disabled",
+    "users": 20,
+    "storage": "3.8 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-609",
+    "name": "沈阳郑服务有限公司",
+    "createdAt": "2022-01-23",
+    "status": "disabled",
+    "users": 211,
+    "storage": "3.3 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-610",
+    "name": "长沙郭软件开发有限公司",
+    "createdAt": "2022-09-07",
+    "status": "pending",
+    "users": 144,
+    "storage": "4.0 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-611",
+    "name": "重庆胡网络科技有限公司",
+    "createdAt": "2022-12-12",
+    "status": "active",
+    "users": 243,
+    "storage": "3.0 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-612",
+    "name": "杭州黄电子商务有限公司",
+    "createdAt": "2022-05-06",
+    "status": "active",
+    "users": 192,
+    "storage": "3.2 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-613",
+    "name": "宁波高文化传媒有限公司",
+    "createdAt": "2023-06-04",
+    "status": "disabled",
+    "users": 27,
+    "storage": "4.6 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-614",
+    "name": "青岛周科技有限公司",
+    "createdAt": "2023-09-04",
+    "status": "disabled",
+    "users": 42,
+    "storage": "1.6 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-615",
+    "name": "天津孙电子商务有限公司",
+    "createdAt": "2025-02-14",
+    "status": "pending",
+    "users": 257,
+    "storage": "3.4 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-616",
+    "name": "西安刘电子商务有限公司",
+    "createdAt": "2024-02-28",
+    "status": "pending",
+    "users": 241,
+    "storage": "1.9 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-617",
+    "name": "苏州赵软件开发有限公司",
+    "createdAt": "2024-03-14",
+    "status": "pending",
+    "users": 192,
+    "storage": "2.1 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-618",
+    "name": "深圳赵咨询有限公司",
+    "createdAt": "2025-02-13",
+    "status": "pending",
+    "users": 226,
+    "storage": "264 GB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-619",
+    "name": "天津罗软件开发有限公司",
+    "createdAt": "2024-08-07",
+    "status": "disabled",
+    "users": 70,
+    "storage": "2.1 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-620",
+    "name": "天津林服务有限公司",
+    "createdAt": "2023-03-11",
+    "status": "pending",
+    "users": 56,
+    "storage": "4.1 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-621",
+    "name": "成都朱软件开发有限公司",
+    "createdAt": "2023-11-03",
+    "status": "pending",
+    "users": 151,
+    "storage": "1.3 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-622",
+    "name": "宁波吴科技有限公司",
+    "createdAt": "2023-04-30",
+    "status": "disabled",
+    "users": 273,
+    "storage": "4.3 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-623",
+    "name": "青岛陈网络科技有限公司",
+    "createdAt": "2023-10-12",
+    "status": "disabled",
+    "users": 180,
+    "storage": "3.7 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-624",
+    "name": "苏州郑软件开发有限公司",
+    "createdAt": "2025-02-21",
+    "status": "pending",
+    "users": 107,
+    "storage": "1.0 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-625",
+    "name": "深圳李咨询有限公司",
+    "createdAt": "2022-09-28",
+    "status": "active",
+    "users": 203,
+    "storage": "168 GB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-626",
+    "name": "青岛黄网络科技有限公司",
+    "createdAt": "2022-04-02",
+    "status": "active",
+    "users": 235,
+    "storage": "645 GB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-627",
+    "name": "成都林服务有限公司",
+    "createdAt": "2022-11-16",
+    "status": "active",
+    "users": 165,
+    "storage": "921 GB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-628",
+    "name": "大连周电子商务有限公司",
+    "createdAt": "2022-03-16",
+    "status": "disabled",
+    "users": 94,
+    "storage": "1.4 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-629",
+    "name": "深圳赵咨询有限公司",
+    "createdAt": "2023-02-12",
+    "status": "disabled",
+    "users": 235,
+    "storage": "2.9 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-630",
+    "name": "苏州朱软件开发有限公司",
+    "createdAt": "2023-12-31",
+    "status": "disabled",
+    "users": 152,
+    "storage": "3.1 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-631",
+    "name": "西安刘贸易有限公司",
+    "createdAt": "2023-09-05",
+    "status": "disabled",
+    "users": 183,
+    "storage": "4.4 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-632",
+    "name": "南京刘信息技术有限公司",
+    "createdAt": "2022-05-25",
+    "status": "active",
+    "users": 183,
+    "storage": "3.7 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-633",
+    "name": "天津孙信息技术有限公司",
+    "createdAt": "2024-01-21",
+    "status": "active",
+    "users": 242,
+    "storage": "2.3 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-634",
+    "name": "上海马文化传媒有限公司",
+    "createdAt": "2023-12-09",
+    "status": "pending",
+    "users": 77,
+    "storage": "1.1 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-635",
+    "name": "苏州高文化传媒有限公司",
+    "createdAt": "2024-03-26",
+    "status": "disabled",
+    "users": 39,
+    "storage": "224 GB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-636",
+    "name": "南京周电子商务有限公司",
+    "createdAt": "2022-02-25",
+    "status": "pending",
+    "users": 72,
+    "storage": "4.9 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-637",
+    "name": "杭州朱网络科技有限公司",
+    "createdAt": "2024-07-05",
+    "status": "disabled",
+    "users": 62,
+    "storage": "2.5 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-638",
+    "name": "青岛吴服务有限公司",
+    "createdAt": "2024-03-13",
+    "status": "pending",
+    "users": 156,
+    "storage": "2.8 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-639",
+    "name": "南京刘网络科技有限公司",
+    "createdAt": "2023-10-16",
+    "status": "pending",
+    "users": 152,
+    "storage": "4.4 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-640",
+    "name": "杭州黄电子商务有限公司",
+    "createdAt": "2022-03-05",
+    "status": "active",
+    "users": 246,
+    "storage": "594 GB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-641",
+    "name": "武汉郑咨询有限公司",
+    "createdAt": "2022-12-23",
+    "status": "disabled",
+    "users": 272,
+    "storage": "4.8 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-642",
+    "name": "长沙罗信息技术有限公司",
+    "createdAt": "2024-04-14",
+    "status": "disabled",
+    "users": 240,
+    "storage": "1.1 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-643",
+    "name": "宁波黄文化传媒有限公司",
+    "createdAt": "2023-11-13",
+    "status": "pending",
+    "users": 276,
+    "storage": "147 GB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-644",
+    "name": "杭州赵电子商务有限公司",
+    "createdAt": "2023-07-06",
+    "status": "disabled",
+    "users": 236,
+    "storage": "192 GB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-645",
+    "name": "深圳李软件开发有限公司",
+    "createdAt": "2022-06-23",
+    "status": "active",
+    "users": 141,
+    "storage": "898 GB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-646",
+    "name": "深圳林教育科技有限公司",
+    "createdAt": "2022-04-18",
+    "status": "pending",
+    "users": 30,
+    "storage": "2.4 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-647",
+    "name": "武汉林文化传媒有限公司",
+    "createdAt": "2023-10-04",
+    "status": "pending",
+    "users": 205,
+    "storage": "5.0 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-648",
+    "name": "深圳胡咨询有限公司",
+    "createdAt": "2023-07-06",
+    "status": "active",
+    "users": 38,
+    "storage": "346 GB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-649",
+    "name": "沈阳杨电子商务有限公司",
+    "createdAt": "2025-01-04",
+    "status": "active",
+    "users": 139,
+    "storage": "1.2 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-650",
+    "name": "上海朱网络科技有限公司",
+    "createdAt": "2022-10-08",
+    "status": "pending",
+    "users": 200,
+    "storage": "411 GB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-651",
+    "name": "广州郑信息技术有限公司",
+    "createdAt": "2022-09-29",
+    "status": "pending",
+    "users": 253,
+    "storage": "78 GB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-652",
+    "name": "广州黄信息技术有限公司",
+    "createdAt": "2023-09-02",
+    "status": "pending",
+    "users": 116,
+    "storage": "4.9 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-653",
+    "name": "西安郭文化传媒有限公司",
+    "createdAt": "2024-03-09",
+    "status": "active",
+    "users": 36,
+    "storage": "376 GB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-654",
+    "name": "武汉马教育科技有限公司",
+    "createdAt": "2024-08-19",
+    "status": "disabled",
+    "users": 157,
+    "storage": "4.2 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-655",
+    "name": "上海吴网络科技有限公司",
+    "createdAt": "2024-09-20",
+    "status": "active",
+    "users": 12,
+    "storage": "1.5 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-656",
+    "name": "重庆郑服务有限公司",
+    "createdAt": "2022-06-20",
+    "status": "pending",
+    "users": 207,
+    "storage": "882 GB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-657",
+    "name": "青岛郑文化传媒有限公司",
+    "createdAt": "2023-10-19",
+    "status": "active",
+    "users": 177,
+    "storage": "346 GB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-658",
+    "name": "沈阳孙科技有限公司",
+    "createdAt": "2024-07-06",
+    "status": "disabled",
+    "users": 154,
+    "storage": "2.7 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-659",
+    "name": "长沙朱软件开发有限公司",
+    "createdAt": "2023-05-14",
+    "status": "active",
+    "users": 228,
+    "storage": "703 GB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-660",
+    "name": "成都陈科技有限公司",
+    "createdAt": "2022-10-12",
+    "status": "disabled",
+    "users": 245,
+    "storage": "1.7 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-661",
+    "name": "重庆王贸易有限公司",
+    "createdAt": "2025-02-15",
+    "status": "disabled",
+    "users": 281,
+    "storage": "4.1 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-662",
+    "name": "福州郭文化传媒有限公司",
+    "createdAt": "2022-07-19",
+    "status": "active",
+    "users": 285,
+    "storage": "3.6 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-663",
+    "name": "深圳周科技有限公司",
+    "createdAt": "2023-12-13",
+    "status": "active",
+    "users": 263,
+    "storage": "3.6 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-664",
+    "name": "厦门赵咨询有限公司",
+    "createdAt": "2022-06-12",
+    "status": "active",
+    "users": 225,
+    "storage": "4.2 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-665",
+    "name": "上海孙咨询有限公司",
+    "createdAt": "2025-02-15",
+    "status": "pending",
+    "users": 120,
+    "storage": "3.6 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-666",
+    "name": "沈阳马教育科技有限公司",
+    "createdAt": "2023-05-26",
+    "status": "active",
+    "users": 289,
+    "storage": "4.4 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-667",
+    "name": "青岛王教育科技有限公司",
+    "createdAt": "2024-07-12",
+    "status": "disabled",
+    "users": 268,
+    "storage": "862 GB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-668",
+    "name": "杭州黄文化传媒有限公司",
+    "createdAt": "2022-12-22",
+    "status": "pending",
+    "users": 153,
+    "storage": "2.7 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-669",
+    "name": "大连高贸易有限公司",
+    "createdAt": "2023-04-13",
+    "status": "disabled",
+    "users": 150,
+    "storage": "1.7 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-670",
+    "name": "厦门刘文化传媒有限公司",
+    "createdAt": "2024-01-05",
+    "status": "active",
+    "users": 61,
+    "storage": "4.4 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-671",
+    "name": "长沙胡教育科技有限公司",
+    "createdAt": "2025-01-27",
+    "status": "disabled",
+    "users": 294,
+    "storage": "1.3 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-672",
+    "name": "苏州孙文化传媒有限公司",
+    "createdAt": "2022-03-13",
+    "status": "disabled",
+    "users": 256,
+    "storage": "2.9 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-673",
+    "name": "长沙刘网络科技有限公司",
+    "createdAt": "2025-02-13",
+    "status": "pending",
+    "users": 194,
+    "storage": "3.1 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-674",
+    "name": "重庆吴贸易有限公司",
+    "createdAt": "2024-04-11",
+    "status": "active",
+    "users": 207,
+    "storage": "3.3 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-675",
+    "name": "厦门吴网络科技有限公司",
+    "createdAt": "2024-03-24",
+    "status": "disabled",
+    "users": 281,
+    "storage": "3.9 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-676",
+    "name": "武汉张教育科技有限公司",
+    "createdAt": "2023-05-28",
+    "status": "disabled",
+    "users": 169,
+    "storage": "1.7 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-677",
+    "name": "西安高信息技术有限公司",
+    "createdAt": "2024-01-16",
+    "status": "active",
+    "users": 178,
+    "storage": "661 GB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-678",
+    "name": "重庆罗贸易有限公司",
+    "createdAt": "2024-07-12",
+    "status": "disabled",
+    "users": 264,
+    "storage": "4.4 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-679",
+    "name": "武汉郭咨询有限公司",
+    "createdAt": "2022-05-16",
+    "status": "disabled",
+    "users": 202,
+    "storage": "2.4 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-680",
+    "name": "郑州林文化传媒有限公司",
+    "createdAt": "2022-12-13",
+    "status": "pending",
+    "users": 142,
+    "storage": "845 GB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-681",
+    "name": "郑州杨教育科技有限公司",
+    "createdAt": "2023-11-09",
+    "status": "active",
+    "users": 125,
+    "storage": "502 GB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-682",
+    "name": "福州杨服务有限公司",
+    "createdAt": "2022-11-27",
+    "status": "disabled",
+    "users": 13,
+    "storage": "4.0 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-683",
+    "name": "长沙杨科技有限公司",
+    "createdAt": "2023-04-29",
+    "status": "disabled",
+    "users": 118,
+    "storage": "2.3 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-684",
+    "name": "武汉杨咨询有限公司",
+    "createdAt": "2022-06-07",
+    "status": "active",
+    "users": 287,
+    "storage": "2.9 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-685",
+    "name": "广州吴电子商务有限公司",
+    "createdAt": "2022-05-25",
+    "status": "pending",
+    "users": 265,
+    "storage": "1.1 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-686",
+    "name": "青岛陈软件开发有限公司",
+    "createdAt": "2022-02-09",
+    "status": "pending",
+    "users": 105,
+    "storage": "2.7 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-687",
+    "name": "大连王科技有限公司",
+    "createdAt": "2023-01-10",
+    "status": "pending",
+    "users": 59,
+    "storage": "4.8 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-688",
+    "name": "郑州郭电子商务有限公司",
+    "createdAt": "2025-03-05",
+    "status": "disabled",
+    "users": 236,
+    "storage": "3.3 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-689",
+    "name": "北京马软件开发有限公司",
+    "createdAt": "2024-05-15",
+    "status": "active",
+    "users": 211,
+    "storage": "1.6 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-690",
+    "name": "重庆周科技有限公司",
+    "createdAt": "2024-03-18",
+    "status": "pending",
+    "users": 79,
+    "storage": "1.5 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-691",
+    "name": "沈阳郑信息技术有限公司",
+    "createdAt": "2024-04-27",
+    "status": "pending",
+    "users": 290,
+    "storage": "371 GB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-692",
+    "name": "成都朱教育科技有限公司",
+    "createdAt": "2023-02-25",
+    "status": "active",
+    "users": 170,
+    "storage": "300 GB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-693",
+    "name": "武汉朱信息技术有限公司",
+    "createdAt": "2023-10-09",
+    "status": "active",
+    "users": 53,
+    "storage": "3.1 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-694",
+    "name": "上海李教育科技有限公司",
+    "createdAt": "2022-08-25",
+    "status": "active",
+    "users": 21,
+    "storage": "2.4 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-695",
+    "name": "广州杨咨询有限公司",
+    "createdAt": "2024-07-12",
+    "status": "disabled",
+    "users": 133,
+    "storage": "3.6 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-696",
+    "name": "杭州高信息技术有限公司",
+    "createdAt": "2023-08-20",
+    "status": "active",
+    "users": 245,
+    "storage": "4.6 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-697",
+    "name": "长沙罗科技有限公司",
+    "createdAt": "2025-02-11",
+    "status": "pending",
+    "users": 22,
+    "storage": "3.4 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-698",
+    "name": "上海郑科技有限公司",
+    "createdAt": "2023-09-09",
+    "status": "active",
+    "users": 15,
+    "storage": "1.0 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-699",
+    "name": "青岛孙咨询有限公司",
+    "createdAt": "2023-04-07",
+    "status": "disabled",
+    "users": 32,
+    "storage": "3.6 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-700",
+    "name": "郑州郑电子商务有限公司",
+    "createdAt": "2024-11-17",
+    "status": "pending",
+    "users": 176,
+    "storage": "4.9 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-701",
+    "name": "西安杨电子商务有限公司",
+    "createdAt": "2022-06-13",
+    "status": "pending",
+    "users": 240,
+    "storage": "2.7 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-702",
+    "name": "长沙马贸易有限公司",
+    "createdAt": "2024-03-07",
+    "status": "disabled",
+    "users": 106,
+    "storage": "5.0 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-703",
+    "name": "长沙黄文化传媒有限公司",
+    "createdAt": "2024-11-29",
+    "status": "active",
+    "users": 78,
+    "storage": "301 GB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-704",
+    "name": "福州赵电子商务有限公司",
+    "createdAt": "2022-03-31",
+    "status": "pending",
+    "users": 259,
+    "storage": "4.5 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-705",
+    "name": "宁波郑咨询有限公司",
+    "createdAt": "2022-04-04",
+    "status": "active",
+    "users": 222,
+    "storage": "1.7 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-706",
+    "name": "南京李贸易有限公司",
+    "createdAt": "2024-08-10",
+    "status": "active",
+    "users": 154,
+    "storage": "532 GB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-707",
+    "name": "杭州周信息技术有限公司",
+    "createdAt": "2024-10-12",
+    "status": "active",
+    "users": 35,
+    "storage": "668 GB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-708",
+    "name": "天津刘科技有限公司",
+    "createdAt": "2024-08-01",
+    "status": "disabled",
+    "users": 230,
+    "storage": "3.1 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-709",
+    "name": "重庆黄服务有限公司",
+    "createdAt": "2023-02-18",
+    "status": "disabled",
+    "users": 80,
+    "storage": "293 GB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-710",
+    "name": "杭州杨教育科技有限公司",
+    "createdAt": "2024-07-12",
+    "status": "active",
+    "users": 297,
+    "storage": "3.7 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-711",
+    "name": "重庆张电子商务有限公司",
+    "createdAt": "2023-11-10",
+    "status": "pending",
+    "users": 258,
+    "storage": "74 GB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-712",
+    "name": "沈阳陈网络科技有限公司",
+    "createdAt": "2024-02-26",
+    "status": "disabled",
+    "users": 31,
+    "storage": "1.4 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-713",
+    "name": "南京赵咨询有限公司",
+    "createdAt": "2022-05-21",
+    "status": "active",
+    "users": 257,
+    "storage": "2.4 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-714",
+    "name": "苏州罗文化传媒有限公司",
+    "createdAt": "2024-01-09",
+    "status": "active",
+    "users": 44,
+    "storage": "4.8 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-715",
+    "name": "西安孙信息技术有限公司",
+    "createdAt": "2024-06-21",
+    "status": "pending",
+    "users": 284,
+    "storage": "3.6 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-716",
+    "name": "福州吴咨询有限公司",
+    "createdAt": "2024-04-08",
+    "status": "pending",
+    "users": 258,
+    "storage": "4.2 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-717",
+    "name": "广州朱教育科技有限公司",
+    "createdAt": "2024-02-09",
+    "status": "pending",
+    "users": 188,
+    "storage": "3.4 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-718",
+    "name": "青岛吴网络科技有限公司",
+    "createdAt": "2022-06-06",
+    "status": "disabled",
+    "users": 78,
+    "storage": "2.0 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-719",
+    "name": "厦门罗贸易有限公司",
+    "createdAt": "2022-07-05",
+    "status": "active",
+    "users": 155,
+    "storage": "3.9 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-720",
+    "name": "福州高贸易有限公司",
+    "createdAt": "2023-04-19",
+    "status": "active",
+    "users": 199,
+    "storage": "4.3 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-721",
+    "name": "天津赵电子商务有限公司",
+    "createdAt": "2023-01-09",
+    "status": "disabled",
+    "users": 254,
+    "storage": "2.2 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-722",
+    "name": "南京赵教育科技有限公司",
+    "createdAt": "2024-06-05",
+    "status": "pending",
+    "users": 131,
+    "storage": "427 GB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-723",
+    "name": "杭州周服务有限公司",
+    "createdAt": "2022-02-04",
+    "status": "disabled",
+    "users": 160,
+    "storage": "2.3 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-724",
+    "name": "宁波胡软件开发有限公司",
+    "createdAt": "2023-12-15",
+    "status": "disabled",
+    "users": 260,
+    "storage": "2.3 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-725",
+    "name": "苏州陈电子商务有限公司",
+    "createdAt": "2024-09-21",
+    "status": "disabled",
+    "users": 59,
+    "storage": "5.0 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-726",
+    "name": "长沙朱软件开发有限公司",
+    "createdAt": "2023-01-25",
+    "status": "active",
+    "users": 288,
+    "storage": "3.7 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-727",
+    "name": "大连罗咨询有限公司",
+    "createdAt": "2022-07-10",
+    "status": "disabled",
+    "users": 172,
+    "storage": "4.0 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-728",
+    "name": "西安郭网络科技有限公司",
+    "createdAt": "2023-09-17",
+    "status": "disabled",
+    "users": 259,
+    "storage": "313 GB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-729",
+    "name": "深圳陈科技有限公司",
+    "createdAt": "2023-07-22",
+    "status": "pending",
+    "users": 176,
+    "storage": "2.3 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-730",
+    "name": "大连孙服务有限公司",
+    "createdAt": "2023-03-26",
+    "status": "pending",
+    "users": 118,
+    "storage": "1.6 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-731",
+    "name": "青岛郑科技有限公司",
+    "createdAt": "2024-09-06",
+    "status": "pending",
+    "users": 36,
+    "storage": "4.2 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-732",
+    "name": "南京林信息技术有限公司",
+    "createdAt": "2023-06-27",
+    "status": "active",
+    "users": 253,
+    "storage": "4.7 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-733",
+    "name": "武汉李软件开发有限公司",
+    "createdAt": "2023-05-29",
+    "status": "disabled",
+    "users": 247,
+    "storage": "2.0 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-734",
+    "name": "长沙林贸易有限公司",
+    "createdAt": "2024-06-04",
+    "status": "pending",
+    "users": 48,
+    "storage": "1.5 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-735",
+    "name": "广州郭软件开发有限公司",
+    "createdAt": "2022-07-03",
+    "status": "pending",
+    "users": 180,
+    "storage": "353 GB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-736",
+    "name": "南京马信息技术有限公司",
+    "createdAt": "2024-02-13",
+    "status": "disabled",
+    "users": 100,
+    "storage": "1.9 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-737",
+    "name": "福州吴科技有限公司",
+    "createdAt": "2023-07-18",
+    "status": "active",
+    "users": 109,
+    "storage": "3.4 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-738",
+    "name": "沈阳赵软件开发有限公司",
+    "createdAt": "2024-02-07",
+    "status": "disabled",
+    "users": 235,
+    "storage": "1.0 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-739",
+    "name": "沈阳马网络科技有限公司",
+    "createdAt": "2022-04-05",
+    "status": "pending",
+    "users": 54,
+    "storage": "1.8 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-740",
+    "name": "大连黄贸易有限公司",
+    "createdAt": "2022-07-05",
+    "status": "active",
+    "users": 226,
+    "storage": "307 GB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-741",
+    "name": "上海林网络科技有限公司",
+    "createdAt": "2024-06-30",
+    "status": "active",
+    "users": 284,
+    "storage": "3.0 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-742",
+    "name": "青岛王软件开发有限公司",
+    "createdAt": "2024-03-24",
+    "status": "active",
+    "users": 94,
+    "storage": "1.9 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-743",
+    "name": "厦门何软件开发有限公司",
+    "createdAt": "2024-01-03",
+    "status": "active",
+    "users": 90,
+    "storage": "218 GB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-744",
+    "name": "宁波胡网络科技有限公司",
+    "createdAt": "2025-02-01",
+    "status": "active",
+    "users": 98,
+    "storage": "330 GB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-745",
+    "name": "青岛孙软件开发有限公司",
+    "createdAt": "2023-10-04",
+    "status": "disabled",
+    "users": 34,
+    "storage": "611 GB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-746",
+    "name": "郑州王信息技术有限公司",
+    "createdAt": "2024-12-14",
+    "status": "disabled",
+    "users": 144,
+    "storage": "1.4 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-747",
+    "name": "福州张教育科技有限公司",
+    "createdAt": "2023-11-15",
+    "status": "pending",
+    "users": 166,
+    "storage": "4.8 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-748",
+    "name": "宁波吴服务有限公司",
+    "createdAt": "2024-12-13",
+    "status": "disabled",
+    "users": 231,
+    "storage": "3.9 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-749",
+    "name": "深圳林贸易有限公司",
+    "createdAt": "2022-12-16",
+    "status": "active",
+    "users": 116,
+    "storage": "3.4 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-750",
+    "name": "郑州孙教育科技有限公司",
+    "createdAt": "2024-07-22",
+    "status": "pending",
+    "users": 246,
+    "storage": "3.4 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-751",
+    "name": "上海黄电子商务有限公司",
+    "createdAt": "2022-06-19",
+    "status": "active",
+    "users": 45,
+    "storage": "4.8 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-752",
+    "name": "北京黄信息技术有限公司",
+    "createdAt": "2022-05-13",
+    "status": "active",
+    "users": 167,
+    "storage": "2.2 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-753",
+    "name": "福州李科技有限公司",
+    "createdAt": "2022-09-17",
+    "status": "disabled",
+    "users": 246,
+    "storage": "3.7 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-754",
+    "name": "沈阳吴文化传媒有限公司",
+    "createdAt": "2024-11-05",
+    "status": "pending",
+    "users": 25,
+    "storage": "742 GB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-755",
+    "name": "西安陈网络科技有限公司",
+    "createdAt": "2024-06-25",
+    "status": "disabled",
+    "users": 156,
+    "storage": "3.9 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-756",
+    "name": "福州张信息技术有限公司",
+    "createdAt": "2022-04-13",
+    "status": "disabled",
+    "users": 42,
+    "storage": "1.7 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-757",
+    "name": "大连罗电子商务有限公司",
+    "createdAt": "2022-08-09",
+    "status": "disabled",
+    "users": 278,
+    "storage": "938 GB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-758",
+    "name": "大连林信息技术有限公司",
+    "createdAt": "2022-10-27",
+    "status": "pending",
+    "users": 194,
+    "storage": "4.5 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-759",
+    "name": "南京李网络科技有限公司",
+    "createdAt": "2022-12-18",
+    "status": "active",
+    "users": 298,
+    "storage": "3.9 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-760",
+    "name": "大连吴信息技术有限公司",
+    "createdAt": "2024-11-01",
+    "status": "disabled",
+    "users": 90,
+    "storage": "3.0 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-761",
+    "name": "广州何文化传媒有限公司",
+    "createdAt": "2022-09-06",
+    "status": "disabled",
+    "users": 56,
+    "storage": "3.6 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-762",
+    "name": "青岛吴软件开发有限公司",
+    "createdAt": "2022-02-06",
+    "status": "disabled",
+    "users": 199,
+    "storage": "4.8 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-763",
+    "name": "大连王信息技术有限公司",
+    "createdAt": "2024-08-06",
+    "status": "disabled",
+    "users": 216,
+    "storage": "4.1 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-764",
+    "name": "深圳王科技有限公司",
+    "createdAt": "2024-11-17",
+    "status": "disabled",
+    "users": 77,
+    "storage": "3.3 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-765",
+    "name": "成都杨电子商务有限公司",
+    "createdAt": "2022-01-09",
+    "status": "disabled",
+    "users": 256,
+    "storage": "3.0 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-766",
+    "name": "深圳郑信息技术有限公司",
+    "createdAt": "2023-02-05",
+    "status": "active",
+    "users": 217,
+    "storage": "725 GB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-767",
+    "name": "青岛朱软件开发有限公司",
+    "createdAt": "2022-06-04",
+    "status": "pending",
+    "users": 259,
+    "storage": "1.2 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-768",
+    "name": "武汉周咨询有限公司",
+    "createdAt": "2022-01-22",
+    "status": "active",
+    "users": 219,
+    "storage": "1.1 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-769",
+    "name": "杭州朱文化传媒有限公司",
+    "createdAt": "2024-08-19",
+    "status": "pending",
+    "users": 62,
+    "storage": "3.9 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-770",
+    "name": "福州杨电子商务有限公司",
+    "createdAt": "2022-01-29",
+    "status": "active",
+    "users": 250,
+    "storage": "2.8 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-771",
+    "name": "宁波李电子商务有限公司",
+    "createdAt": "2022-03-21",
+    "status": "active",
+    "users": 78,
+    "storage": "902 GB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-772",
+    "name": "青岛罗咨询有限公司",
+    "createdAt": "2022-10-11",
+    "status": "active",
+    "users": 199,
+    "storage": "1.5 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-773",
+    "name": "宁波胡贸易有限公司",
+    "createdAt": "2024-03-25",
+    "status": "active",
+    "users": 256,
+    "storage": "4.2 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-774",
+    "name": "南京罗服务有限公司",
+    "createdAt": "2022-10-02",
+    "status": "active",
+    "users": 179,
+    "storage": "3.2 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-775",
+    "name": "南京赵科技有限公司",
+    "createdAt": "2022-08-08",
+    "status": "active",
+    "users": 223,
+    "storage": "3.2 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-776",
+    "name": "郑州王服务有限公司",
+    "createdAt": "2025-02-22",
+    "status": "disabled",
+    "users": 195,
+    "storage": "201 GB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-777",
+    "name": "北京周科技有限公司",
+    "createdAt": "2022-01-10",
+    "status": "pending",
+    "users": 278,
+    "storage": "4.9 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-778",
+    "name": "北京林科技有限公司",
+    "createdAt": "2025-02-15",
+    "status": "disabled",
+    "users": 248,
+    "storage": "1.9 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-779",
+    "name": "南京罗咨询有限公司",
+    "createdAt": "2024-01-25",
+    "status": "active",
+    "users": 22,
+    "storage": "4.7 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-780",
+    "name": "广州吴网络科技有限公司",
+    "createdAt": "2024-06-03",
+    "status": "active",
+    "users": 165,
+    "storage": "356 GB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-781",
+    "name": "宁波孙网络科技有限公司",
+    "createdAt": "2024-09-26",
+    "status": "pending",
+    "users": 12,
+    "storage": "2.4 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-782",
+    "name": "沈阳郑软件开发有限公司",
+    "createdAt": "2023-08-24",
+    "status": "disabled",
+    "users": 241,
+    "storage": "2.3 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-783",
+    "name": "南京杨信息技术有限公司",
+    "createdAt": "2024-05-08",
+    "status": "pending",
+    "users": 77,
+    "storage": "3.0 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-784",
+    "name": "青岛王信息技术有限公司",
+    "createdAt": "2023-05-16",
+    "status": "pending",
+    "users": 67,
+    "storage": "3.6 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-785",
+    "name": "杭州林服务有限公司",
+    "createdAt": "2024-02-17",
+    "status": "active",
+    "users": 140,
+    "storage": "3.7 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-786",
+    "name": "苏州吴网络科技有限公司",
+    "createdAt": "2024-10-20",
+    "status": "pending",
+    "users": 144,
+    "storage": "284 GB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-787",
+    "name": "广州李文化传媒有限公司",
+    "createdAt": "2022-12-12",
+    "status": "active",
+    "users": 116,
+    "storage": "3.8 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-788",
+    "name": "天津黄电子商务有限公司",
+    "createdAt": "2022-05-15",
+    "status": "active",
+    "users": 89,
+    "storage": "4.5 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-789",
+    "name": "厦门罗信息技术有限公司",
+    "createdAt": "2024-08-22",
+    "status": "active",
+    "users": 177,
+    "storage": "2.2 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-790",
+    "name": "杭州罗咨询有限公司",
+    "createdAt": "2024-12-25",
+    "status": "disabled",
+    "users": 34,
+    "storage": "3.5 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-791",
+    "name": "上海马教育科技有限公司",
+    "createdAt": "2023-04-23",
+    "status": "pending",
+    "users": 207,
+    "storage": "3.4 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-792",
+    "name": "宁波孙咨询有限公司",
+    "createdAt": "2023-05-11",
+    "status": "active",
+    "users": 141,
+    "storage": "3.9 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-793",
+    "name": "苏州罗服务有限公司",
+    "createdAt": "2022-04-28",
+    "status": "active",
+    "users": 226,
+    "storage": "3.5 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-794",
+    "name": "深圳朱贸易有限公司",
+    "createdAt": "2023-12-16",
+    "status": "active",
+    "users": 247,
+    "storage": "4.2 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-795",
+    "name": "苏州黄咨询有限公司",
+    "createdAt": "2024-09-19",
+    "status": "active",
+    "users": 180,
+    "storage": "70 GB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-796",
+    "name": "重庆王网络科技有限公司",
+    "createdAt": "2022-08-11",
+    "status": "pending",
+    "users": 75,
+    "storage": "4.7 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-797",
+    "name": "福州张信息技术有限公司",
+    "createdAt": "2023-07-26",
+    "status": "pending",
+    "users": 91,
+    "storage": "4.4 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-798",
+    "name": "长沙吴文化传媒有限公司",
+    "createdAt": "2022-03-31",
+    "status": "active",
+    "users": 164,
+    "storage": "1.4 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-799",
+    "name": "深圳陈服务有限公司",
+    "createdAt": "2023-10-15",
+    "status": "active",
+    "users": 284,
+    "storage": "2.6 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-800",
+    "name": "大连胡咨询有限公司",
+    "createdAt": "2025-01-01",
+    "status": "disabled",
+    "users": 202,
+    "storage": "67 GB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-801",
+    "name": "重庆郭科技有限公司",
+    "createdAt": "2024-07-07",
+    "status": "active",
+    "users": 292,
+    "storage": "913 GB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-802",
+    "name": "大连郭服务有限公司",
+    "createdAt": "2023-04-28",
+    "status": "active",
+    "users": 22,
+    "storage": "3.2 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-803",
+    "name": "杭州黄咨询有限公司",
+    "createdAt": "2023-03-10",
+    "status": "pending",
+    "users": 300,
+    "storage": "2.2 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-804",
+    "name": "青岛朱服务有限公司",
+    "createdAt": "2022-07-07",
+    "status": "pending",
+    "users": 259,
+    "storage": "4.0 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-805",
+    "name": "长沙林咨询有限公司",
+    "createdAt": "2023-07-17",
+    "status": "disabled",
+    "users": 38,
+    "storage": "1.2 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-806",
+    "name": "厦门陈信息技术有限公司",
+    "createdAt": "2025-03-12",
+    "status": "active",
+    "users": 272,
+    "storage": "3.9 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-807",
+    "name": "苏州胡科技有限公司",
+    "createdAt": "2025-01-20",
+    "status": "pending",
+    "users": 235,
+    "storage": "678 GB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-808",
+    "name": "上海马文化传媒有限公司",
+    "createdAt": "2025-03-13",
+    "status": "disabled",
+    "users": 102,
+    "storage": "1.4 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-809",
+    "name": "重庆王服务有限公司",
+    "createdAt": "2023-08-21",
+    "status": "pending",
+    "users": 164,
+    "storage": "3.3 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-810",
+    "name": "杭州胡电子商务有限公司",
+    "createdAt": "2023-11-06",
+    "status": "disabled",
+    "users": 51,
+    "storage": "2.5 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-811",
+    "name": "郑州张贸易有限公司",
+    "createdAt": "2024-03-24",
+    "status": "pending",
+    "users": 47,
+    "storage": "270 GB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-812",
+    "name": "郑州罗软件开发有限公司",
+    "createdAt": "2025-02-14",
+    "status": "pending",
+    "users": 250,
+    "storage": "1.8 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-813",
+    "name": "天津李网络科技有限公司",
+    "createdAt": "2022-10-13",
+    "status": "pending",
+    "users": 219,
+    "storage": "236 GB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-814",
+    "name": "长沙孙贸易有限公司",
+    "createdAt": "2024-12-20",
+    "status": "disabled",
+    "users": 274,
+    "storage": "118 GB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-815",
+    "name": "大连高电子商务有限公司",
+    "createdAt": "2023-12-16",
+    "status": "pending",
+    "users": 255,
+    "storage": "2.4 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-816",
+    "name": "天津胡文化传媒有限公司",
+    "createdAt": "2022-01-07",
+    "status": "disabled",
+    "users": 137,
+    "storage": "1.0 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-817",
+    "name": "沈阳王教育科技有限公司",
+    "createdAt": "2023-08-23",
+    "status": "active",
+    "users": 73,
+    "storage": "4.4 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-818",
+    "name": "宁波张科技有限公司",
+    "createdAt": "2023-04-04",
+    "status": "pending",
+    "users": 286,
+    "storage": "3.2 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-819",
+    "name": "宁波何文化传媒有限公司",
+    "createdAt": "2023-03-26",
+    "status": "pending",
+    "users": 280,
+    "storage": "693 GB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-820",
+    "name": "长沙杨科技有限公司",
+    "createdAt": "2023-10-20",
+    "status": "active",
+    "users": 284,
+    "storage": "513 GB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-821",
+    "name": "郑州周科技有限公司",
+    "createdAt": "2024-03-21",
+    "status": "disabled",
+    "users": 169,
+    "storage": "938 GB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-822",
+    "name": "广州黄教育科技有限公司",
+    "createdAt": "2025-01-06",
+    "status": "active",
+    "users": 290,
+    "storage": "4.3 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-823",
+    "name": "苏州马网络科技有限公司",
+    "createdAt": "2022-06-08",
+    "status": "pending",
+    "users": 150,
+    "storage": "2.9 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-824",
+    "name": "杭州罗软件开发有限公司",
+    "createdAt": "2024-12-04",
+    "status": "disabled",
+    "users": 61,
+    "storage": "683 GB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-825",
+    "name": "武汉杨网络科技有限公司",
+    "createdAt": "2022-02-14",
+    "status": "pending",
+    "users": 51,
+    "storage": "866 GB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-826",
+    "name": "上海郑教育科技有限公司",
+    "createdAt": "2023-03-02",
+    "status": "active",
+    "users": 232,
+    "storage": "264 GB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-827",
+    "name": "天津林信息技术有限公司",
+    "createdAt": "2023-12-08",
+    "status": "disabled",
+    "users": 158,
+    "storage": "1.3 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-828",
+    "name": "苏州李软件开发有限公司",
+    "createdAt": "2024-02-04",
+    "status": "active",
+    "users": 282,
+    "storage": "2.3 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-829",
+    "name": "北京刘服务有限公司",
+    "createdAt": "2022-10-15",
+    "status": "active",
+    "users": 119,
+    "storage": "3.8 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-830",
+    "name": "长沙张服务有限公司",
+    "createdAt": "2024-06-02",
+    "status": "active",
+    "users": 118,
+    "storage": "2.3 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-831",
+    "name": "西安周网络科技有限公司",
+    "createdAt": "2023-10-23",
+    "status": "disabled",
+    "users": 242,
+    "storage": "3.6 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-832",
+    "name": "广州陈贸易有限公司",
+    "createdAt": "2023-01-09",
+    "status": "active",
+    "users": 223,
+    "storage": "4.0 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-833",
+    "name": "沈阳何服务有限公司",
+    "createdAt": "2023-08-08",
+    "status": "disabled",
+    "users": 54,
+    "storage": "2.0 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-834",
+    "name": "杭州陈电子商务有限公司",
+    "createdAt": "2022-04-10",
+    "status": "active",
+    "users": 105,
+    "storage": "486 GB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-835",
+    "name": "福州罗科技有限公司",
+    "createdAt": "2024-04-05",
+    "status": "pending",
+    "users": 91,
+    "storage": "3.9 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-836",
+    "name": "宁波胡科技有限公司",
+    "createdAt": "2022-05-25",
+    "status": "disabled",
+    "users": 127,
+    "storage": "1.7 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-837",
+    "name": "青岛郑信息技术有限公司",
+    "createdAt": "2023-04-16",
+    "status": "active",
+    "users": 176,
+    "storage": "4.5 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-838",
+    "name": "杭州林信息技术有限公司",
+    "createdAt": "2025-03-07",
+    "status": "active",
+    "users": 20,
+    "storage": "413 GB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-839",
+    "name": "沈阳陈软件开发有限公司",
+    "createdAt": "2022-02-17",
+    "status": "active",
+    "users": 39,
+    "storage": "3.1 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-840",
+    "name": "广州郑网络科技有限公司",
+    "createdAt": "2024-03-08",
+    "status": "active",
+    "users": 135,
+    "storage": "528 GB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-841",
+    "name": "北京赵贸易有限公司",
+    "createdAt": "2022-12-09",
+    "status": "disabled",
+    "users": 65,
+    "storage": "3.3 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-842",
+    "name": "上海刘信息技术有限公司",
+    "createdAt": "2024-02-24",
+    "status": "disabled",
+    "users": 122,
+    "storage": "3.2 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-843",
+    "name": "郑州黄咨询有限公司",
+    "createdAt": "2024-11-27",
+    "status": "active",
+    "users": 152,
+    "storage": "4.3 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-844",
+    "name": "郑州赵咨询有限公司",
+    "createdAt": "2024-06-20",
+    "status": "disabled",
+    "users": 190,
+    "storage": "5.0 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-845",
+    "name": "上海高教育科技有限公司",
+    "createdAt": "2023-11-01",
+    "status": "active",
+    "users": 54,
+    "storage": "2.6 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-846",
+    "name": "西安马服务有限公司",
+    "createdAt": "2023-12-16",
+    "status": "pending",
+    "users": 277,
+    "storage": "1.7 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-847",
+    "name": "深圳陈贸易有限公司",
+    "createdAt": "2022-09-25",
+    "status": "active",
+    "users": 31,
+    "storage": "3.5 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-848",
+    "name": "西安何贸易有限公司",
+    "createdAt": "2024-03-31",
+    "status": "disabled",
+    "users": 192,
+    "storage": "2.7 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-849",
+    "name": "西安黄电子商务有限公司",
+    "createdAt": "2024-10-02",
+    "status": "active",
+    "users": 234,
+    "storage": "2.8 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-850",
+    "name": "北京杨咨询有限公司",
+    "createdAt": "2022-03-05",
+    "status": "pending",
+    "users": 28,
+    "storage": "1.5 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-851",
+    "name": "重庆孙文化传媒有限公司",
+    "createdAt": "2022-05-12",
+    "status": "active",
+    "users": 200,
+    "storage": "2.7 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-852",
+    "name": "西安何软件开发有限公司",
+    "createdAt": "2022-08-23",
+    "status": "disabled",
+    "users": 61,
+    "storage": "1.7 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-853",
+    "name": "长沙何咨询有限公司",
+    "createdAt": "2022-06-27",
+    "status": "disabled",
+    "users": 190,
+    "storage": "1.4 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-854",
+    "name": "武汉刘教育科技有限公司",
+    "createdAt": "2023-04-28",
+    "status": "pending",
+    "users": 241,
+    "storage": "3.1 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-855",
+    "name": "北京王贸易有限公司",
+    "createdAt": "2023-10-24",
+    "status": "disabled",
+    "users": 19,
+    "storage": "73 GB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-856",
+    "name": "福州何服务有限公司",
+    "createdAt": "2022-08-31",
+    "status": "pending",
+    "users": 147,
+    "storage": "2.9 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-857",
+    "name": "上海李文化传媒有限公司",
+    "createdAt": "2023-10-02",
+    "status": "disabled",
+    "users": 285,
+    "storage": "60 GB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-858",
+    "name": "上海何教育科技有限公司",
+    "createdAt": "2024-08-30",
+    "status": "disabled",
+    "users": 242,
+    "storage": "1.2 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-859",
+    "name": "成都林贸易有限公司",
+    "createdAt": "2023-10-16",
+    "status": "pending",
+    "users": 25,
+    "storage": "3.8 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-860",
+    "name": "青岛黄信息技术有限公司",
+    "createdAt": "2023-09-11",
+    "status": "disabled",
+    "users": 177,
+    "storage": "3.5 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-861",
+    "name": "北京陈信息技术有限公司",
+    "createdAt": "2023-04-12",
+    "status": "pending",
+    "users": 90,
+    "storage": "4.3 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-862",
+    "name": "宁波郭教育科技有限公司",
+    "createdAt": "2022-05-10",
+    "status": "pending",
+    "users": 297,
+    "storage": "2.7 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-863",
+    "name": "沈阳李文化传媒有限公司",
+    "createdAt": "2022-02-28",
+    "status": "disabled",
+    "users": 269,
+    "storage": "3.9 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-864",
+    "name": "上海李网络科技有限公司",
+    "createdAt": "2024-11-02",
+    "status": "active",
+    "users": 155,
+    "storage": "696 GB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-865",
+    "name": "武汉林信息技术有限公司",
+    "createdAt": "2022-02-10",
+    "status": "disabled",
+    "users": 11,
+    "storage": "3.0 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-866",
+    "name": "南京马软件开发有限公司",
+    "createdAt": "2022-01-09",
+    "status": "pending",
+    "users": 264,
+    "storage": "4.7 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-867",
+    "name": "苏州高科技有限公司",
+    "createdAt": "2022-11-15",
+    "status": "active",
+    "users": 196,
+    "storage": "3.1 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-868",
+    "name": "苏州罗贸易有限公司",
+    "createdAt": "2024-01-07",
+    "status": "pending",
+    "users": 224,
+    "storage": "793 GB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-869",
+    "name": "北京罗软件开发有限公司",
+    "createdAt": "2023-05-16",
+    "status": "active",
+    "users": 265,
+    "storage": "3.5 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-870",
+    "name": "大连孙电子商务有限公司",
+    "createdAt": "2022-01-31",
+    "status": "disabled",
+    "users": 276,
+    "storage": "2.7 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-871",
+    "name": "沈阳王电子商务有限公司",
+    "createdAt": "2023-06-02",
+    "status": "active",
+    "users": 68,
+    "storage": "1.6 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-872",
+    "name": "宁波吴网络科技有限公司",
+    "createdAt": "2022-10-21",
+    "status": "disabled",
+    "users": 152,
+    "storage": "807 GB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-873",
+    "name": "成都马软件开发有限公司",
+    "createdAt": "2023-09-23",
+    "status": "disabled",
+    "users": 167,
+    "storage": "4.4 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-874",
+    "name": "西安马咨询有限公司",
+    "createdAt": "2023-09-17",
+    "status": "disabled",
+    "users": 236,
+    "storage": "3.8 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-875",
+    "name": "成都郑电子商务有限公司",
+    "createdAt": "2023-06-03",
+    "status": "active",
+    "users": 127,
+    "storage": "380 GB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-876",
+    "name": "西安赵软件开发有限公司",
+    "createdAt": "2024-12-07",
+    "status": "disabled",
+    "users": 39,
+    "storage": "102 GB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-877",
+    "name": "大连郑电子商务有限公司",
+    "createdAt": "2024-05-13",
+    "status": "pending",
+    "users": 261,
+    "storage": "4.2 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-878",
+    "name": "苏州吴服务有限公司",
+    "createdAt": "2024-10-13",
+    "status": "pending",
+    "users": 94,
+    "storage": "4.8 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-879",
+    "name": "宁波赵服务有限公司",
+    "createdAt": "2023-09-02",
+    "status": "active",
+    "users": 220,
+    "storage": "186 GB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-880",
+    "name": "重庆杨电子商务有限公司",
+    "createdAt": "2023-02-15",
+    "status": "disabled",
+    "users": 142,
+    "storage": "4.5 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-881",
+    "name": "深圳郭网络科技有限公司",
+    "createdAt": "2024-07-04",
+    "status": "pending",
+    "users": 22,
+    "storage": "444 GB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-882",
+    "name": "成都何科技有限公司",
+    "createdAt": "2024-04-16",
+    "status": "active",
+    "users": 114,
+    "storage": "1.1 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-883",
+    "name": "西安林科技有限公司",
+    "createdAt": "2023-04-27",
+    "status": "disabled",
+    "users": 203,
+    "storage": "3.2 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-884",
+    "name": "福州刘咨询有限公司",
+    "createdAt": "2025-01-22",
+    "status": "active",
+    "users": 38,
+    "storage": "2.4 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-885",
+    "name": "深圳何服务有限公司",
+    "createdAt": "2023-02-28",
+    "status": "active",
+    "users": 106,
+    "storage": "1.1 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-886",
+    "name": "天津马电子商务有限公司",
+    "createdAt": "2024-12-30",
+    "status": "disabled",
+    "users": 142,
+    "storage": "3.4 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-887",
+    "name": "重庆杨信息技术有限公司",
+    "createdAt": "2022-12-26",
+    "status": "disabled",
+    "users": 138,
+    "storage": "2.4 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-888",
+    "name": "上海刘贸易有限公司",
+    "createdAt": "2024-07-28",
+    "status": "pending",
+    "users": 232,
+    "storage": "3.2 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-889",
+    "name": "郑州刘科技有限公司",
+    "createdAt": "2025-03-14",
+    "status": "pending",
+    "users": 49,
+    "storage": "2.0 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-890",
+    "name": "西安李服务有限公司",
+    "createdAt": "2024-09-16",
+    "status": "disabled",
+    "users": 250,
+    "storage": "1.1 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-891",
+    "name": "宁波马文化传媒有限公司",
+    "createdAt": "2022-01-24",
+    "status": "pending",
+    "users": 153,
+    "storage": "3.7 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-892",
+    "name": "上海何科技有限公司",
+    "createdAt": "2024-10-26",
+    "status": "disabled",
+    "users": 190,
+    "storage": "3.5 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-893",
+    "name": "上海罗教育科技有限公司",
+    "createdAt": "2022-03-11",
+    "status": "pending",
+    "users": 273,
+    "storage": "2.6 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-894",
+    "name": "武汉杨信息技术有限公司",
+    "createdAt": "2023-06-15",
+    "status": "active",
+    "users": 107,
+    "storage": "878 GB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-895",
+    "name": "深圳高软件开发有限公司",
+    "createdAt": "2023-09-23",
+    "status": "pending",
+    "users": 214,
+    "storage": "2.1 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-896",
+    "name": "北京林科技有限公司",
+    "createdAt": "2022-12-26",
+    "status": "disabled",
+    "users": 191,
+    "storage": "4.1 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-897",
+    "name": "广州刘科技有限公司",
+    "createdAt": "2024-04-25",
+    "status": "active",
+    "users": 279,
+    "storage": "956 GB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-898",
+    "name": "武汉赵信息技术有限公司",
+    "createdAt": "2023-07-18",
+    "status": "active",
+    "users": 239,
+    "storage": "2.9 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-899",
+    "name": "青岛林咨询有限公司",
+    "createdAt": "2022-04-05",
+    "status": "active",
+    "users": 156,
+    "storage": "2.8 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-900",
+    "name": "上海王科技有限公司",
+    "createdAt": "2024-06-22",
+    "status": "active",
+    "users": 280,
+    "storage": "2.2 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-901",
+    "name": "厦门胡网络科技有限公司",
+    "createdAt": "2023-11-03",
+    "status": "pending",
+    "users": 115,
+    "storage": "264 GB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-902",
+    "name": "沈阳李文化传媒有限公司",
+    "createdAt": "2022-03-18",
+    "status": "disabled",
+    "users": 263,
+    "storage": "2.6 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-903",
+    "name": "大连林服务有限公司",
+    "createdAt": "2023-11-23",
+    "status": "disabled",
+    "users": 36,
+    "storage": "490 GB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-904",
+    "name": "郑州郑咨询有限公司",
+    "createdAt": "2022-10-08",
+    "status": "active",
+    "users": 130,
+    "storage": "735 GB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-905",
+    "name": "南京李软件开发有限公司",
+    "createdAt": "2024-10-04",
+    "status": "disabled",
+    "users": 82,
+    "storage": "2.0 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-906",
+    "name": "成都杨服务有限公司",
+    "createdAt": "2023-11-18",
+    "status": "active",
+    "users": 34,
+    "storage": "3.0 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-907",
+    "name": "青岛赵服务有限公司",
+    "createdAt": "2024-03-27",
+    "status": "pending",
+    "users": 22,
+    "storage": "809 GB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-908",
+    "name": "上海罗咨询有限公司",
+    "createdAt": "2022-06-25",
+    "status": "active",
+    "users": 277,
+    "storage": "4.0 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-909",
+    "name": "成都陈服务有限公司",
+    "createdAt": "2022-10-02",
+    "status": "disabled",
+    "users": 44,
+    "storage": "1.0 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-910",
+    "name": "广州林科技有限公司",
+    "createdAt": "2023-09-30",
+    "status": "active",
+    "users": 220,
+    "storage": "3.4 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-911",
+    "name": "武汉陈信息技术有限公司",
+    "createdAt": "2024-08-23",
+    "status": "active",
+    "users": 150,
+    "storage": "318 GB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-912",
+    "name": "杭州郭科技有限公司",
+    "createdAt": "2023-12-04",
+    "status": "pending",
+    "users": 298,
+    "storage": "648 GB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-913",
+    "name": "深圳王软件开发有限公司",
+    "createdAt": "2023-12-08",
+    "status": "pending",
+    "users": 164,
+    "storage": "4.3 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-914",
+    "name": "宁波林电子商务有限公司",
+    "createdAt": "2023-02-22",
+    "status": "pending",
+    "users": 256,
+    "storage": "1.6 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-915",
+    "name": "西安马服务有限公司",
+    "createdAt": "2023-01-05",
+    "status": "disabled",
+    "users": 234,
+    "storage": "666 GB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-916",
+    "name": "长沙刘软件开发有限公司",
+    "createdAt": "2022-11-13",
+    "status": "active",
+    "users": 150,
+    "storage": "3.3 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-917",
+    "name": "厦门陈咨询有限公司",
+    "createdAt": "2022-12-02",
+    "status": "disabled",
+    "users": 44,
+    "storage": "5.0 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-918",
+    "name": "武汉马电子商务有限公司",
+    "createdAt": "2024-11-22",
+    "status": "active",
+    "users": 38,
+    "storage": "812 GB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-919",
+    "name": "长沙王文化传媒有限公司",
+    "createdAt": "2022-12-30",
+    "status": "disabled",
+    "users": 59,
+    "storage": "4.2 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-920",
+    "name": "郑州孙服务有限公司",
+    "createdAt": "2024-11-28",
+    "status": "disabled",
+    "users": 203,
+    "storage": "3.1 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-921",
+    "name": "北京黄贸易有限公司",
+    "createdAt": "2022-12-28",
+    "status": "disabled",
+    "users": 242,
+    "storage": "1.7 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-922",
+    "name": "成都马信息技术有限公司",
+    "createdAt": "2024-05-10",
+    "status": "active",
+    "users": 45,
+    "storage": "764 GB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-923",
+    "name": "长沙周网络科技有限公司",
+    "createdAt": "2024-01-11",
+    "status": "active",
+    "users": 81,
+    "storage": "490 GB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-924",
+    "name": "北京高教育科技有限公司",
+    "createdAt": "2024-06-17",
+    "status": "disabled",
+    "users": 110,
+    "storage": "2.0 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-925",
+    "name": "青岛胡科技有限公司",
+    "createdAt": "2022-11-11",
+    "status": "disabled",
+    "users": 164,
+    "storage": "132 GB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-926",
+    "name": "上海郭网络科技有限公司",
+    "createdAt": "2024-05-22",
+    "status": "disabled",
+    "users": 113,
+    "storage": "4.6 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-927",
+    "name": "沈阳赵网络科技有限公司",
+    "createdAt": "2024-08-02",
+    "status": "active",
+    "users": 286,
+    "storage": "4.2 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-928",
+    "name": "长沙李教育科技有限公司",
+    "createdAt": "2022-01-26",
+    "status": "pending",
+    "users": 160,
+    "storage": "808 GB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-929",
+    "name": "北京陈咨询有限公司",
+    "createdAt": "2024-04-08",
+    "status": "disabled",
+    "users": 97,
+    "storage": "4.8 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-930",
+    "name": "大连何信息技术有限公司",
+    "createdAt": "2024-07-22",
+    "status": "active",
+    "users": 266,
+    "storage": "1.9 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-931",
+    "name": "长沙罗教育科技有限公司",
+    "createdAt": "2022-09-17",
+    "status": "active",
+    "users": 229,
+    "storage": "4.3 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-932",
+    "name": "苏州吴科技有限公司",
+    "createdAt": "2023-11-25",
+    "status": "disabled",
+    "users": 233,
+    "storage": "2.8 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-933",
+    "name": "福州朱教育科技有限公司",
+    "createdAt": "2023-02-08",
+    "status": "disabled",
+    "users": 123,
+    "storage": "833 GB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-934",
+    "name": "重庆刘网络科技有限公司",
+    "createdAt": "2025-02-12",
+    "status": "pending",
+    "users": 17,
+    "storage": "3.3 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-935",
+    "name": "青岛吴信息技术有限公司",
+    "createdAt": "2022-10-12",
+    "status": "pending",
+    "users": 94,
+    "storage": "1.3 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-936",
+    "name": "武汉何文化传媒有限公司",
+    "createdAt": "2023-12-16",
+    "status": "disabled",
+    "users": 139,
+    "storage": "914 GB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-937",
+    "name": "青岛陈贸易有限公司",
+    "createdAt": "2024-07-07",
+    "status": "pending",
+    "users": 124,
+    "storage": "2.5 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-938",
+    "name": "天津陈信息技术有限公司",
+    "createdAt": "2023-11-24",
+    "status": "pending",
+    "users": 85,
+    "storage": "3.1 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-939",
+    "name": "重庆郑咨询有限公司",
+    "createdAt": "2023-03-26",
+    "status": "active",
+    "users": 60,
+    "storage": "3.3 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-940",
+    "name": "深圳林电子商务有限公司",
+    "createdAt": "2022-03-14",
+    "status": "active",
+    "users": 206,
+    "storage": "4.1 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-941",
+    "name": "厦门杨文化传媒有限公司",
+    "createdAt": "2023-12-18",
+    "status": "active",
+    "users": 58,
+    "storage": "4.3 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-942",
+    "name": "长沙郭软件开发有限公司",
+    "createdAt": "2024-03-29",
+    "status": "pending",
+    "users": 247,
+    "storage": "3.4 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-943",
+    "name": "杭州赵信息技术有限公司",
+    "createdAt": "2022-01-28",
+    "status": "disabled",
+    "users": 110,
+    "storage": "601 GB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-944",
+    "name": "长沙黄教育科技有限公司",
+    "createdAt": "2023-04-24",
+    "status": "pending",
+    "users": 69,
+    "storage": "3.6 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-945",
+    "name": "福州吴文化传媒有限公司",
+    "createdAt": "2022-03-28",
+    "status": "disabled",
+    "users": 13,
+    "storage": "834 GB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-946",
+    "name": "杭州郑教育科技有限公司",
+    "createdAt": "2024-04-12",
+    "status": "pending",
+    "users": 178,
+    "storage": "653 GB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-947",
+    "name": "重庆林贸易有限公司",
+    "createdAt": "2024-12-07",
+    "status": "disabled",
+    "users": 99,
+    "storage": "813 GB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-948",
+    "name": "天津罗信息技术有限公司",
+    "createdAt": "2022-07-25",
+    "status": "disabled",
+    "users": 285,
+    "storage": "2.9 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-949",
+    "name": "郑州何信息技术有限公司",
+    "createdAt": "2023-11-09",
+    "status": "disabled",
+    "users": 209,
+    "storage": "1.6 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-950",
+    "name": "杭州黄信息技术有限公司",
+    "createdAt": "2023-07-22",
+    "status": "pending",
+    "users": 170,
+    "storage": "1.1 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-951",
+    "name": "郑州孙文化传媒有限公司",
+    "createdAt": "2023-05-07",
+    "status": "pending",
+    "users": 36,
+    "storage": "903 GB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-952",
+    "name": "宁波李教育科技有限公司",
+    "createdAt": "2024-05-03",
+    "status": "active",
+    "users": 181,
+    "storage": "1.5 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-953",
+    "name": "杭州郑软件开发有限公司",
+    "createdAt": "2024-02-15",
+    "status": "pending",
+    "users": 82,
+    "storage": "2.3 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-954",
+    "name": "长沙林服务有限公司",
+    "createdAt": "2023-02-05",
+    "status": "disabled",
+    "users": 290,
+    "storage": "4.8 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-955",
+    "name": "成都张软件开发有限公司",
+    "createdAt": "2023-10-12",
+    "status": "disabled",
+    "users": 55,
+    "storage": "2.2 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-956",
+    "name": "成都林电子商务有限公司",
+    "createdAt": "2022-12-17",
+    "status": "active",
+    "users": 217,
+    "storage": "170 GB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-957",
+    "name": "青岛刘文化传媒有限公司",
+    "createdAt": "2023-10-13",
+    "status": "pending",
+    "users": 129,
+    "storage": "3.6 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-958",
+    "name": "上海罗贸易有限公司",
+    "createdAt": "2023-11-27",
+    "status": "disabled",
+    "users": 242,
+    "storage": "3.2 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-959",
+    "name": "天津王科技有限公司",
+    "createdAt": "2025-02-02",
+    "status": "active",
+    "users": 269,
+    "storage": "1.3 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-960",
+    "name": "长沙吴贸易有限公司",
+    "createdAt": "2024-11-28",
+    "status": "disabled",
+    "users": 210,
+    "storage": "2.6 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-961",
+    "name": "广州张咨询有限公司",
+    "createdAt": "2023-03-27",
+    "status": "active",
+    "users": 282,
+    "storage": "3.1 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-962",
+    "name": "深圳吴贸易有限公司",
+    "createdAt": "2023-06-25",
+    "status": "disabled",
+    "users": 137,
+    "storage": "716 GB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-963",
+    "name": "大连郭科技有限公司",
+    "createdAt": "2025-01-21",
+    "status": "active",
+    "users": 139,
+    "storage": "4.2 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-964",
+    "name": "大连陈咨询有限公司",
+    "createdAt": "2024-03-06",
+    "status": "active",
+    "users": 102,
+    "storage": "3.0 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-965",
+    "name": "沈阳周咨询有限公司",
+    "createdAt": "2022-06-03",
+    "status": "active",
+    "users": 225,
+    "storage": "3.7 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-966",
+    "name": "天津罗教育科技有限公司",
+    "createdAt": "2024-10-04",
+    "status": "pending",
+    "users": 241,
+    "storage": "3.0 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-967",
+    "name": "天津林电子商务有限公司",
+    "createdAt": "2024-03-02",
+    "status": "pending",
+    "users": 206,
+    "storage": "1.2 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-968",
+    "name": "广州张文化传媒有限公司",
+    "createdAt": "2022-03-08",
+    "status": "active",
+    "users": 48,
+    "storage": "3.7 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-969",
+    "name": "宁波周软件开发有限公司",
+    "createdAt": "2023-02-15",
+    "status": "pending",
+    "users": 51,
+    "storage": "1.2 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-970",
+    "name": "宁波李咨询有限公司",
+    "createdAt": "2022-08-22",
+    "status": "disabled",
+    "users": 81,
+    "storage": "456 GB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-971",
+    "name": "苏州吴贸易有限公司",
+    "createdAt": "2023-11-14",
+    "status": "disabled",
+    "users": 67,
+    "storage": "3.4 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-972",
+    "name": "西安陈信息技术有限公司",
+    "createdAt": "2022-08-18",
+    "status": "disabled",
+    "users": 101,
+    "storage": "4.6 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-973",
+    "name": "青岛吴科技有限公司",
+    "createdAt": "2024-06-27",
+    "status": "pending",
+    "users": 136,
+    "storage": "3.4 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-974",
+    "name": "青岛吴咨询有限公司",
+    "createdAt": "2022-04-24",
+    "status": "active",
+    "users": 175,
+    "storage": "1.3 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-975",
+    "name": "福州何软件开发有限公司",
+    "createdAt": "2024-01-14",
+    "status": "pending",
+    "users": 113,
+    "storage": "1.3 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-976",
+    "name": "苏州陈贸易有限公司",
+    "createdAt": "2022-09-27",
+    "status": "pending",
+    "users": 263,
+    "storage": "3.7 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-977",
+    "name": "北京郭服务有限公司",
+    "createdAt": "2022-10-08",
+    "status": "pending",
+    "users": 11,
+    "storage": "2.2 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-978",
+    "name": "福州郑软件开发有限公司",
+    "createdAt": "2022-05-17",
+    "status": "pending",
+    "users": 85,
+    "storage": "1.1 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-979",
+    "name": "北京吴网络科技有限公司",
+    "createdAt": "2024-12-10",
+    "status": "active",
+    "users": 190,
+    "storage": "1.7 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-980",
+    "name": "广州朱电子商务有限公司",
+    "createdAt": "2024-11-21",
+    "status": "disabled",
+    "users": 141,
+    "storage": "4.4 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-981",
+    "name": "成都李咨询有限公司",
+    "createdAt": "2023-05-07",
+    "status": "active",
+    "users": 15,
+    "storage": "4.7 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-982",
+    "name": "广州胡教育科技有限公司",
+    "createdAt": "2023-01-04",
+    "status": "pending",
+    "users": 113,
+    "storage": "3.2 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-983",
+    "name": "沈阳胡教育科技有限公司",
+    "createdAt": "2022-10-09",
+    "status": "pending",
+    "users": 243,
+    "storage": "3.0 TB",
+    "color": "#42b983"
+  },
+  {
+    "id": "TN-984",
+    "name": "长沙陈文化传媒有限公司",
+    "createdAt": "2024-01-27",
+    "status": "pending",
+    "users": 77,
+    "storage": "3.9 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-985",
+    "name": "福州罗网络科技有限公司",
+    "createdAt": "2023-04-28",
+    "status": "pending",
+    "users": 176,
+    "storage": "2.1 TB",
+    "color": "#f1c40f"
+  },
+  {
+    "id": "TN-986",
+    "name": "西安张软件开发有限公司",
+    "createdAt": "2022-01-06",
+    "status": "pending",
+    "users": 213,
+    "storage": "2.0 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-987",
+    "name": "北京罗软件开发有限公司",
+    "createdAt": "2023-09-05",
+    "status": "pending",
+    "users": 55,
+    "storage": "1.5 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-988",
+    "name": "天津郭信息技术有限公司",
+    "createdAt": "2022-12-21",
+    "status": "disabled",
+    "users": 71,
+    "storage": "2.3 TB",
+    "color": "#e74c3c"
+  },
+  {
+    "id": "TN-989",
+    "name": "广州孙服务有限公司",
+    "createdAt": "2024-03-27",
+    "status": "active",
+    "users": 149,
+    "storage": "4.4 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-990",
+    "name": "苏州何信息技术有限公司",
+    "createdAt": "2024-05-27",
+    "status": "active",
+    "users": 261,
+    "storage": "3.4 TB",
+    "color": "#1abc9c"
+  },
+  {
+    "id": "TN-991",
+    "name": "福州孙网络科技有限公司",
+    "createdAt": "2023-07-03",
+    "status": "disabled",
+    "users": 167,
+    "storage": "2.4 TB",
+    "color": "#f39c12"
+  },
+  {
+    "id": "TN-992",
+    "name": "福州胡教育科技有限公司",
+    "createdAt": "2024-01-30",
+    "status": "pending",
+    "users": 248,
+    "storage": "3.3 TB",
+    "color": "#16a085"
+  },
+  {
+    "id": "TN-993",
+    "name": "大连郭文化传媒有限公司",
+    "createdAt": "2022-06-03",
+    "status": "active",
+    "users": 83,
+    "storage": "3.1 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-994",
+    "name": "厦门胡信息技术有限公司",
+    "createdAt": "2024-01-04",
+    "status": "active",
+    "users": 68,
+    "storage": "3.8 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-995",
+    "name": "郑州朱教育科技有限公司",
+    "createdAt": "2023-02-09",
+    "status": "active",
+    "users": 236,
+    "storage": "2.6 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-996",
+    "name": "大连林教育科技有限公司",
+    "createdAt": "2023-09-29",
+    "status": "disabled",
+    "users": 104,
+    "storage": "1.5 TB",
+    "color": "#9b59b6"
+  },
+  {
+    "id": "TN-997",
+    "name": "苏州高软件开发有限公司",
+    "createdAt": "2024-09-17",
+    "status": "pending",
+    "users": 181,
+    "storage": "4.3 TB",
+    "color": "#e67e22"
+  },
+  {
+    "id": "TN-998",
+    "name": "南京朱科技有限公司",
+    "createdAt": "2024-12-12",
+    "status": "active",
+    "users": 133,
+    "storage": "3.2 TB",
+    "color": "#3498db"
+  },
+  {
+    "id": "TN-999",
+    "name": "厦门马软件开发有限公司",
+    "createdAt": "2022-05-28",
+    "status": "active",
+    "users": 269,
+    "storage": "1.5 TB",
+    "color": "#2c3e50"
+  },
+  {
+    "id": "TN-1000",
+    "name": "沈阳罗服务有限公司",
+    "createdAt": "2022-08-23",
+    "status": "pending",
+    "users": 11,
+    "storage": "4.1 TB",
+    "color": "#9b59b6"
+  }
+]

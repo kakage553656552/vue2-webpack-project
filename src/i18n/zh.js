@@ -71,7 +71,10 @@ export default {
     id: 'ID',
     statusActive: '活跃',
     statusPending: '待审核',
-    statusDisabled: '已禁用'
+    statusDisabled: '已禁用',
+    loadingText: '加载租户数据中...',
+    loadError: '加载租户数据失败',
+    retry: '重试'
   },
   stats: {
     totalUsers: '用户总数',
