@@ -85,14 +85,20 @@ export function getTenantDetail(id) {
 export function createTenant(data) {
   return new Promise((resolve) => {
     setTimeout(() => {
+      // 创建新租户对象
+      const newTenant = {
+        id: `TN-${Date.now()}`,
+        ...data,
+        createdAt: new Date().toISOString().split('T')[0]
+      };
+      
+      // 将新租户添加到数据数组中
+      tenantsData.unshift(newTenant);
+      
       resolve({
         code: 200,
         message: '创建租户成功',
-        data: {
-          id: `TN-${Date.now()}`,
-          ...data,
-          createdAt: new Date().toISOString().split('T')[0]
-        }
+        data: newTenant
       });
     }, 600);
   });

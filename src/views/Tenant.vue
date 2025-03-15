@@ -17,7 +17,7 @@
         <el-button type="primary" @click="fetchTenants">搜索</el-button>
       </div>
       <div class="tenant-actions">
-        <el-button type="primary" icon="el-icon-plus">添加租户</el-button>
+        <el-button type="primary" icon="el-icon-plus" @click="showAddTenantDialog">添加租户</el-button>
         <el-button type="warning" icon="el-icon-refresh" @click="resetData">重置数据</el-button>
       </div>
     </div>
@@ -122,11 +122,46 @@
         <el-button type="danger" @click="confirmDelete" :loading="deleteLoading">{{ confirm }}</el-button>
       </span>
     </el-dialog>
+    
+    <!-- 添加租户对话框 -->
+    <el-dialog
+      title="添加租户"
+      :visible.sync="addDialogVisible"
+      width="50%"
+      :close-on-click-modal="false"
+      @closed="resetAddForm">
+      <el-form :model="tenantForm" :rules="tenantRules" ref="tenantForm" label-width="100px" label-position="right">
+        <el-form-item label="租户名称" prop="name">
+          <el-input v-model="tenantForm.name" placeholder="请输入租户名称"></el-input>
+        </el-form-item>
+        <el-form-item label="状态" prop="status">
+          <el-select v-model="tenantForm.status" placeholder="请选择租户状态" style="width: 100%">
+            <el-option label="活跃" value="active"></el-option>
+            <el-option label="待审核" value="pending"></el-option>
+            <el-option label="已禁用" value="disabled"></el-option>
+          </el-select>
+        </el-form-item>
+        <el-form-item label="用户数量" prop="users">
+          <el-input-number v-model="tenantForm.users" :min="0" :max="1000" style="width: 100%"></el-input-number>
+        </el-form-item>
+        <el-form-item label="存储空间" prop="storage">
+          <el-input v-model="tenantForm.storage" placeholder="请输入存储空间，例如：1.5 TB"></el-input>
+        </el-form-item>
+        <el-form-item label="颜色标识" prop="color">
+          <el-color-picker v-model="tenantForm.color" show-alpha></el-color-picker>
+          <span class="color-preview" :style="{ backgroundColor: tenantForm.color }"></span>
+        </el-form-item>
+      </el-form>
+      <span slot="footer" class="dialog-footer">
+        <el-button @click="addDialogVisible = false">取消</el-button>
+        <el-button type="primary" @click="submitAddTenant" :loading="addLoading">确认</el-button>
+      </span>
+    </el-dialog>
   </div>
 </template>
 
 <script>
-import { getTenants, deleteTenant, resetTenantsData } from '@/api/tenant';
+import { getTenants, deleteTenant, resetTenantsData, createTenant } from '@/api/tenant';
 
 export default {
   name: 'TenantPage',
@@ -145,6 +180,36 @@ export default {
       deleteDialogVisible: false,
       deletingTenant: null,
       deleteLoading: false,
+      
+      // 添加租户相关数据
+      addDialogVisible: false,
+      addLoading: false,
+      tenantForm: {
+        name: '',
+        status: 'active',
+        users: 0,
+        storage: '0 TB',
+        color: '#409EFF'
+      },
+      tenantRules: {
+        name: [
+          { required: true, message: '请输入租户名称', trigger: 'blur' },
+          { min: 2, max: 50, message: '长度在 2 到 50 个字符', trigger: 'blur' }
+        ],
+        status: [
+          { required: true, message: '请选择租户状态', trigger: 'change' }
+        ],
+        users: [
+          { required: true, message: '请输入用户数量', trigger: 'blur' }
+        ],
+        storage: [
+          { required: true, message: '请输入存储空间', trigger: 'blur' },
+          { pattern: /^\d+(\.\d+)?\s(GB|TB|PB)$/, message: '格式应为：数字 单位，例如：1.5 TB', trigger: 'blur' }
+        ],
+        color: [
+          { required: true, message: '请选择颜色标识', trigger: 'change' }
+        ]
+      },
       
       // 添加国际化文本的静态替换
       loadError: '加载错误',
@@ -311,6 +376,64 @@ export default {
           console.error('重置数据失败:', error);
           this.tableLoading = false;
         });
+    },
+    
+    // 显示添加租户对话框
+    showAddTenantDialog() {
+      this.addDialogVisible = true;
+    },
+    
+    // 重置添加租户表单
+    resetAddForm() {
+      if (this.$refs.tenantForm) {
+        this.$refs.tenantForm.resetFields();
+      }
+      this.tenantForm = {
+        name: '',
+        status: 'active',
+        users: 0,
+        storage: '0 TB',
+        color: '#409EFF'
+      };
+    },
+    
+    // 提交添加租户表单
+    submitAddTenant() {
+      this.$refs.tenantForm.validate(valid => {
+        if (valid) {
+          this.addLoading = true;
+          
+          createTenant(this.tenantForm)
+            .then(response => {
+              if (response.code === 200) {
+                this.$message({
+                  type: 'success',
+                  message: '租户添加成功'
+                });
+                
+                // 关闭对话框
+                this.addDialogVisible = false;
+                
+                // 重新加载数据
+                this.fetchTenants();
+              } else {
+                throw new Error(response.message || '添加租户失败');
+              }
+            })
+            .catch(error => {
+              console.error('添加租户失败:', error);
+              this.$message({
+                type: 'error',
+                message: error.message || '添加租户失败，请稍后重试'
+              });
+            })
+            .finally(() => {
+              this.addLoading = false;
+            });
+        } else {
+          return false;
+        }
+      });
     }
   }
 }
@@ -475,5 +598,16 @@ export default {
   color: #E6A23C;
   margin-top: 10px;
   font-size: 14px;
+}
+
+/* 添加租户对话框样式 */
+.color-preview {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  margin-left: 10px;
+  vertical-align: middle;
+  border: 1px solid #dcdfe6;
 }
 </style> 
