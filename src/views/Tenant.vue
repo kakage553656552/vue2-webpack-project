@@ -148,8 +148,9 @@
           <el-input v-model="tenantForm.storage" placeholder="请输入存储空间，例如：1.5 TB"></el-input>
         </el-form-item>
         <el-form-item label="颜色标识" prop="color">
-          <el-color-picker v-model="tenantForm.color" show-alpha></el-color-picker>
-          <span class="color-preview" :style="{ backgroundColor: tenantForm.color }"></span>
+          <div class="color-picker-container">
+            <el-color-picker v-model="tenantForm.color" show-alpha></el-color-picker>
+          </div>
         </el-form-item>
       </el-form>
       <span slot="footer" class="dialog-footer">
@@ -186,8 +187,9 @@
           <el-input v-model="editForm.storage" placeholder="请输入存储空间，例如：1.5 TB"></el-input>
         </el-form-item>
         <el-form-item label="颜色标识" prop="color">
-          <el-color-picker v-model="editForm.color" show-alpha></el-color-picker>
-          <span class="color-preview" :style="{ backgroundColor: editForm.color }"></span>
+          <div class="color-picker-container">
+            <el-color-picker v-model="editForm.color" show-alpha></el-color-picker>
+          </div>
         </el-form-item>
       </el-form>
       <span slot="footer" class="dialog-footer">
@@ -709,14 +711,9 @@ export default {
   font-size: 14px;
 }
 
-/* 添加租户对话框样式 */
-.color-preview {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  border-radius: 4px;
-  margin-left: 10px;
-  vertical-align: middle;
-  border: 1px solid #dcdfe6;
+
+.color-picker-container {
+  display: flex;
+  align-items: center;
 }
 </style> 
