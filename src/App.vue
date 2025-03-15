@@ -4,7 +4,12 @@
       <!-- 左侧菜单栏 -->
       <div class="sidebar">
         <div class="logo-container">
-          <div class="logo animated-logo">V2</div>
+          <Logo />
+          <!-- 在logo下方添加时钟 -->
+          <div class="sidebar-clock">
+            <div class="time">{{ currentTime }}</div>
+            <div class="date">{{ currentDate }}</div>
+          </div>
         </div>
         <nav class="menu">
           <router-link to="/" class="menu-item">
@@ -46,8 +51,49 @@
 </template>
 
 <script>
+import AppLogo from '@/components/Logo.vue'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Logo: AppLogo
+  },
+  data() {
+    return {
+      currentTime: '',
+      currentDate: '',
+      timer: null
+    }
+  },
+  mounted() {
+    this.updateTime();
+    // 每秒更新一次时间
+    this.timer = setInterval(this.updateTime, 1000);
+  },
+  beforeDestroy() {
+    // 清除定时器
+    if (this.timer) {
+      clearInterval(this.timer);
+    }
+  },
+  methods: {
+    updateTime() {
+      const now = new Date();
+      
+      // 格式化时间 HH:MM:SS
+      const hours = String(now.getHours()).padStart(2, '0');
+      const minutes = String(now.getMinutes()).padStart(2, '0');
+      const seconds = String(now.getSeconds()).padStart(2, '0');
+      this.currentTime = `${hours}:${minutes}:${seconds}`;
+      
+      // 格式化日期 MM月DD日 星期几
+      const month = String(now.getMonth() + 1).padStart(2, '0');
+      const day = String(now.getDate()).padStart(2, '0');
+      const weekdays = ['日', '一', '二', '三', '四', '五', '六'];
+      const weekday = weekdays[now.getDay()];
+      this.currentDate = `${month}月${day}日 星期${weekday}`;
+    }
+  }
 }
 </script>
 
@@ -92,57 +138,117 @@ html, body {
 .logo-container {
   padding: 20px 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+  /* 移除背景渐变 */
+  /* background: linear-gradient(180deg, rgba(64, 158, 255, 0.1), transparent); */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 20px;
+  margin-bottom: 10px;
 }
 
+/* 添加logo组件的底部间距 */
 .logo {
-  width: 50px;
-  height: 50px;
-  background-color: #409EFF; /* 修改为与首页logo相同的颜色 */
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 18px;
-  font-weight: bold;
-  border-radius: 50%;
+  margin-bottom: 15px;
 }
 
-/* 添加与首页logo相同的动画效果 */
-.animated-logo {
-  animation: pulse 2s infinite alternate, rotate 20s linear infinite;
-  box-shadow: 0 0 20px rgba(64, 158, 255, 0.5);
+/* 侧边栏时钟样式 */
+.sidebar-clock {
+  text-align: center;
+  width: 85%;
+  padding: 10px 15px;
+  background: linear-gradient(145deg, #2c3e50, #1e2b38);
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3), inset 0 1px 1px rgba(255, 255, 255, 0.1);
+  position: relative;
+  overflow: hidden;
+  animation: fadeIn 1s ease-out;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
 }
 
-@keyframes pulse {
+.sidebar-clock:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4), inset 0 1px 1px rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-clock::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+}
+
+.sidebar-clock::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.05), transparent);
+}
+
+@keyframes fadeIn {
   from {
-    transform: scale(1);
-    box-shadow: 0 0 20px rgba(64, 158, 255, 0.5);
+    opacity: 0;
+    transform: translateY(10px);
   }
   to {
-    transform: scale(1.05);
-    box-shadow: 0 0 30px rgba(64, 158, 255, 0.8);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-@keyframes rotate {
-  from {
-    background: linear-gradient(45deg, #409EFF, #36D1DC);
-    background-size: 200% 200%;
-    background-position: 0% 0%;
+.sidebar-clock .time {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #42b983;
+  text-shadow: 0 0 10px rgba(66, 185, 131, 0.5);
+  position: relative;
+  z-index: 1;
+  font-family: 'Consolas', monospace;
+  animation: textPulse 2s infinite ease-in-out;
+}
+
+/* 移除小点 */
+.sidebar-clock .time::before {
+  display: none;
+}
+
+@keyframes textPulse {
+  0% { 
+    text-shadow: 0 0 10px rgba(66, 185, 131, 0.5);
   }
-  to {
-    background: linear-gradient(45deg, #409EFF, #36D1DC);
-    background-size: 200% 200%;
-    background-position: 100% 100%;
+  50% { 
+    text-shadow: 0 0 15px rgba(66, 185, 131, 0.8);
   }
+  100% { 
+    text-shadow: 0 0 10px rgba(66, 185, 131, 0.5);
+  }
+}
+
+.sidebar-clock .date {
+  font-size: 0.8rem;
+  color: #e0e6eb;
+  letter-spacing: 1px;
+  position: relative;
+  z-index: 1;
+  margin-top: 4px;
+  opacity: 0.8;
+  font-weight: 300;
 }
 
 .menu {
   display: flex;
   flex-direction: column;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .menu-item {
