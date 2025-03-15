@@ -56,10 +56,11 @@ export default {
   // Tenant页面
   tenant: {
     title: '租户管理',
-    subtitle: '管理系统租户及其权限配置',
-    searchPlaceholder: '搜索租户...',
+    subtitle: '管理系统中的所有租户',
+    searchPlaceholder: '搜索租户名称',
     search: '搜索',
-    addTenant: '添加租户',
+    addTenant: '新增租户',
+    resetData: '重置数据',
     tenantName: '租户名称',
     createdTime: '创建时间',
     status: '状态',
@@ -74,7 +75,15 @@ export default {
     statusDisabled: '已禁用',
     loadingText: '加载租户数据中...',
     loadError: '加载租户数据失败',
-    retry: '重试'
+    retry: '重试',
+    deleteConfirmTitle: '确认删除',
+    deleteConfirmMessage: '您确定要删除租户 "{name}" 吗？',
+    deleteWarning: '此操作将永久删除该租户及其所有数据，无法恢复！',
+    deleteSuccess: '删除租户成功',
+    deleteFailed: '删除租户失败',
+    cancel: '取消',
+    confirm: '确认',
+    resetSuccess: '数据已重置'
   },
   stats: {
     totalUsers: '用户总数',

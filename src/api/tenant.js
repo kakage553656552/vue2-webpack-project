@@ -1,5 +1,8 @@
 // 导入租户数据
-import tenantsData from '@/assets/data/tenants.json';
+import tenantsDataOriginal from '@/assets/data/tenants.json';
+
+// 创建数据的本地副本，以便可以安全地修改
+let tenantsData = [...tenantsDataOriginal];
 
 /**
  * 获取租户列表
@@ -136,6 +139,9 @@ export function deleteTenant(id) {
       const index = tenantsData.findIndex(item => item.id === id);
       
       if (index !== -1) {
+        // 从数组中删除租户
+        tenantsData.splice(index, 1);
+        
         resolve({
           code: 200,
           message: '删除租户成功'
@@ -147,5 +153,23 @@ export function deleteTenant(id) {
         });
       }
     }, 400);
+  });
+}
+
+/**
+ * 重置租户数据到初始状态
+ * @returns {Promise} - 返回Promise对象
+ */
+export function resetTenantsData() {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      // 重置数据
+      tenantsData = [...tenantsDataOriginal];
+      
+      resolve({
+        code: 200,
+        message: '租户数据已重置'
+      });
+    }, 300);
   });
 } 

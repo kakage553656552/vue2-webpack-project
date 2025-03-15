@@ -1,18 +1,24 @@
 <template>
   <div class="tenant">
     <div class="tenant-header">
-      <h1>{{ $t('tenant.title') }}</h1>
-      <p>{{ $t('tenant.subtitle') }}</p>
-      
-      <div class="tenant-actions">
+      <div class="tenant-title">
+        <h2>{{ $t('tenant.title') }}</h2>
+        <p>{{ $t('tenant.subtitle') }}</p>
+      </div>
+      <div class="tenant-search">
         <el-input
+          v-model="searchQuery"
           :placeholder="$t('tenant.searchPlaceholder')"
           prefix-icon="el-icon-search"
-          v-model="searchQuery"
-          class="search-input"
-          @input="handleSearch">
-        </el-input>
+          clearable
+          @clear="fetchTenants"
+          @keyup.enter.native="fetchTenants"
+        ></el-input>
+        <el-button type="primary" @click="fetchTenants">{{ $t('tenant.search') }}</el-button>
+      </div>
+      <div class="tenant-actions">
         <el-button type="primary" icon="el-icon-plus">{{ $t('tenant.addTenant') }}</el-button>
+        <el-button type="warning" icon="el-icon-refresh" @click="resetData">{{ $t('tenant.resetData') }}</el-button>
       </div>
     </div>
     
@@ -35,12 +41,15 @@
       
       <template v-else>
         <div class="table-container">
+          <div v-if="tableLoading" class="table-skeleton">
+            <el-skeleton :rows="10" animated />
+          </div>
           <el-table
+            v-else
             :data="tenants"
             style="width: 100%"
             border
-            :max-height="tableHeight"
-            v-loading="tableLoading">
+            :max-height="tableHeight">
             <el-table-column :label="$t('tenant.tenantName')" min-width="200">
               <template slot-scope="scope">
                 <div class="tenant-name">
@@ -91,16 +100,33 @@
             :page-sizes="[5, 10, 20, 50]"
             :page-size="pageSize"
             layout="total, sizes, prev, pager, next, jumper"
-            :total="totalTenants">
+            :total="totalTenants"
+            :disabled="tableLoading">
           </el-pagination>
         </div>
       </template>
     </el-card>
+    
+    <!-- 删除确认对话框 -->
+    <el-dialog
+      :title="$t('tenant.deleteConfirmTitle')"
+      :visible.sync="deleteDialogVisible"
+      width="30%"
+      :close-on-click-modal="false">
+      <div class="delete-dialog-content">
+        <p>{{ $t('tenant.deleteConfirmMessage', { name: deletingTenant ? deletingTenant.name : '' }) }}</p>
+        <p class="delete-warning">{{ $t('tenant.deleteWarning') }}</p>
+      </div>
+      <span slot="footer" class="dialog-footer">
+        <el-button @click="cancelDelete">{{ $t('tenant.cancel') }}</el-button>
+        <el-button type="danger" @click="confirmDelete" :loading="deleteLoading">{{ $t('tenant.confirm') }}</el-button>
+      </span>
+    </el-dialog>
   </div>
 </template>
 
 <script>
-import { getTenants } from '@/api/tenant';
+import { getTenants, deleteTenant, resetTenantsData } from '@/api/tenant';
 
 export default {
   name: 'TenantPage',
@@ -115,7 +141,10 @@ export default {
       tableLoading: false,
       error: null,
       searchTimeout: null,
-      tableHeight: null
+      tableHeight: null,
+      deleteDialogVisible: false,
+      deletingTenant: null,
+      deleteLoading: false
     }
   },
   mounted() {
@@ -129,7 +158,7 @@ export default {
   methods: {
     // 获取租户数据
     fetchTenants() {
-      this.tableLoading = !this.loading; // 如果是首次加载，使用骨架屏，否则使用表格加载动画
+      this.tableLoading = true; // 始终使用表格加载状态
       this.error = null;
       
       getTenants({
@@ -197,8 +226,70 @@ export default {
     
     // 删除租户
     deleteTenant(tenant) {
-      console.log('删除租户:', tenant);
-      // 这里添加删除租户的逻辑
+      this.deletingTenant = tenant;
+      this.deleteDialogVisible = true;
+    },
+    
+    // 确认删除租户
+    confirmDelete() {
+      if (!this.deletingTenant) return;
+      
+      this.deleteLoading = true;
+      
+      deleteTenant(this.deletingTenant.id)
+        .then(response => {
+          if (response.code === 200) {
+            this.$message({
+              type: 'success',
+              message: this.$t('tenant.deleteSuccess')
+            });
+            
+            // 重新加载数据
+            this.fetchTenants();
+          } else {
+            throw new Error(response.message || this.$t('tenant.deleteFailed'));
+          }
+        })
+        .catch(error => {
+          console.error('删除租户失败:', error);
+          this.$message({
+            type: 'error',
+            message: error.message || this.$t('tenant.deleteFailed')
+          });
+        })
+        .finally(() => {
+          this.deleteLoading = false;
+          this.deleteDialogVisible = false;
+          this.deletingTenant = null;
+        });
+    },
+    
+    // 取消删除
+    cancelDelete() {
+      this.deleteDialogVisible = false;
+      this.deletingTenant = null;
+    },
+    
+    // 重置租户数据
+    resetData() {
+      this.tableLoading = true;
+      
+      resetTenantsData()
+        .then(response => {
+          if (response.code === 200) {
+            this.$message({
+              type: 'success',
+              message: this.$t('tenant.resetSuccess')
+            });
+            
+            // 重新加载数据
+            this.fetchTenants();
+          }
+        })
+        .catch(error => {
+          console.error('重置数据失败:', error);
+          this.tableLoading = false;
+        });
     }
   }
 }
@@ -229,14 +320,16 @@ export default {
   margin-bottom: 15px;
 }
 
+.tenant-search {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
 .tenant-actions {
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
-}
-
-.search-input {
-  width: 300px;
 }
 
 .tenant-table-card {
@@ -252,6 +345,18 @@ export default {
   flex: 1; /* 让表格容器占据卡片的剩余空间 */
   margin-bottom: 0; /* 移除底部边距 */
   overflow: hidden; /* 防止内容溢出 */
+  position: relative; /* 为骨架屏定位 */
+}
+
+.table-skeleton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  background-color: white;
+  padding: 10px;
 }
 
 .tenant-name {
@@ -289,5 +394,65 @@ export default {
   display: flex;
   flex-direction: column;
   height: 100%; /* 确保卡片内容占满卡片高度 */
+}
+
+/* 自定义滚动条样式 */
+/* 整体滚动条 */
+.table-container >>> ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* 滚动条轨道 */
+.table-container >>> ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+/* 滚动条滑块 */
+.table-container >>> ::-webkit-scrollbar-thumb {
+  background: #c0c4cc;
+  border-radius: 4px;
+}
+
+/* 鼠标悬停在滑块上 */
+.table-container >>> ::-webkit-scrollbar-thumb:hover {
+  background: #909399;
+}
+
+/* 滚动条角落 */
+.table-container >>> ::-webkit-scrollbar-corner {
+  background: #f1f1f1;
+}
+
+/* 确保表格内部的滚动条也使用自定义样式 */
+.table-container >>> .el-table__body-wrapper::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.table-container >>> .el-table__body-wrapper::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.table-container >>> .el-table__body-wrapper::-webkit-scrollbar-thumb {
+  background: #c0c4cc;
+  border-radius: 4px;
+}
+
+.table-container >>> .el-table__body-wrapper::-webkit-scrollbar-thumb:hover {
+  background: #909399;
+}
+
+/* 删除对话框样式 */
+.delete-dialog-content {
+  padding: 10px 0;
+}
+
+.delete-warning {
+  color: #E6A23C;
+  margin-top: 10px;
+  font-size: 14px;
 }
 </style> 
