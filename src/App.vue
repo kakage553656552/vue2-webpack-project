@@ -4,7 +4,7 @@
       <!-- 左侧菜单栏 -->
       <div class="sidebar">
         <div class="logo-container">
-          <div class="logo">V2</div>
+          <div class="logo animated-logo">V2</div>
         </div>
         <nav class="menu">
           <router-link to="/" class="menu-item">
@@ -99,7 +99,7 @@ html, body {
 .logo {
   width: 50px;
   height: 50px;
-  background-color: #42b983;
+  background-color: #409EFF; /* 修改为与首页logo相同的颜色 */
   color: white;
   display: flex;
   align-items: center;
@@ -107,6 +107,36 @@ html, body {
   font-size: 18px;
   font-weight: bold;
   border-radius: 50%;
+}
+
+/* 添加与首页logo相同的动画效果 */
+.animated-logo {
+  animation: pulse 2s infinite alternate, rotate 20s linear infinite;
+  box-shadow: 0 0 20px rgba(64, 158, 255, 0.5);
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
+    box-shadow: 0 0 20px rgba(64, 158, 255, 0.5);
+  }
+  to {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(64, 158, 255, 0.8);
+  }
+}
+
+@keyframes rotate {
+  from {
+    background: linear-gradient(45deg, #409EFF, #36D1DC);
+    background-size: 200% 200%;
+    background-position: 0% 0%;
+  }
+  to {
+    background: linear-gradient(45deg, #409EFF, #36D1DC);
+    background-size: 200% 200%;
+    background-position: 100% 100%;
+  }
 }
 
 .menu {
@@ -119,7 +149,7 @@ html, body {
   display: flex;
   align-items: center;
   padding: 12px 20px;
-  color: #b8c7ce;
+  color: #e0e6eb; /* 更亮的文字颜色，提高对比度 */
   text-decoration: none;
   transition: all 0.3s;
 }
@@ -136,6 +166,9 @@ html, body {
 
 .menu-text {
   font-size: 14px;
+  font-weight: 500; /* 增加字体粗细 */
+  letter-spacing: 0.5px; /* 增加字母间距 */
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); /* 添加文字阴影增强可读性 */
 }
 
 .router-link-exact-active {
