@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { v4: uuidv4 } = require('uuid');
 
 // 城市列表
 const cities = ['北京', '上海', '广州', '深圳', '杭州', '南京', '成都', '重庆', '武汉', '西安', 
@@ -48,6 +49,16 @@ function generateStorage() {
   }
 }
 
+// 生成20位UUID
+function generate20DigitUUID() {
+  // 生成标准UUID
+  const uuid = uuidv4();
+  // 移除所有破折号
+  const uuidWithoutDashes = uuid.replace(/-/g, '');
+  // 取前20位
+  return uuidWithoutDashes.substring(0, 20);
+}
+
 // 生成租户数据
 function generateTenantData(count) {
   const tenants = [];
@@ -59,8 +70,11 @@ function generateTenantData(count) {
     const status = statuses[Math.floor(Math.random() * statuses.length)];
     const color = colors[Math.floor(Math.random() * colors.length)];
     
+    // 生成20位UUID
+    const id = generate20DigitUUID();
+    
     const tenant = {
-      id: `TN-${String(i).padStart(3, '0')}`,
+      id: id,
       name: city + lastName + companyType,
       createdAt: formatDate(getRandomDate(new Date(2022, 0, 1), new Date())),
       status: status,
@@ -91,4 +105,4 @@ fs.writeFileSync(
   'utf8'
 );
 
-console.log('成功生成1000条租户数据，保存到 src/assets/data/tenants.json'); 
+console.log('成功生成1000条租户数据，使用20位UUID作为ID，保存到 src/assets/data/tenants.json'); 

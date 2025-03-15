@@ -1,8 +1,22 @@
 // 导入租户数据
 import tenantsDataOriginal from '@/assets/data/tenants.json';
+import { v4 as uuidv4 } from 'uuid';
 
 // 创建数据的本地副本，以便可以安全地修改
 let tenantsData = [...tenantsDataOriginal];
+
+/**
+ * 生成20位UUID
+ * @returns {string} - 返回20位UUID字符串
+ */
+function generate20DigitUUID() {
+  // 生成标准UUID
+  const uuid = uuidv4();
+  // 移除所有破折号
+  const uuidWithoutDashes = uuid.replace(/-/g, '');
+  // 取前20位
+  return uuidWithoutDashes.substring(0, 20);
+}
 
 /**
  * 获取租户列表
@@ -85,9 +99,12 @@ export function getTenantDetail(id) {
 export function createTenant(data) {
   return new Promise((resolve) => {
     setTimeout(() => {
+      // 生成20位UUID
+      const id = generate20DigitUUID();
+      
       // 创建新租户对象
       const newTenant = {
-        id: `TN-${Date.now()}`,
+        id: id,
         ...data,
         createdAt: new Date().toISOString().split('T')[0]
       };
